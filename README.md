@@ -2,7 +2,8 @@
 
  ### Automated system to analyse e-commerce AI assistant conversations, surface actionable insights, and compare performance across brands.
 
-<img width="1915" height="876" alt="image" src="https://github.com/user-attachments/assets/68e5e71f-a126-4ba5-9f62-9c4bd4abc9a1" />
+<img width="1919" height="872" alt="image" src="https://github.com/user-attachments/assets/6dcba593-c3b5-4652-a851-9442b79fb5fd" />
+
 
 
 ---
@@ -180,11 +181,14 @@ helio-analysis/
 ## Screenshots
 ### Overview → Brand deep dive → LLM insights
 
-<img width="1913" height="870" alt="image" src="https://github.com/user-attachments/assets/b94861c6-9ddd-4338-8359-03f9ce611b5f" />
+<img width="1919" height="872" alt="image" src="https://github.com/user-attachments/assets/44577c40-58d7-4e00-878b-6054f9916d92" />
 
-<img width="1915" height="877" alt="image" src="https://github.com/user-attachments/assets/7ddb9e50-5a4b-493d-9e8a-d84446d8d5e1" />
 
-<img width="1919" height="876" alt="image" src="https://github.com/user-attachments/assets/99bdc836-8b04-4e14-b874-afae040a831e" />
+<img width="1919" height="879" alt="image" src="https://github.com/user-attachments/assets/57a118cc-8e81-47ba-9e99-62939d28c465" />
+
+
+<img width="1918" height="866" alt="image" src="https://github.com/user-attachments/assets/88efeaef-8a88-4324-aa06-7a84cb29664b" />
+
 
 
 ## Key Design Decisions
