@@ -27,26 +27,26 @@ This system automates that process end-to-end:
 
 **3 brands analysed · 298 conversations · 1,525 messages · 45 LLM-generated insights**
 
-### Blue Nectar — Wellness (`680a0a8b`)
-- **13.3% drop-off rate** — highest across all brands
-- **20 irrelevant product flags** — users viewed products but never clicked, suggesting the assistant recommends wrong items
-- Avg conversation duration: 4,298 seconds — users spend a long time before giving up
+### Blue Nectar Wellness (`680a0a8b`)
+- **13.3% drop-off rate** highest across all brands
+- **20 irrelevant product flags**  users viewed products but never clicked, suggesting the assistant recommends wrong items
+- Avg conversation duration: 4,298 seconds  users spend a long time before giving up
 - Top issue: assistant repeatedly asks for order details the customer already provided
 
-### Blue Nectar — Skincare (`6983153e`)
-- **11% frustration rate** — highest across all brands
-- Only 3.3 avg messages per conversation — users leave very quickly
+### Blue Nectar Skincare (`6983153e`)
+- **11% frustration rate**  highest across all brands
+- Only 3.3 avg messages per conversation  users leave very quickly
 - Recurring pattern: assistant gives the same response twice without detecting repetition
 - Top issue: no context retention between turns, leading to copy-paste replies
 
 ### Sri Sri Tattva (`69a92ad7`)
-- **Best performing brand** — 2% frustration, zero hallucination flags
-- Avg conversation resolves in 779 seconds — 5x faster than Blue Nectar Wellness
-- 12% drop-off still present — driven mostly by low quality short responses
+- **Best performing brand**  2% frustration, zero hallucination flags
+- Avg conversation resolves in 779 seconds  5x faster than Blue Nectar Wellness
+- 12% drop-off still present  driven mostly by low quality short responses
 - Top issue: assistant gives generic answers without tailoring to product-specific queries
 
 ### Cross-brand finding (not asked, discovered independently)
-Conversations starting with "I am confused between" consistently score higher on frustration. These users need comparison help — the assistant treats them as standard product queries instead of guiding them through a decision.
+Conversations starting with "I am confused between" consistently score higher on frustration. These users need comparison help  the assistant treats them as standard product queries instead of guiding them through a decision.
 
 ---
 
@@ -72,7 +72,7 @@ FastAPI (4 endpoints)
 Next.js dashboard
 ```
 
-All pipeline outputs are cached. The API never recomputes — it only reads from `data/`.
+All pipeline outputs are cached. The API never recomputes it only reads from `data/`.
 
 ---
 
