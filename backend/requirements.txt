@@ -1,0 +1,23 @@
+# Web Framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# Database
+pymongo==4.10.1
+
+# Data Processing
+pandas==2.2.3
+numpy==2.2.1
+
+# NLP / Embeddings
+sentence-transformers==3.3.1
+
+# LLM
+groq==0.13.1
+
+# Utilities
+python-dotenv==1.0.1
+pydantic==2.10.4
+
+# Serialization
+orjson==3.10.12

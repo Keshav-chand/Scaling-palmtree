@@ -1,0 +1,863 @@
+{
+  "69a92ad76dcbf2da868e0f9b": [
+    {
+      "conversation_id": "69c3e34316599deb6989a143",
+      "score": 70,
+      "flags": {
+        "conversation_id": "69c3e34316599deb6989a143",
+        "widgetId": "69a92ad76dcbf2da868e0f9b",
+        "frustration": true,
+        "low_quality_response": true,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 1.0
+      },
+      "insight": {
+        "what_went_wrong": "The AI assistant failed to provide a relevant response to the customer's question about the order status, instead repeatedly asking the customer to sign in to their account.",
+        "why": "The AI assistant's response was too generic and didn't address the customer's concern directly, leading to frustration and repetition of the question.",
+        "how_to_fix": "The AI assistant should be trained to provide a more direct and relevant response to the customer's question, such as 'I'd be happy to help you with your order status. Can you please provide your order number or email address associated with the order?'",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c502f306069052a32e5841",
+      "score": 41.64,
+      "flags": {
+        "conversation_id": "69c502f306069052a32e5841",
+        "widgetId": "69a92ad76dcbf2da868e0f9b",
+        "frustration": true,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.1644
+      },
+      "insight": {
+        "what_went_wrong": "The customer service assistant failed to provide a clear resolution to the customer's issue, leading to frustration and multiple follow-up requests.",
+        "why": "The assistant provided incorrect or incomplete information, such as not having access to order tracking systems and not providing a working customer care number.",
+        "how_to_fix": "The assistant should have provided a clear and concise resolution to the customer's issue, such as escalating the issue to a supervisor or providing a working customer care number.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c4058ab69374161c4de171",
+      "score": 29.79,
+      "flags": {
+        "conversation_id": "69c4058ab69374161c4de171",
+        "widgetId": "69a92ad76dcbf2da868e0f9b",
+        "frustration": false,
+        "low_quality_response": true,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.4785
+      },
+      "insight": {
+        "what_went_wrong": "The customer service assistant failed to provide a relevant response to the customer's inquiry about their order.",
+        "why": "The assistant kept asking the customer to sign in to their account, even after the customer provided a phone number, which is not a valid account login method.",
+        "how_to_fix": "The assistant should have asked for the order number or provided an alternative way to look up the order, such as searching by phone number or email.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c40d37b69374161c4e7cad",
+      "score": 29.43,
+      "flags": {
+        "conversation_id": "69c40d37b69374161c4e7cad",
+        "widgetId": "69a92ad76dcbf2da868e0f9b",
+        "frustration": false,
+        "low_quality_response": true,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.4428
+      },
+      "insight": {
+        "what_went_wrong": "The assistant failed to recognize the customer was already signed in and continued to ask for login credentials.",
+        "why": "The assistant's response was not dynamic and did not take into account the customer's previous actions.",
+        "how_to_fix": "The assistant should be able to detect when a customer is already signed in and provide a different response, such as 'I see you're already signed in. Your order details are available here: [link to order details].'",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c3d72fb69374161c4924d3",
+      "score": 25.0,
+      "flags": {
+        "conversation_id": "69c3d72fb69374161c4924d3",
+        "widgetId": "69a92ad76dcbf2da868e0f9b",
+        "frustration": false,
+        "low_quality_response": true,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.0
+      },
+      "insight": {
+        "what_went_wrong": "The assistant failed to provide a solution to the customer's issue with their order not moving after reaching their city.",
+        "why": "The assistant provided a generic instruction to sign in to the account without addressing the customer's specific concern.",
+        "how_to_fix": "The assistant should have asked for the order number or provided more specific instructions to help the customer resolve the issue, such as checking the order status or contacting customer support.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c39133b69374161c3f5d11",
+      "score": 25.0,
+      "flags": {
+        "conversation_id": "69c39133b69374161c3f5d11",
+        "widgetId": "69a92ad76dcbf2da868e0f9b",
+        "frustration": false,
+        "low_quality_response": true,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.0
+      },
+      "insight": {
+        "what_went_wrong": "The customer was not logged in and did not have access to their order details.",
+        "why": "The customer service assistant provided a link to sign in before viewing order details, but the customer did not follow this instruction.",
+        "how_to_fix": "The customer should have clicked on the provided link to sign in to their account before asking about their order.",
+        "severity": "low"
+      }
+    },
+    {
+      "conversation_id": "69c40394b69374161c4dbaab",
+      "score": 14.37,
+      "flags": {
+        "conversation_id": "69c40394b69374161c4dbaab",
+        "widgetId": "69a92ad76dcbf2da868e0f9b",
+        "frustration": false,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": true,
+        "repetition_score": 0.4369
+      },
+      "insight": {
+        "what_went_wrong": "The assistant failed to provide a clear and direct way for the customer to place the order, instead asking them to click on a link and follow the checkout process.",
+        "why": "The assistant's response was unclear and did not provide a clear call-to-action for the customer to place the order.",
+        "how_to_fix": "The assistant should provide a clear and direct way for the customer to place the order, such as a 'Place Order' button or a clear instruction on how to proceed with the purchase.",
+        "severity": "low"
+      }
+    },
+    {
+      "conversation_id": "69c41535b69374161c4f47cf",
+      "score": 12.36,
+      "flags": {
+        "conversation_id": "69c41535b69374161c4f47cf",
+        "widgetId": "69a92ad76dcbf2da868e0f9b",
+        "frustration": false,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": true,
+        "repetition_score": 0.2364
+      },
+      "insight": {
+        "what_went_wrong": "The assistant provided irrelevant information and failed to address the customer's specific concern about their vata increasing without any outside food.",
+        "why": "The assistant's response was too generic and didn't take into account the customer's unique situation, leading to a lack of personalized advice.",
+        "how_to_fix": "The assistant should have asked more questions to understand the customer's specific needs and provided more tailored recommendations.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c410feb69374161c4ec90b",
+      "score": 11.91,
+      "flags": {
+        "conversation_id": "69c410feb69374161c4ec90b",
+        "widgetId": "69a92ad76dcbf2da868e0f9b",
+        "frustration": false,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": true,
+        "repetition_score": 0.1909
+      },
+      "insight": {
+        "what_went_wrong": "The assistant failed to provide a clear and concise answer to the customer's question about the availability of the product.",
+        "why": "The assistant provided a link to the product and its price, but did not explicitly state whether the product is available or not.",
+        "how_to_fix": "The assistant should have provided a clear answer to the customer's question, such as 'Yes, the product is available' or 'No, the product is currently out of stock'.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c386285287f2ec783a7870",
+      "score": 10.0,
+      "flags": {
+        "conversation_id": "69c386285287f2ec783a7870",
+        "widgetId": "69a92ad76dcbf2da868e0f9b",
+        "frustration": false,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": true,
+        "repetition_score": 0.0
+      },
+      "insight": {
+        "what_went_wrong": "The 'Buy' option is not visible to the customer.",
+        "why": "The product may be out of stock or there is a technical issue on the website.",
+        "how_to_fix": "Try refreshing the page or wait for a few minutes and try again.",
+        "severity": "low"
+      }
+    },
+    {
+      "conversation_id": "69c4ffdb06069052a32dff10",
+      "score": 5,
+      "flags": {
+        "conversation_id": "69c4ffdb06069052a32dff10",
+        "widgetId": "69a92ad76dcbf2da868e0f9b",
+        "frustration": false,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.523
+      },
+      "insight": {
+        "what_went_wrong": "The customer service assistant failed to verify the customer's order number and phone number correctly before providing order details.",
+        "why": "The assistant initially asked for the phone number used when placing the order, but the customer provided the order number instead. Later, the assistant asked for the phone number again, but the customer provided a different number.",
+        "how_to_fix": "The assistant should have been more persistent in asking for the correct phone number or should have checked the order details internally before providing information to the customer.",
+        "severity": "low"
+      }
+    },
+    {
+      "conversation_id": "69c4c73506069052a325f054",
+      "score": 5,
+      "flags": {
+        "conversation_id": "69c4c73506069052a325f054",
+        "widgetId": "69a92ad76dcbf2da868e0f9b",
+        "frustration": false,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.6106
+      },
+      "insight": {
+        "what_went_wrong": "The assistant failed to provide a clear and concise answer to the customer's initial question about daily use, instead asking the customer to consult an Ayurvedic physician.",
+        "why": "The assistant's response was incomplete and did not provide the customer with the information they were seeking, potentially leading to frustration and a negative experience.",
+        "how_to_fix": "The assistant should provide clear and concise instructions on how to use the product daily, including any recommended dosages or usage guidelines.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c4b25e80af262206b94910",
+      "score": 5,
+      "flags": {
+        "conversation_id": "69c4b25e80af262206b94910",
+        "widgetId": "69a92ad76dcbf2da868e0f9b",
+        "frustration": false,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.7067
+      },
+      "insight": {
+        "what_went_wrong": "The assistant failed to provide a relevant response to the customer's question about the health benefits of 'OSPO-C - Bone Care | Supports Bone Health | 60 Tabs, 500 mg' before adding it to the cart.",
+        "why": "The assistant provided a detailed description of the product's benefits after the customer had already added it to the cart.",
+        "how_to_fix": "The assistant should provide a relevant response to the customer's question before adding the product to the cart, or offer to add the product to the cart after providing the necessary information.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c4214db69374161c503f79",
+      "score": 5,
+      "flags": {
+        "conversation_id": "69c4214db69374161c503f79",
+        "widgetId": "69a92ad76dcbf2da868e0f9b",
+        "frustration": false,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.6256
+      },
+      "insight": {
+        "what_went_wrong": "The customer service assistant failed to directly address the customer's question about the safety of long-term use of the product.",
+        "why": "The assistant provided information about the product's ingredients and benefits, but did not explicitly answer the customer's question about safety.",
+        "how_to_fix": "The assistant should have directly answered the customer's question by stating whether the product is safe for long-term use, and if so, under what conditions.",
+        "severity": "low"
+      }
+    },
+    {
+      "conversation_id": "69c3f9cab69374161c4cfadf",
+      "score": 5,
+      "flags": {
+        "conversation_id": "69c3f9cab69374161c4cfadf",
+        "widgetId": "69a92ad76dcbf2da868e0f9b",
+        "frustration": false,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.6054
+      },
+      "insight": {
+        "what_went_wrong": "The customer service assistant failed to provide a clear and direct solution for the customer to upload their prescription slip.",
+        "why": "The assistant mentioned that there is no option to upload a prescription slip directly on the website, but did not offer an alternative solution that would allow the customer to order their medicine as per their prescription.",
+        "how_to_fix": "The assistant should have provided a clear alternative solution, such as allowing customers to upload their prescription slips through a secure online portal or providing a phone number or email address where customers can send their prescription slips for verification.",
+        "severity": "medium"
+      }
+    }
+  ],
+  "680a0a8b70a26f7a0e24eedd": [
+    {
+      "conversation_id": "69c5053706069052a32e9faa",
+      "score": 64.7,
+      "flags": {
+        "conversation_id": "69c5053706069052a32e9faa",
+        "widgetId": "680a0a8b70a26f7a0e24eedd",
+        "frustration": true,
+        "low_quality_response": false,
+        "hallucination": true,
+        "irrelevant_product": false,
+        "repetition_score": 0.4702
+      },
+      "insight": {
+        "what_went_wrong": "The customer service assistant failed to properly address the customer's return request and provided incorrect information about the return policy.",
+        "why": "The assistant incorrectly stated that the company does not accept returns on any products, when in fact the customer was trying to return a product due to an ordering mistake.",
+        "how_to_fix": "The assistant should have explained the return policy more clearly and offered alternatives, such as exchanging the product or providing a refund.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c4f8e516599deb6989affe",
+      "score": 45,
+      "flags": {
+        "conversation_id": "69c4f8e516599deb6989affe",
+        "widgetId": "680a0a8b70a26f7a0e24eedd",
+        "frustration": true,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 1.0
+      },
+      "insight": {
+        "what_went_wrong": "The customer service assistant failed to provide a clear and direct response to the customer's question, instead asking for information that could have been provided earlier in the conversation.",
+        "why": "The assistant's response was likely generated based on a pre-defined template, but it didn't take into account the customer's previous messages or the context of the conversation.",
+        "how_to_fix": "The assistant should be trained to recognize and respond to repetitive or unclear customer queries, and provide a more empathetic and helpful response, such as apologizing for the inconvenience and offering to look into the order status.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c44534b69374161c5287a2",
+      "score": 45,
+      "flags": {
+        "conversation_id": "69c44534b69374161c5287a2",
+        "widgetId": "680a0a8b70a26f7a0e24eedd",
+        "frustration": true,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.5418
+      },
+      "insight": {
+        "what_went_wrong": "The assistant failed to provide a clear recommendation for the customer's specific situation and instead provided multiple options without a clear explanation of the differences.",
+        "why": "The assistant's responses were focused on listing product features and prices rather than addressing the customer's concerns and providing personalized advice.",
+        "how_to_fix": "The assistant should have asked more questions to understand the customer's specific needs and preferences, and then provided a clear and personalized recommendation based on that information.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c4988280af262206b8858d",
+      "score": 45,
+      "flags": {
+        "conversation_id": "69c4988280af262206b8858d",
+        "widgetId": "680a0a8b70a26f7a0e24eedd",
+        "frustration": true,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 1.0
+      },
+      "insight": {
+        "what_went_wrong": "The AI assistant failed to understand the customer's question and responded with unrelated product information.",
+        "why": "The customer asked a question about a team, but the assistant interpreted it as a product inquiry.",
+        "how_to_fix": "The AI assistant should use natural language processing to better understand the customer's intent and respond accordingly. It could ask for clarification or provide a more general response if the question is unclear.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c3cbb9b69374161c477f5f",
+      "score": 45,
+      "flags": {
+        "conversation_id": "69c3cbb9b69374161c477f5f",
+        "widgetId": "680a0a8b70a26f7a0e24eedd",
+        "frustration": true,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.8598
+      },
+      "insight": {
+        "what_went_wrong": "The assistant failed to understand the customer's question and provided a generic response instead of asking for clarification.",
+        "why": "The assistant's response was too generic and didn't address the customer's specific question about how to use the stick product.",
+        "how_to_fix": "The assistant should have asked for clarification or provided a more specific response to the customer's question.",
+        "severity": "low"
+      }
+    },
+    {
+      "conversation_id": "69c501db06069052a32e3d9a",
+      "score": 43.58,
+      "flags": {
+        "conversation_id": "69c501db06069052a32e3d9a",
+        "widgetId": "680a0a8b70a26f7a0e24eedd",
+        "frustration": true,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.3584
+      },
+      "insight": {
+        "what_went_wrong": "The assistant failed to understand the customer's request and instead of providing a solution, it offered a product.",
+        "why": "The assistant's response was too promotional and didn't address the customer's concern about the product being ineffective for weight loss.",
+        "how_to_fix": "The assistant should have asked for clarification on the customer's concern and provided a more empathetic response, or offered a refund or exchange option if the product didn't meet the customer's expectations.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c3716816599deb698963f6",
+      "score": 41.1,
+      "flags": {
+        "conversation_id": "69c3716816599deb698963f6",
+        "widgetId": "680a0a8b70a26f7a0e24eedd",
+        "frustration": true,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.1102
+      },
+      "insight": {
+        "what_went_wrong": "The customer service assistant failed to provide a clear and direct solution to the customer's request to edit their order, instead providing a lengthy explanation and multiple contact options.",
+        "why": "The assistant's response was unclear and did not directly address the customer's concern, leading to confusion and frustration.",
+        "how_to_fix": "The assistant should have provided a clear and concise explanation of the order editing policy, and offered a direct solution or alternative, such as a phone number or a clear instruction on how to proceed.",
+        "severity": "high"
+      }
+    },
+    {
+      "conversation_id": "69c3b1d9b69374161c43d66c",
+      "score": 15.0,
+      "flags": {
+        "conversation_id": "69c3b1d9b69374161c43d66c",
+        "widgetId": "680a0a8b70a26f7a0e24eedd",
+        "frustration": false,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": true,
+        "repetition_score": 0.4997
+      },
+      "insight": {
+        "what_went_wrong": "The assistant is recommending the same product, Butterfly Pea Flower Herbal Tea, for multiple customer needs without considering other options or providing a personalized solution.",
+        "why": "The assistant is not using a decision tree or a more advanced recommendation system to provide a tailored solution to the customer's needs, leading to a repetitive and unhelpful response.",
+        "how_to_fix": "Implement a more advanced recommendation system that takes into account the customer's specific needs and preferences, and provides a personalized solution. This could include using machine learning algorithms or decision trees to recommend products based on the customer's input.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c38b65b69374161c3d82e3",
+      "score": 15,
+      "flags": {
+        "conversation_id": "69c38b65b69374161c3d82e3",
+        "widgetId": "680a0a8b70a26f7a0e24eedd",
+        "frustration": false,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": true,
+        "repetition_score": 0.6408
+      },
+      "insight": {
+        "what_went_wrong": "The assistant failed to provide a clear and direct answer to the customer's question, instead providing a comparison of the two teas and then diverting to a separate question.",
+        "why": "The assistant's response was not directly addressing the customer's concern about thyroid patients consuming slim tea, and instead provided a generic statement about consulting a doctor.",
+        "how_to_fix": "The assistant should have directly answered the customer's question by stating whether slim tea is safe for thyroid patients or not, and if so, under what conditions.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c37a4b5287f2ec7838a207",
+      "score": 15,
+      "flags": {
+        "conversation_id": "69c37a4b5287f2ec7838a207",
+        "widgetId": "680a0a8b70a26f7a0e24eedd",
+        "frustration": false,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": true,
+        "repetition_score": 0.6211
+      },
+      "insight": {
+        "what_went_wrong": "The assistant did not address the customer's request for a single product that addresses both weight loss and acidity, instead suggesting two separate products.",
+        "why": "The assistant's response focused on suggesting two herbal infusions that work together, but did not provide a single product that meets the customer's requirements.",
+        "how_to_fix": "The assistant should have suggested a single product that addresses both weight loss and acidity, or provided a clear explanation of why a single product is not available.",
+        "severity": "low"
+      }
+    },
+    {
+      "conversation_id": "69c343a25287f2ec7834593d",
+      "score": 15,
+      "flags": {
+        "conversation_id": "69c343a25287f2ec7834593d",
+        "widgetId": "680a0a8b70a26f7a0e24eedd",
+        "frustration": false,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": true,
+        "repetition_score": 0.5858
+      },
+      "insight": {
+        "what_went_wrong": "The assistant failed to provide a unified solution for the customer's initial request, instead providing multiple options for weight loss without addressing the gut health aspect.",
+        "why": "The assistant initially provided a relevant product for gut health, but then shifted focus to weight loss options without considering the customer's initial request for a product that supports both weight loss and gut health.",
+        "how_to_fix": "The assistant should have provided a single product that addresses both weight loss and gut health, or asked for clarification on the customer's priorities to provide a more tailored solution.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c4f08506069052a32ba65f",
+      "score": 14.41,
+      "flags": {
+        "conversation_id": "69c4f08506069052a32ba65f",
+        "widgetId": "680a0a8b70a26f7a0e24eedd",
+        "frustration": false,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": true,
+        "repetition_score": 0.4415
+      },
+      "insight": {
+        "what_went_wrong": "The assistant failed to directly address the customer's initial question about reducing bloating and instead provided unrelated information about the products.",
+        "why": "The assistant's responses were focused on promoting specific products rather than providing a relevant answer to the customer's query.",
+        "how_to_fix": "The assistant should have asked for clarification or provided a more general answer about teas that can help with bloating before promoting specific products.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c40de1b69374161c4e8b21",
+      "score": 14.28,
+      "flags": {
+        "conversation_id": "69c40de1b69374161c4e8b21",
+        "widgetId": "680a0a8b70a26f7a0e24eedd",
+        "frustration": false,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": true,
+        "repetition_score": 0.428
+      },
+      "insight": {
+        "what_went_wrong": "The assistant provided a diet plan but the customer asked for a diet plan, implying they want a more detailed plan rather than just a routine.",
+        "why": "The customer's question 'Diet plan' is ambiguous and could be interpreted as asking for a comprehensive diet plan rather than just a daily routine.",
+        "how_to_fix": "The assistant should ask for clarification on what the customer means by 'diet plan' to provide a more accurate response.",
+        "severity": "low"
+      }
+    },
+    {
+      "conversation_id": "69c4c3e406069052a32591b6",
+      "score": 14.21,
+      "flags": {
+        "conversation_id": "69c4c3e406069052a32591b6",
+        "widgetId": "680a0a8b70a26f7a0e24eedd",
+        "frustration": false,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": true,
+        "repetition_score": 0.4207
+      },
+      "insight": {
+        "what_went_wrong": "The assistant failed to address the customer's concern directly and provided unrelated information.",
+        "why": "The assistant started talking about stress relief and weight management without acknowledging the customer's mention of being overweight.",
+        "how_to_fix": "The assistant should have responded with empathy and directly addressed the customer's concern about being overweight, providing relevant product suggestions or support.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c45ce8b69374161c534229",
+      "score": 13.86,
+      "flags": {
+        "conversation_id": "69c45ce8b69374161c534229",
+        "widgetId": "680a0a8b70a26f7a0e24eedd",
+        "frustration": false,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": true,
+        "repetition_score": 0.3863
+      },
+      "insight": {
+        "what_went_wrong": "The AI assistant failed to provide a suitable product recommendation for a customer with vitiligo and a requirement to avoid Vitamin C.",
+        "why": "The assistant initially recommended a product that is naturally rich in Vitamin C, which is not suitable for the customer's condition.",
+        "how_to_fix": "The assistant should have asked more questions to understand the customer's requirements and provided alternative product recommendations that meet the customer's needs.",
+        "severity": "medium"
+      }
+    }
+  ],
+  "6983153e1497a62e8542a0ad": [
+    {
+      "conversation_id": "69c504de06069052a32e9497",
+      "score": 45,
+      "flags": {
+        "conversation_id": "69c504de06069052a32e9497",
+        "widgetId": "6983153e1497a62e8542a0ad",
+        "frustration": true,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 1.0
+      },
+      "insight": {
+        "what_went_wrong": "The customer service assistant repeated the same information twice, indicating a lack of understanding or a failure to escalate the conversation.",
+        "why": "The assistant may not have been properly trained to recognize and respond to repetitive customer queries or may have been stuck in a loop.",
+        "how_to_fix": "Implement a mechanism to detect and respond to repetitive queries, such as by asking the customer to clarify their question or by providing a summary of the conversation.",
+        "severity": "low"
+      }
+    },
+    {
+      "conversation_id": "69c4c25806069052a3254a02",
+      "score": 45,
+      "flags": {
+        "conversation_id": "69c4c25806069052a3254a02",
+        "widgetId": "6983153e1497a62e8542a0ad",
+        "frustration": true,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 1.0
+      },
+      "insight": {
+        "what_went_wrong": "The assistant failed to understand the customer's intent and provided the same response twice, indicating a lack of context retention or response personalization.",
+        "why": "The assistant's response did not take into account the customer's previous input, leading to a repetitive and unhelpful response.",
+        "how_to_fix": "The assistant should be trained to retain context and provide personalized responses based on the customer's previous inputs, or it should be able to detect and respond to repetitive inputs in a more helpful way.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c413a5b69374161c4f1519",
+      "score": 45,
+      "flags": {
+        "conversation_id": "69c413a5b69374161c4f1519",
+        "widgetId": "6983153e1497a62e8542a0ad",
+        "frustration": true,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 1.0
+      },
+      "insight": {
+        "what_went_wrong": "The AI assistant failed to recognize and respond to the customer's repeated question, instead providing the same response twice.",
+        "why": "The AI assistant may not have been designed to detect and handle repeated questions, or it may have been stuck in a loop.",
+        "how_to_fix": "Implement a mechanism to detect and handle repeated questions, such as by checking for identical input or by keeping track of previous responses.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c40c10b69374161c4e627c",
+      "score": 45,
+      "flags": {
+        "conversation_id": "69c40c10b69374161c4e627c",
+        "widgetId": "6983153e1497a62e8542a0ad",
+        "frustration": true,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.8667
+      },
+      "insight": {
+        "what_went_wrong": "The assistant failed to understand the customer's hair concerns and provided irrelevant follow-up questions.",
+        "why": "The assistant's questions were not tailored to the customer's initial hair-related inquiry, causing confusion and a mismatch in the conversation flow.",
+        "how_to_fix": "The assistant should have continued to ask follow-up questions related to hair care and maintenance, such as product usage, hair type, or common issues.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c3b689b69374161c44eb53",
+      "score": 45,
+      "flags": {
+        "conversation_id": "69c3b689b69374161c44eb53",
+        "widgetId": "6983153e1497a62e8542a0ad",
+        "frustration": true,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.8764
+      },
+      "insight": {
+        "what_went_wrong": "The assistant failed to provide a unified answer for the customer's question, instead providing separate instructions for different types of massagers.",
+        "why": "The assistant's responses were not tailored to the customer's specific question, leading to confusion and a lack of clarity.",
+        "how_to_fix": "The assistant should provide a single, unified answer that covers all types of massagers, or ask for clarification on the specific type of massager the customer is referring to.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c387405287f2ec783a9c88",
+      "score": 45,
+      "flags": {
+        "conversation_id": "69c387405287f2ec783a9c88",
+        "widgetId": "6983153e1497a62e8542a0ad",
+        "frustration": true,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 1.0
+      },
+      "insight": {
+        "what_went_wrong": "The assistant provided incomplete and unclear information, and repeated the same response with slight variations.",
+        "why": "The assistant failed to directly address the customer's question about how to use Eladi cream when already buying anti-aging cream, and instead provided general information about skincare routines.",
+        "how_to_fix": "The assistant should have directly answered the customer's question by providing specific guidance on how to layer the two creams for maximum benefit.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c40be3b69374161c4e5c36",
+      "score": 45,
+      "flags": {
+        "conversation_id": "69c40be3b69374161c4e5c36",
+        "widgetId": "6983153e1497a62e8542a0ad",
+        "frustration": true,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 1.0
+      },
+      "insight": {
+        "what_went_wrong": "The conversation is not relevant to the customer's question or product inquiry.",
+        "why": "The customer service assistant is asking unrelated questions about hair and scalp, rather than addressing the customer's concerns about the product's movement or functionality.",
+        "how_to_fix": "The assistant should re-engage the customer by asking relevant questions about the product's features and functionality, and provide clear and concise answers to the customer's original inquiry.",
+        "severity": "high"
+      }
+    },
+    {
+      "conversation_id": "69c3d093b69374161c487b81",
+      "score": 45,
+      "flags": {
+        "conversation_id": "69c3d093b69374161c487b81",
+        "widgetId": "6983153e1497a62e8542a0ad",
+        "frustration": true,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.9334
+      },
+      "insight": {
+        "what_went_wrong": "The customer service assistant failed to address the customer's concerns and did not provide a solution to their problems.",
+        "why": "The assistant asked follow-up questions but did not connect the customer's answers to potential product solutions or offer alternatives.",
+        "how_to_fix": "The assistant should have asked more targeted questions to understand the customer's needs and provided relevant product recommendations or alternatives.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c2d1305287f2ec782fe0e8",
+      "score": 45,
+      "flags": {
+        "conversation_id": "69c2d1305287f2ec782fe0e8",
+        "widgetId": "6983153e1497a62e8542a0ad",
+        "frustration": true,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.8882
+      },
+      "insight": {
+        "what_went_wrong": "The customer service assistant failed to recall the customer's previous conversation and repeated the initial greeting.",
+        "why": "The assistant's response did not demonstrate any understanding of the customer's previous message, indicating a lack of conversation history retention or context switching.",
+        "how_to_fix": "Implement conversation history retention or improve context switching to ensure the assistant can recall previous conversations and adapt to the customer's needs.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c2a7455287f2ec782cb251",
+      "score": 43.77,
+      "flags": {
+        "conversation_id": "69c2a7455287f2ec782cb251",
+        "widgetId": "6983153e1497a62e8542a0ad",
+        "frustration": true,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.3775
+      },
+      "insight": {
+        "what_went_wrong": "The assistant failed to provide a specific delivery date or an estimated delivery timeline for the customer's location, leading to frustration and uncertainty.",
+        "why": "The assistant relied on the shipping policy, which does not guarantee a specific delivery date, and did not offer alternative solutions or provide additional information to alleviate the customer's concerns.",
+        "how_to_fix": "The assistant should have offered to check the estimated delivery date for the customer's address, provided more detailed information about the shipping process, or offered alternative shipping options to meet the customer's urgent requirements.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c118ff88180372f23792c2",
+      "score": 40.0,
+      "flags": {
+        "conversation_id": "69c118ff88180372f23792c2",
+        "widgetId": "6983153e1497a62e8542a0ad",
+        "frustration": true,
+        "low_quality_response": false,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.0
+      },
+      "insight": {
+        "what_went_wrong": "The assistant failed to directly address the customer's concern about using the product on acne-prone skin and instead provided general information about the product's ingredients.",
+        "why": "The assistant's response was too focused on the product's benefits and didn't consider the customer's specific skin condition, leading to a lack of clear guidance.",
+        "how_to_fix": "The assistant should have directly answered the customer's question, providing a clear recommendation on whether the product is suitable for acne-prone skin and explaining any potential risks or benefits.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c501c506069052a32e3bb4",
+      "score": 30,
+      "flags": {
+        "conversation_id": "69c501c506069052a32e3bb4",
+        "widgetId": "6983153e1497a62e8542a0ad",
+        "frustration": false,
+        "low_quality_response": true,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.5182
+      },
+      "insight": {
+        "what_went_wrong": "The AI assistant failed to find the customer's order despite providing the order number and date.",
+        "why": "The AI assistant's search functionality may be faulty or the order number may not be correctly linked to the customer's account.",
+        "how_to_fix": "The AI assistant should be able to find the order by searching with the provided order number and date. If not, the customer should be offered alternative methods to find their order, such as checking their email or account history.",
+        "severity": "medium"
+      }
+    },
+    {
+      "conversation_id": "69c4e86c06069052a32a443f",
+      "score": 27.22,
+      "flags": {
+        "conversation_id": "69c4e86c06069052a32a443f",
+        "widgetId": "6983153e1497a62e8542a0ad",
+        "frustration": false,
+        "low_quality_response": true,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.2223
+      },
+      "insight": {
+        "what_went_wrong": "The customer service assistant failed to recognize the customer's request to track their order and instead repeated the same prompt.",
+        "why": "The assistant's response was too generic and didn't account for the customer's intent, leading to a misunderstanding.",
+        "how_to_fix": "The assistant should be trained to recognize and respond to customer requests more accurately, and provide a clear next step for the customer.",
+        "severity": "low"
+      }
+    },
+    {
+      "conversation_id": "69c3aae3b69374161c4241d9",
+      "score": 25.0,
+      "flags": {
+        "conversation_id": "69c3aae3b69374161c4241d9",
+        "widgetId": "6983153e1497a62e8542a0ad",
+        "frustration": false,
+        "low_quality_response": true,
+        "hallucination": false,
+        "irrelevant_product": false,
+        "repetition_score": 0.0
+      },
+      "insight": {
+        "what_went_wrong": "The assistant did not provide a clear or specific reason for requesting the order number.",
+        "why": "The assistant is likely using a standard response to prompt the customer for their order number, but it does not provide any context or explanation for why the number is needed.",
+        "how_to_fix": "The assistant could provide a more detailed explanation for why the order number is required, such as 'We need your order number to locate your order in our system and provide you with the most up-to-date tracking information.'",
+        "severity": "low"
+      }
+    },
+    {
+      "conversation_id": "69c16ecf1866ef69c6197eac",
+      "score": 21.94,
+      "flags": {
+        "conversation_id": "69c16ecf1866ef69c6197eac",
+        "widgetId": "6983153e1497a62e8542a0ad",
+        "frustration": false,
+        "low_quality_response": false,
+        "hallucination": true,
+        "irrelevant_product": false,
+        "repetition_score": 0.1943
+      },
+      "insight": {
+        "what_went_wrong": "The Buy 1 Get 1 Free Sale offer disappeared from the customer's cart.",
+        "why": "The offer may have been removed due to a refresh of the browser, clearing of the cart, or a technical issue.",
+        "how_to_fix": "The customer can try refreshing the browser, clearing the cart, and adding the products again, or contact customer service for further assistance.",
+        "severity": "low"
+      }
+    }
+  ]
+}

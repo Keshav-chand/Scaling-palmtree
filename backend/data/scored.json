@@ -1,0 +1,4174 @@
+[
+  {
+    "conversation_id": "69c3e34316599deb6989a143",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 70,
+    "flags": {
+      "conversation_id": "69c3e34316599deb6989a143",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": true,
+      "low_quality_response": true,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 1.0
+    }
+  },
+  {
+    "conversation_id": "69c5053706069052a32e9faa",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 64.7,
+    "flags": {
+      "conversation_id": "69c5053706069052a32e9faa",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": true,
+      "low_quality_response": false,
+      "hallucination": true,
+      "irrelevant_product": false,
+      "repetition_score": 0.4702
+    }
+  },
+  {
+    "conversation_id": "69c4f8e516599deb6989affe",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 45,
+    "flags": {
+      "conversation_id": "69c4f8e516599deb6989affe",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": true,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 1.0
+    }
+  },
+  {
+    "conversation_id": "69c44534b69374161c5287a2",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 45,
+    "flags": {
+      "conversation_id": "69c44534b69374161c5287a2",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": true,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.5418
+    }
+  },
+  {
+    "conversation_id": "69c4988280af262206b8858d",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 45,
+    "flags": {
+      "conversation_id": "69c4988280af262206b8858d",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": true,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 1.0
+    }
+  },
+  {
+    "conversation_id": "69c3cbb9b69374161c477f5f",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 45,
+    "flags": {
+      "conversation_id": "69c3cbb9b69374161c477f5f",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": true,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.8598
+    }
+  },
+  {
+    "conversation_id": "69c504de06069052a32e9497",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 45,
+    "flags": {
+      "conversation_id": "69c504de06069052a32e9497",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": true,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 1.0
+    }
+  },
+  {
+    "conversation_id": "69c4c25806069052a3254a02",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 45,
+    "flags": {
+      "conversation_id": "69c4c25806069052a3254a02",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": true,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 1.0
+    }
+  },
+  {
+    "conversation_id": "69c413a5b69374161c4f1519",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 45,
+    "flags": {
+      "conversation_id": "69c413a5b69374161c4f1519",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": true,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 1.0
+    }
+  },
+  {
+    "conversation_id": "69c40c10b69374161c4e627c",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 45,
+    "flags": {
+      "conversation_id": "69c40c10b69374161c4e627c",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": true,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.8667
+    }
+  },
+  {
+    "conversation_id": "69c3b689b69374161c44eb53",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 45,
+    "flags": {
+      "conversation_id": "69c3b689b69374161c44eb53",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": true,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.8764
+    }
+  },
+  {
+    "conversation_id": "69c387405287f2ec783a9c88",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 45,
+    "flags": {
+      "conversation_id": "69c387405287f2ec783a9c88",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": true,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 1.0
+    }
+  },
+  {
+    "conversation_id": "69c40be3b69374161c4e5c36",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 45,
+    "flags": {
+      "conversation_id": "69c40be3b69374161c4e5c36",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": true,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 1.0
+    }
+  },
+  {
+    "conversation_id": "69c3d093b69374161c487b81",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 45,
+    "flags": {
+      "conversation_id": "69c3d093b69374161c487b81",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": true,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.9334
+    }
+  },
+  {
+    "conversation_id": "69c2d1305287f2ec782fe0e8",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 45,
+    "flags": {
+      "conversation_id": "69c2d1305287f2ec782fe0e8",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": true,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.8882
+    }
+  },
+  {
+    "conversation_id": "69c2a7455287f2ec782cb251",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 43.77,
+    "flags": {
+      "conversation_id": "69c2a7455287f2ec782cb251",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": true,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.3775
+    }
+  },
+  {
+    "conversation_id": "69c501db06069052a32e3d9a",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 43.58,
+    "flags": {
+      "conversation_id": "69c501db06069052a32e3d9a",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": true,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.3584
+    }
+  },
+  {
+    "conversation_id": "69c502f306069052a32e5841",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 41.64,
+    "flags": {
+      "conversation_id": "69c502f306069052a32e5841",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": true,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.1644
+    }
+  },
+  {
+    "conversation_id": "69c3716816599deb698963f6",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 41.1,
+    "flags": {
+      "conversation_id": "69c3716816599deb698963f6",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": true,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.1102
+    }
+  },
+  {
+    "conversation_id": "69c118ff88180372f23792c2",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 40.0,
+    "flags": {
+      "conversation_id": "69c118ff88180372f23792c2",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": true,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c501c506069052a32e3bb4",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 30,
+    "flags": {
+      "conversation_id": "69c501c506069052a32e3bb4",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": true,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.5182
+    }
+  },
+  {
+    "conversation_id": "69c4058ab69374161c4de171",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 29.79,
+    "flags": {
+      "conversation_id": "69c4058ab69374161c4de171",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": true,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.4785
+    }
+  },
+  {
+    "conversation_id": "69c40d37b69374161c4e7cad",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 29.43,
+    "flags": {
+      "conversation_id": "69c40d37b69374161c4e7cad",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": true,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.4428
+    }
+  },
+  {
+    "conversation_id": "69c4e86c06069052a32a443f",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 27.22,
+    "flags": {
+      "conversation_id": "69c4e86c06069052a32a443f",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": true,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.2223
+    }
+  },
+  {
+    "conversation_id": "69c3aae3b69374161c4241d9",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 25.0,
+    "flags": {
+      "conversation_id": "69c3aae3b69374161c4241d9",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": true,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3d72fb69374161c4924d3",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 25.0,
+    "flags": {
+      "conversation_id": "69c3d72fb69374161c4924d3",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": true,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c39133b69374161c3f5d11",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 25.0,
+    "flags": {
+      "conversation_id": "69c39133b69374161c3f5d11",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": true,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c16ecf1866ef69c6197eac",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 21.94,
+    "flags": {
+      "conversation_id": "69c16ecf1866ef69c6197eac",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": true,
+      "irrelevant_product": false,
+      "repetition_score": 0.1943
+    }
+  },
+  {
+    "conversation_id": "69c3b1d9b69374161c43d66c",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 15.0,
+    "flags": {
+      "conversation_id": "69c3b1d9b69374161c43d66c",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.4997
+    }
+  },
+  {
+    "conversation_id": "69c38b65b69374161c3d82e3",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 15,
+    "flags": {
+      "conversation_id": "69c38b65b69374161c3d82e3",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.6408
+    }
+  },
+  {
+    "conversation_id": "69c37a4b5287f2ec7838a207",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 15,
+    "flags": {
+      "conversation_id": "69c37a4b5287f2ec7838a207",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.6211
+    }
+  },
+  {
+    "conversation_id": "69c343a25287f2ec7834593d",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 15,
+    "flags": {
+      "conversation_id": "69c343a25287f2ec7834593d",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.5858
+    }
+  },
+  {
+    "conversation_id": "69c4f08506069052a32ba65f",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 14.41,
+    "flags": {
+      "conversation_id": "69c4f08506069052a32ba65f",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.4415
+    }
+  },
+  {
+    "conversation_id": "69c40394b69374161c4dbaab",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 14.37,
+    "flags": {
+      "conversation_id": "69c40394b69374161c4dbaab",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.4369
+    }
+  },
+  {
+    "conversation_id": "69c40de1b69374161c4e8b21",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 14.28,
+    "flags": {
+      "conversation_id": "69c40de1b69374161c4e8b21",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.428
+    }
+  },
+  {
+    "conversation_id": "69c4c3e406069052a32591b6",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 14.21,
+    "flags": {
+      "conversation_id": "69c4c3e406069052a32591b6",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.4207
+    }
+  },
+  {
+    "conversation_id": "69c3d51bb69374161c48f438",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 13.96,
+    "flags": {
+      "conversation_id": "69c3d51bb69374161c48f438",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.3956
+    }
+  },
+  {
+    "conversation_id": "69c45ce8b69374161c534229",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 13.86,
+    "flags": {
+      "conversation_id": "69c45ce8b69374161c534229",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.3863
+    }
+  },
+  {
+    "conversation_id": "69c374b45287f2ec7837fc9e",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 13.47,
+    "flags": {
+      "conversation_id": "69c374b45287f2ec7837fc9e",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.3468
+    }
+  },
+  {
+    "conversation_id": "69c3fbe8b69374161c4d27a7",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 12.72,
+    "flags": {
+      "conversation_id": "69c3fbe8b69374161c4d27a7",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.2722
+    }
+  },
+  {
+    "conversation_id": "69c41535b69374161c4f47cf",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 12.36,
+    "flags": {
+      "conversation_id": "69c41535b69374161c4f47cf",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.2364
+    }
+  },
+  {
+    "conversation_id": "69c410feb69374161c4ec90b",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 11.91,
+    "flags": {
+      "conversation_id": "69c410feb69374161c4ec90b",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.1909
+    }
+  },
+  {
+    "conversation_id": "69c34e5d5287f2ec7834d4ad",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 11.6,
+    "flags": {
+      "conversation_id": "69c34e5d5287f2ec7834d4ad",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.16
+    }
+  },
+  {
+    "conversation_id": "69c33a905287f2ec7833bc49",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 11.05,
+    "flags": {
+      "conversation_id": "69c33a905287f2ec7833bc49",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.1049
+    }
+  },
+  {
+    "conversation_id": "69c3be5eb69374161c45c778",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 10.87,
+    "flags": {
+      "conversation_id": "69c3be5eb69374161c45c778",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.0865
+    }
+  },
+  {
+    "conversation_id": "69c4ed2706069052a32acd31",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 10.02,
+    "flags": {
+      "conversation_id": "69c4ed2706069052a32acd31",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.0022
+    }
+  },
+  {
+    "conversation_id": "69c49086b69374161c54bbd0",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 10.0,
+    "flags": {
+      "conversation_id": "69c49086b69374161c54bbd0",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3d87ab69374161c49451d",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 10.0,
+    "flags": {
+      "conversation_id": "69c3d87ab69374161c49451d",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c41d06b69374161c4ff58c",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 10.0,
+    "flags": {
+      "conversation_id": "69c41d06b69374161c4ff58c",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c39727b69374161c402dea",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 10.0,
+    "flags": {
+      "conversation_id": "69c39727b69374161c402dea",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c379e35287f2ec78387dcf",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 10.0,
+    "flags": {
+      "conversation_id": "69c379e35287f2ec78387dcf",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c41440b69374161c4f28c0",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 10.0,
+    "flags": {
+      "conversation_id": "69c41440b69374161c4f28c0",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c386285287f2ec783a7870",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 10.0,
+    "flags": {
+      "conversation_id": "69c386285287f2ec783a7870",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4edd706069052a32ae7a8",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 9.92,
+    "flags": {
+      "conversation_id": "69c4edd706069052a32ae7a8",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": true,
+      "repetition_score": -0.0082
+    }
+  },
+  {
+    "conversation_id": "69c46193b69374161c535f80",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c46193b69374161c535f80",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.7254
+    }
+  },
+  {
+    "conversation_id": "69c44ccbb69374161c52d01c",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c44ccbb69374161c52d01c",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.7726
+    }
+  },
+  {
+    "conversation_id": "69c40a6616599deb6989a398",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c40a6616599deb6989a398",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.7682
+    }
+  },
+  {
+    "conversation_id": "69c3d653b69374161c49125f",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c3d653b69374161c49125f",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.5275
+    }
+  },
+  {
+    "conversation_id": "69c42081b69374161c50311a",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c42081b69374161c50311a",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.7414
+    }
+  },
+  {
+    "conversation_id": "69c3cde9b69374161c481265",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c3cde9b69374161c481265",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.7089
+    }
+  },
+  {
+    "conversation_id": "69c3b77bb69374161c45066a",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c3b77bb69374161c45066a",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.8063
+    }
+  },
+  {
+    "conversation_id": "69c38e0816599deb69896b22",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c38e0816599deb69896b22",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.5931
+    }
+  },
+  {
+    "conversation_id": "69c3529f16599deb6989624a",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c3529f16599deb6989624a",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.5431
+    }
+  },
+  {
+    "conversation_id": "69c33da05287f2ec7833d7eb",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c33da05287f2ec7833d7eb",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.5967
+    }
+  },
+  {
+    "conversation_id": "69c5014b06069052a32e2c4d",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c5014b06069052a32e2c4d",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.7189
+    }
+  },
+  {
+    "conversation_id": "69c4e94206069052a32a5c52",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c4e94206069052a32a5c52",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.7497
+    }
+  },
+  {
+    "conversation_id": "69c3489e5287f2ec7834911c",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c3489e5287f2ec7834911c",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.6712
+    }
+  },
+  {
+    "conversation_id": "69c3fe8ab69374161c4d587b",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c3fe8ab69374161c4d587b",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.6029
+    }
+  },
+  {
+    "conversation_id": "69c378d75287f2ec78385b6b",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c378d75287f2ec78385b6b",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.583
+    }
+  },
+  {
+    "conversation_id": "69c366d95287f2ec783650f9",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c366d95287f2ec783650f9",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.7371
+    }
+  },
+  {
+    "conversation_id": "69c15d2f1866ef69c61821fe",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c15d2f1866ef69c61821fe",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.7934
+    }
+  },
+  {
+    "conversation_id": "69c2363fc5090237eb2909b9",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c2363fc5090237eb2909b9",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.6678
+    }
+  },
+  {
+    "conversation_id": "69c4ffdb06069052a32dff10",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c4ffdb06069052a32dff10",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.523
+    }
+  },
+  {
+    "conversation_id": "69c4c73506069052a325f054",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c4c73506069052a325f054",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.6106
+    }
+  },
+  {
+    "conversation_id": "69c4b25e80af262206b94910",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c4b25e80af262206b94910",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.7067
+    }
+  },
+  {
+    "conversation_id": "69c4214db69374161c503f79",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c4214db69374161c503f79",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.6256
+    }
+  },
+  {
+    "conversation_id": "69c3f9cab69374161c4cfadf",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c3f9cab69374161c4cfadf",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.6054
+    }
+  },
+  {
+    "conversation_id": "69c3b053b69374161c438d85",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 5,
+    "flags": {
+      "conversation_id": "69c3b053b69374161c438d85",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.602
+    }
+  },
+  {
+    "conversation_id": "69c4e42906069052a329c6f9",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 4.93,
+    "flags": {
+      "conversation_id": "69c4e42906069052a329c6f9",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.4931
+    }
+  },
+  {
+    "conversation_id": "69c3bbd8b69374161c457d4a",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 4.84,
+    "flags": {
+      "conversation_id": "69c3bbd8b69374161c457d4a",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.484
+    }
+  },
+  {
+    "conversation_id": "69c4e3cf06069052a329bcf9",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 4.79,
+    "flags": {
+      "conversation_id": "69c4e3cf06069052a329bcf9",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.4791
+    }
+  },
+  {
+    "conversation_id": "69c4faa716599deb6989b00c",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 4.76,
+    "flags": {
+      "conversation_id": "69c4faa716599deb6989b00c",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.4761
+    }
+  },
+  {
+    "conversation_id": "69c4a23cb69374161c5574cc",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 4.69,
+    "flags": {
+      "conversation_id": "69c4a23cb69374161c5574cc",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.4695
+    }
+  },
+  {
+    "conversation_id": "69c40178b69374161c4d9170",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 4.59,
+    "flags": {
+      "conversation_id": "69c40178b69374161c4d9170",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.4589
+    }
+  },
+  {
+    "conversation_id": "69c443e1b69374161c527a4e",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 4.57,
+    "flags": {
+      "conversation_id": "69c443e1b69374161c527a4e",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.457
+    }
+  },
+  {
+    "conversation_id": "69c4ab8fb69374161c55e4c8",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 4.52,
+    "flags": {
+      "conversation_id": "69c4ab8fb69374161c55e4c8",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.4521
+    }
+  },
+  {
+    "conversation_id": "69c3a6e9b69374161c41e154",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 4.5,
+    "flags": {
+      "conversation_id": "69c3a6e9b69374161c41e154",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.4502
+    }
+  },
+  {
+    "conversation_id": "69c4df8106069052a3293020",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 4.49,
+    "flags": {
+      "conversation_id": "69c4df8106069052a3293020",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.4488
+    }
+  },
+  {
+    "conversation_id": "69c3f312b69374161c4c7e01",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 4.46,
+    "flags": {
+      "conversation_id": "69c3f312b69374161c4c7e01",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.4464
+    }
+  },
+  {
+    "conversation_id": "69c3c43fb69374161c467498",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 4.38,
+    "flags": {
+      "conversation_id": "69c3c43fb69374161c467498",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.4377
+    }
+  },
+  {
+    "conversation_id": "69c3a91316599deb69896cf8",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 4.33,
+    "flags": {
+      "conversation_id": "69c3a91316599deb69896cf8",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.4329
+    }
+  },
+  {
+    "conversation_id": "69c4f99b16599deb6989b003",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 4.29,
+    "flags": {
+      "conversation_id": "69c4f99b16599deb6989b003",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.4295
+    }
+  },
+  {
+    "conversation_id": "69c4c6e306069052a325e8ee",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 4.29,
+    "flags": {
+      "conversation_id": "69c4c6e306069052a325e8ee",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.4294
+    }
+  },
+  {
+    "conversation_id": "69c38f4f16599deb69896b2b",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 4.28,
+    "flags": {
+      "conversation_id": "69c38f4f16599deb69896b2b",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.4284
+    }
+  },
+  {
+    "conversation_id": "69c3e842b69374161c4ad8f6",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 4.15,
+    "flags": {
+      "conversation_id": "69c3e842b69374161c4ad8f6",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.415
+    }
+  },
+  {
+    "conversation_id": "69c4c4be06069052a325aef5",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 4.08,
+    "flags": {
+      "conversation_id": "69c4c4be06069052a325aef5",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.4076
+    }
+  },
+  {
+    "conversation_id": "69c4d1c906069052a3273953",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 4.06,
+    "flags": {
+      "conversation_id": "69c4d1c906069052a3273953",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.4061
+    }
+  },
+  {
+    "conversation_id": "69c3d730b69374161c4924dd",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 4.03,
+    "flags": {
+      "conversation_id": "69c3d730b69374161c4924dd",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.4034
+    }
+  },
+  {
+    "conversation_id": "69c35a3f16599deb6989629a",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 3.94,
+    "flags": {
+      "conversation_id": "69c35a3f16599deb6989629a",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.3935
+    }
+  },
+  {
+    "conversation_id": "69c41b1016599deb6989a487",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 3.93,
+    "flags": {
+      "conversation_id": "69c41b1016599deb6989a487",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.393
+    }
+  },
+  {
+    "conversation_id": "69c499f716599deb6989a804",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 3.77,
+    "flags": {
+      "conversation_id": "69c499f716599deb6989a804",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.3773
+    }
+  },
+  {
+    "conversation_id": "69c436dbb69374161c51ea49",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 3.75,
+    "flags": {
+      "conversation_id": "69c436dbb69374161c51ea49",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.3755
+    }
+  },
+  {
+    "conversation_id": "69c3938b16599deb69896b8c",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 3.67,
+    "flags": {
+      "conversation_id": "69c3938b16599deb69896b8c",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.3667
+    }
+  },
+  {
+    "conversation_id": "69c3e59616599deb6989a16d",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 3.43,
+    "flags": {
+      "conversation_id": "69c3e59616599deb6989a16d",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.3427
+    }
+  },
+  {
+    "conversation_id": "69c45432b69374161c530648",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 3.43,
+    "flags": {
+      "conversation_id": "69c45432b69374161c530648",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.3427
+    }
+  },
+  {
+    "conversation_id": "69c3971eb69374161c402d2d",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 3.42,
+    "flags": {
+      "conversation_id": "69c3971eb69374161c402d2d",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.3415
+    }
+  },
+  {
+    "conversation_id": "69c39275b69374161c3f8bb7",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 3.31,
+    "flags": {
+      "conversation_id": "69c39275b69374161c3f8bb7",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.3313
+    }
+  },
+  {
+    "conversation_id": "69c4dfb316599deb6989ae17",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 3.17,
+    "flags": {
+      "conversation_id": "69c4dfb316599deb6989ae17",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.3166
+    }
+  },
+  {
+    "conversation_id": "69c3cfb516599deb69899fb5",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 2.93,
+    "flags": {
+      "conversation_id": "69c3cfb516599deb69899fb5",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.2932
+    }
+  },
+  {
+    "conversation_id": "69c3961a16599deb69896bc3",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 2.89,
+    "flags": {
+      "conversation_id": "69c3961a16599deb69896bc3",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.2892
+    }
+  },
+  {
+    "conversation_id": "69c3ca84b69374161c475cf8",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 2.82,
+    "flags": {
+      "conversation_id": "69c3ca84b69374161c475cf8",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.2825
+    }
+  },
+  {
+    "conversation_id": "69c4e46006069052a329cdc0",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 2.81,
+    "flags": {
+      "conversation_id": "69c4e46006069052a329cdc0",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.2806
+    }
+  },
+  {
+    "conversation_id": "69c1287f1866ef69c6137bf9",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 2.77,
+    "flags": {
+      "conversation_id": "69c1287f1866ef69c6137bf9",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.2773
+    }
+  },
+  {
+    "conversation_id": "69c3938db69374161c3fadb0",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 2.77,
+    "flags": {
+      "conversation_id": "69c3938db69374161c3fadb0",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.2768
+    }
+  },
+  {
+    "conversation_id": "69c3f91116599deb6989a29a",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 2.76,
+    "flags": {
+      "conversation_id": "69c3f91116599deb6989a29a",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.276
+    }
+  },
+  {
+    "conversation_id": "69c3fc4ab69374161c4d2de8",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 2.66,
+    "flags": {
+      "conversation_id": "69c3fc4ab69374161c4d2de8",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.2662
+    }
+  },
+  {
+    "conversation_id": "69c4d4ef16599deb6989acfd",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 2.61,
+    "flags": {
+      "conversation_id": "69c4d4ef16599deb6989acfd",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.2607
+    }
+  },
+  {
+    "conversation_id": "69c41873b69374161c4fa128",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 2.55,
+    "flags": {
+      "conversation_id": "69c41873b69374161c4fa128",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.255
+    }
+  },
+  {
+    "conversation_id": "69c372a816599deb6989641c",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 2.54,
+    "flags": {
+      "conversation_id": "69c372a816599deb6989641c",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.2541
+    }
+  },
+  {
+    "conversation_id": "69c3b30eb69374161c4410ae",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 2.5,
+    "flags": {
+      "conversation_id": "69c3b30eb69374161c4410ae",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.2504
+    }
+  },
+  {
+    "conversation_id": "69c2d3c65287f2ec7830309e",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 2.41,
+    "flags": {
+      "conversation_id": "69c2d3c65287f2ec7830309e",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.241
+    }
+  },
+  {
+    "conversation_id": "69c361195287f2ec7835e6bc",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 2.4,
+    "flags": {
+      "conversation_id": "69c361195287f2ec7835e6bc",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.2403
+    }
+  },
+  {
+    "conversation_id": "69c425bcb69374161c50b690",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 2.34,
+    "flags": {
+      "conversation_id": "69c425bcb69374161c50b690",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.2337
+    }
+  },
+  {
+    "conversation_id": "69c450e5b69374161c52ee7d",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 2.33,
+    "flags": {
+      "conversation_id": "69c450e5b69374161c52ee7d",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.2325
+    }
+  },
+  {
+    "conversation_id": "69c40edb16599deb6989a3df",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 2.32,
+    "flags": {
+      "conversation_id": "69c40edb16599deb6989a3df",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.232
+    }
+  },
+  {
+    "conversation_id": "69c49219b69374161c54c8ed",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 2.31,
+    "flags": {
+      "conversation_id": "69c49219b69374161c54c8ed",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.2314
+    }
+  },
+  {
+    "conversation_id": "69c3e83ab69374161c4ad884",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 2.27,
+    "flags": {
+      "conversation_id": "69c3e83ab69374161c4ad884",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.2275
+    }
+  },
+  {
+    "conversation_id": "69c42ea2b69374161c517392",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 2.26,
+    "flags": {
+      "conversation_id": "69c42ea2b69374161c517392",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.2263
+    }
+  },
+  {
+    "conversation_id": "69c3d03416599deb69899ff9",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 2.23,
+    "flags": {
+      "conversation_id": "69c3d03416599deb69899ff9",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.2232
+    }
+  },
+  {
+    "conversation_id": "69c4b0cf80af262206b939d8",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 2.15,
+    "flags": {
+      "conversation_id": "69c4b0cf80af262206b939d8",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.2154
+    }
+  },
+  {
+    "conversation_id": "69c3cef3b69374161c483215",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 2.14,
+    "flags": {
+      "conversation_id": "69c3cef3b69374161c483215",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.2141
+    }
+  },
+  {
+    "conversation_id": "69c367575287f2ec78365bfe",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 1.98,
+    "flags": {
+      "conversation_id": "69c367575287f2ec78365bfe",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.1982
+    }
+  },
+  {
+    "conversation_id": "69c3edc8b69374161c4baf86",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 1.89,
+    "flags": {
+      "conversation_id": "69c3edc8b69374161c4baf86",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.1888
+    }
+  },
+  {
+    "conversation_id": "69c3a42e16599deb69896ca8",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 1.86,
+    "flags": {
+      "conversation_id": "69c3a42e16599deb69896ca8",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.1865
+    }
+  },
+  {
+    "conversation_id": "69c3892d5287f2ec783ae398",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 1.81,
+    "flags": {
+      "conversation_id": "69c3892d5287f2ec783ae398",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.181
+    }
+  },
+  {
+    "conversation_id": "69c2d92e5287f2ec78308703",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 1.78,
+    "flags": {
+      "conversation_id": "69c2d92e5287f2ec78308703",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.178
+    }
+  },
+  {
+    "conversation_id": "69c178881866ef69c61a2b7e",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 1.76,
+    "flags": {
+      "conversation_id": "69c178881866ef69c61a2b7e",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.1764
+    }
+  },
+  {
+    "conversation_id": "69c37cc416599deb698965c1",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 1.75,
+    "flags": {
+      "conversation_id": "69c37cc416599deb698965c1",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.1754
+    }
+  },
+  {
+    "conversation_id": "69c161bf1866ef69c6187be5",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 1.69,
+    "flags": {
+      "conversation_id": "69c161bf1866ef69c6187be5",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.1693
+    }
+  },
+  {
+    "conversation_id": "69c4179fb69374161c4f8fb8",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 1.64,
+    "flags": {
+      "conversation_id": "69c4179fb69374161c4f8fb8",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.1643
+    }
+  },
+  {
+    "conversation_id": "69c5063d16599deb6989b123",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 1.4,
+    "flags": {
+      "conversation_id": "69c5063d16599deb6989b123",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.1398
+    }
+  },
+  {
+    "conversation_id": "69c4b106b69374161c562288",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 1.04,
+    "flags": {
+      "conversation_id": "69c4b106b69374161c562288",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.1044
+    }
+  },
+  {
+    "conversation_id": "69c3c26e16599deb69899eaa",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 1.01,
+    "flags": {
+      "conversation_id": "69c3c26e16599deb69899eaa",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.1006
+    }
+  },
+  {
+    "conversation_id": "69c125631866ef69c6132fdf",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.79,
+    "flags": {
+      "conversation_id": "69c125631866ef69c6132fdf",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0792
+    }
+  },
+  {
+    "conversation_id": "69c44c0eb69374161c52c924",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.76,
+    "flags": {
+      "conversation_id": "69c44c0eb69374161c52c924",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0763
+    }
+  },
+  {
+    "conversation_id": "69c36f755287f2ec7837552b",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.74,
+    "flags": {
+      "conversation_id": "69c36f755287f2ec7837552b",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0742
+    }
+  },
+  {
+    "conversation_id": "69c4226ab69374161c505d0c",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.66,
+    "flags": {
+      "conversation_id": "69c4226ab69374161c505d0c",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0656
+    }
+  },
+  {
+    "conversation_id": "69c40dceb69374161c4e89fa",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.6,
+    "flags": {
+      "conversation_id": "69c40dceb69374161c4e89fa",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0599
+    }
+  },
+  {
+    "conversation_id": "69c3857b5287f2ec783a6409",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.57,
+    "flags": {
+      "conversation_id": "69c3857b5287f2ec783a6409",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0565
+    }
+  },
+  {
+    "conversation_id": "69c41f80b69374161c5020ec",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.54,
+    "flags": {
+      "conversation_id": "69c41f80b69374161c5020ec",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0535
+    }
+  },
+  {
+    "conversation_id": "69c34ab25287f2ec7834aa24",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.47,
+    "flags": {
+      "conversation_id": "69c34ab25287f2ec7834aa24",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0467
+    }
+  },
+  {
+    "conversation_id": "69c3b2b6b69374161c4400a1",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.38,
+    "flags": {
+      "conversation_id": "69c3b2b6b69374161c4400a1",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0381
+    }
+  },
+  {
+    "conversation_id": "69c3ae32b69374161c42ee64",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.31,
+    "flags": {
+      "conversation_id": "69c3ae32b69374161c42ee64",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0308
+    }
+  },
+  {
+    "conversation_id": "69c3493a5287f2ec78349758",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.24,
+    "flags": {
+      "conversation_id": "69c3493a5287f2ec78349758",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0244
+    }
+  },
+  {
+    "conversation_id": "69c4c3ab06069052a325858f",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.22,
+    "flags": {
+      "conversation_id": "69c4c3ab06069052a325858f",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0223
+    }
+  },
+  {
+    "conversation_id": "69c3c123b69374161c46137e",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.2,
+    "flags": {
+      "conversation_id": "69c3c123b69374161c46137e",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0203
+    }
+  },
+  {
+    "conversation_id": "69c135b01866ef69c614ec00",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.06,
+    "flags": {
+      "conversation_id": "69c135b01866ef69c614ec00",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0063
+    }
+  },
+  {
+    "conversation_id": "69c5053f16599deb6989b10b",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c5053f16599deb6989b10b",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4ef2306069052a32b5ccf",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4ef2306069052a32b5ccf",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4e51406069052a329e000",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4e51406069052a329e000",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4c73606069052a325f064",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4c73606069052a325f064",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4b92106069052a324120f",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4b92106069052a324120f",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c49eafb69374161c5548cd",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c49eafb69374161c5548cd",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c435f9b69374161c51dd72",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c435f9b69374161c51dd72",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c426e3b69374161c50d5c8",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c426e3b69374161c50d5c8",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c42519b69374161c50a694",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c42519b69374161c50a694",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4219a16599deb6989a4df",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4219a16599deb6989a4df",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c49531b69374161c54e67e",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c49531b69374161c54e67e",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3da1cb69374161c496744",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3da1cb69374161c496744",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c41a3cb69374161c4fc3b3",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c41a3cb69374161c4fc3b3",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3d4c4b69374161c48eb4f",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3d4c4b69374161c48eb4f",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3b14e16599deb69897021",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3b14e16599deb69897021",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3aa41b69374161c42325e",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3aa41b69374161c42325e",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3ac3d16599deb69896d55",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3ac3d16599deb69896d55",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3a0d2b69374161c413f38",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3a0d2b69374161c413f38",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c396f2b69374161c40270f",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c396f2b69374161c40270f",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3c197b69374161c461f83",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3c197b69374161c461f83",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c381d616599deb6989662d",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c381d616599deb6989662d",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c370405287f2ec78377cf5",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c370405287f2ec78377cf5",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c384885287f2ec783a44fe",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c384885287f2ec783a44fe",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4ff2206069052a32de8b7",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4ff2206069052a32de8b7",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4ffaa06069052a32df8b6",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4ffaa06069052a32df8b6",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4f3d206069052a32c6a7c",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4f3d206069052a32c6a7c",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4f04606069052a32b946a",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4f04606069052a32b946a",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4eeee06069052a32b514b",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4eeee06069052a32b514b",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4dfd806069052a3293ba1",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4dfd806069052a3293ba1",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4dd7006069052a328e14b",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4dd7006069052a328e14b",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4da9006069052a3287bc8",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4da9006069052a3287bc8",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4cd4706069052a326a002",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4cd4706069052a326a002",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4c02606069052a324ec51",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4c02606069052a324ec51",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4c0e906069052a3250406",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4c0e906069052a3250406",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c48d8eb69374161c54a0f5",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c48d8eb69374161c54a0f5",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c42dedb69374161c516845",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c42dedb69374161c516845",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c435e2b69374161c51dbfa",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c435e2b69374161c51dbfa",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3c9e8b69374161c474c2b",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3c9e8b69374161c474c2b",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3c6c1b69374161c46e45e",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3c6c1b69374161c46e45e",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3bc4ab69374161c458a3f",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3bc4ab69374161c458a3f",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3aa74b69374161c42378f",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3aa74b69374161c42378f",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3db81b69374161c498197",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3db81b69374161c498197",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3a280b69374161c4166fd",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3a280b69374161c4166fd",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c39f67b69374161c411b6b",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c39f67b69374161c411b6b",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c38cd5b69374161c3dfcde",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c38cd5b69374161c3dfcde",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c395b0b69374161c3ffa03",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c395b0b69374161c3ffa03",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c38a69b69374161c3d627f",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c38a69b69374161c3d627f",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3f169b69374161c4c47ef",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3f169b69374161c4c47ef",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3e760b69374161c4ac9e4",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3e760b69374161c4ac9e4",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3e6a5b69374161c4a9fcc",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3e6a5b69374161c4a9fcc",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c357bb5287f2ec78355926",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c357bb5287f2ec78355926",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c381945287f2ec7839df5f",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c381945287f2ec7839df5f",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c34b825287f2ec7834b418",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c34b825287f2ec7834b418",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c353cf5287f2ec783520a7",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c353cf5287f2ec783520a7",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c340ca5287f2ec78340e14",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c340ca5287f2ec78340e14",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c30d7d5287f2ec78324d3c",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c30d7d5287f2ec78324d3c",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c37eeb5287f2ec78398bd8",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c37eeb5287f2ec78398bd8",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c2d6765287f2ec78305839",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c2d6765287f2ec78305839",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c2d14d5287f2ec782fe4b3",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c2d14d5287f2ec782fe4b3",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c2cbd75287f2ec782f5ac3",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c2cbd75287f2ec782f5ac3",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c289165287f2ec78297415",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c289165287f2ec78297415",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c2789c696b82a9e9e66211",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c2789c696b82a9e9e66211",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c2eab95287f2ec7831504a",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c2eab95287f2ec7831504a",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c275b4696b82a9e9e61bab",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c275b4696b82a9e9e61bab",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c271ad696b82a9e9e58bd3",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c271ad696b82a9e9e58bd3",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c26b7f696b82a9e9e4dc3c",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c26b7f696b82a9e9e4dc3c",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c26b99696b82a9e9e4df77",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c26b99696b82a9e9e4df77",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c366445287f2ec78364399",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c366445287f2ec78364399",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c361555287f2ec7835ea29",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c361555287f2ec7835ea29",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c24eb62127ff0f141d7b61",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c24eb62127ff0f141d7b61",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c22459c5090237eb270cb8",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c22459c5090237eb270cb8",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c220ccc5090237eb26a71a",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c220ccc5090237eb26a71a",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c20c80c5090237eb24ab83",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c20c80c5090237eb24ab83",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c1f731c5090237eb238a51",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c1f731c5090237eb238a51",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c19b331866ef69c61bf999",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c19b331866ef69c61bf999",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c183841866ef69c61ade32",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c183841866ef69c61ade32",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c228b5c5090237eb278869",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c228b5c5090237eb278869",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c17cd91866ef69c61a77a4",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c17cd91866ef69c61a77a4",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c169981866ef69c619165a",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c169981866ef69c619165a",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c165f71866ef69c618d17d",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c165f71866ef69c618d17d",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c23feb5c221e72d05ebd96",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c23feb5c221e72d05ebd96",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c1662b1866ef69c618d527",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c1662b1866ef69c618d527",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c259c52127ff0f141e90ef",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c259c52127ff0f141e90ef",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c241425c221e72d05edbe5",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c241425c221e72d05edbe5",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c163ae1866ef69c618a465",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c163ae1866ef69c618a465",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c11af888180372f237c640",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c11af888180372f237c640",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c13ec51866ef69c615afdd",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c13ec51866ef69c615afdd",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c1174d88180372f2376bc6",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c1174d88180372f2376bc6",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c506d006069052a32ecdb8",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c506d006069052a32ecdb8",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c13da11866ef69c6159b49",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c13da11866ef69c6159b49",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c5002b06069052a32e06e4",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c5002b06069052a32e06e4",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4fa5306069052a32d480c",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4fa5306069052a32d480c",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4e2cb06069052a329a1b5",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4e2cb06069052a329a1b5",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4ee8c06069052a32b4190",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4ee8c06069052a32b4190",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c11c0788180372f237e130",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c11c0788180372f237e130",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4f34606069052a32c50eb",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4f34606069052a32c50eb",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4f11906069052a32bce26",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4f11906069052a32bce26",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4dfc106069052a329379d",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4dfc106069052a329379d",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4e12e06069052a3296a91",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4e12e06069052a3296a91",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4df5a06069052a3292922",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4df5a06069052a3292922",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4df4306069052a3292743",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4df4306069052a3292743",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4cb2906069052a326642b",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4cb2906069052a326642b",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4d50906069052a3279e89",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4d50906069052a3279e89",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4dbc906069052a328a731",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4dbc906069052a328a731",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4b8a406069052a323fef0",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4b8a406069052a323fef0",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4c24106069052a3254285",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4c24106069052a3254285",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4a597b69374161c559de5",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4a597b69374161c559de5",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c49feb80af262206b8af11",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c49feb80af262206b8af11",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c47f67b69374161c542c11",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c47f67b69374161c542c11",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c47b1cb69374161c540c79",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c47b1cb69374161c540c79",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c4789180af262206b7e4df",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c4789180af262206b7e4df",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c451ffb69374161c52f6ee",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c451ffb69374161c52f6ee",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c42d84b69374161c5160e9",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c42d84b69374161c5160e9",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c137591866ef69c6151424",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c137591866ef69c6151424",
+      "widgetId": "6983153e1497a62e8542a0ad",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c406eab69374161c4dfc8a",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c406eab69374161c4dfc8a",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3ff5bb69374161c4d68b6",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3ff5bb69374161c4d68b6",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3fe20b69374161c4d5073",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3fe20b69374161c4d5073",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3fac5b69374161c4d0e47",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3fac5b69374161c4d0e47",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3fa6ab69374161c4d06d5",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3fa6ab69374161c4d06d5",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c40cb0b69374161c4e708e",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c40cb0b69374161c4e708e",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c40a49b69374161c4e3f40",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c40a49b69374161c4e3f40",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3e3c9b69374161c4a3446",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3e3c9b69374161c4a3446",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c407cfb69374161c4e11e5",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c407cfb69374161c4e11e5",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c41252b69374161c4eecde",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c41252b69374161c4eecde",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3f959b69374161c4cf2d6",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3f959b69374161c4cf2d6",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3f88cb69374161c4ce337",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3f88cb69374161c4ce337",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3f5b2b69374161c4caecf",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3f5b2b69374161c4caecf",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3db91b69374161c498398",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3db91b69374161c498398",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3db14b69374161c497a5b",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3db14b69374161c497a5b",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3d781b69374161c492a0c",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3d781b69374161c492a0c",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3d792b69374161c492b4f",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3d792b69374161c492b4f",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3c701b69374161c46ec5f",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3c701b69374161c46ec5f",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3cdccb69374161c480774",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3cdccb69374161c480774",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3a321b69374161c41768c",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3a321b69374161c41768c",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c39fb4b69374161c41249c",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c39fb4b69374161c41249c",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c39238b69374161c3f867f",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c39238b69374161c3f867f",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c38fbfb69374161c3ed6ef",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c38fbfb69374161c3ed6ef",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c387195287f2ec783a971b",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c387195287f2ec783a971b",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c386f05287f2ec783a90bb",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c386f05287f2ec783a90bb",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3ab9eb69374161c4258ea",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3ab9eb69374161c4258ea",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  },
+  {
+    "conversation_id": "69c3a4ddb69374161c41aee6",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0.0,
+    "flags": {
+      "conversation_id": "69c3a4ddb69374161c41aee6",
+      "widgetId": "69a92ad76dcbf2da868e0f9b",
+      "frustration": false,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.0
+    }
+  }
+]
