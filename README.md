@@ -190,6 +190,10 @@ helio-analysis/
 <img width="1918" height="866" alt="image" src="https://github.com/user-attachments/assets/88efeaef-8a88-4324-aa06-7a84cb29664b" />
 
 
+<img width="1915" height="866" alt="image" src="https://github.com/user-attachments/assets/8abf1dc0-5572-4e58-ac0b-c064da8def37" />
+
+
+
 
 ## Key Design Decisions
 
