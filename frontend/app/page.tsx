@@ -170,6 +170,7 @@ export function Sidebar({ active }: { active: string }) {
     { key: "insights-a", label: "Blue Nectar — Wellness", path: "/insights/680a0a8b70a26f7a0e24eedd", dot: "#f87171", section: "Insights" },
     { key: "insights-b", label: "Blue Nectar — Skincare", path: "/insights/6983153e1497a62e8542a0ad", dot: "#fbbf24", section: null },
     { key: "insights-c", label: "Sri Sri Tattva", path: "/insights/69a92ad76dcbf2da868e0f9b", dot: "#34d399", section: null },
+    { key: "cross-brand", label: "Cross-brand finding", path: "/cross-brand", dot: "#f87171", section: "Findings" },
   ];
 
   return (
