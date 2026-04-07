@@ -17,5 +17,6 @@ export const BRAND_COLORS: Record<string, string> = {
 export const getBrands = () => axios.get(`${BASE}/brands`).then(r => r.data);
 export const getMetrics = (id: string) => axios.get(`${BASE}/metrics/${id}`).then(r => r.data);
 export const getConversations = (id: string) => axios.get(`${BASE}/conversations/${id}`).then(r => r.data);
+export const getConversationDetail = (id: string) => axios.get(`${BASE}/conversation/${id}`).then(r => r.data);
 export const getInsights = (id: string) => axios.get(`${BASE}/insights/${id}`).then(r => r.data);
 export const getCrossBrand = () => axios.get(`${BASE}/cross-brand`).then(r => r.data);

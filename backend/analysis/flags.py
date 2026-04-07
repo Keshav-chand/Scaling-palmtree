@@ -26,9 +26,12 @@ def low_quality_flag(features):
 
 def hallucination_flag(conv):
     CONTRADICT_KEYWORDS = [
-        "that's wrong", "thats wrong", "not correct", "actually",
+        "that's wrong", "thats wrong", "not correct",
         "that is wrong", "incorrect", "you said", "but you", "that's not",
-        "thats not", "you mentioned", "not true", "false"
+        "thats not", "you mentioned", "not true", "false",
+        "got vanished", "not available", "not showing",
+        "doesn't exist", "doesnt exist", "disappeared",
+        "no longer", "not live"
     ]
     user_texts = [
         m["text"].lower() for m in conv["messages"]

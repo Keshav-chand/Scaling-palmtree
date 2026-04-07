@@ -1,15 +1,17 @@
 "use client";
 import { useEffect, useState } from "react";
-import { useParams } from "next/navigation";
-import { getMetrics, getConversations, BRAND_NAMES, BRAND_COLORS } from "@/lib/api";
+import { useParams, useRouter } from "next/navigation";
+import { getMetrics, getConversations, getConversationDetail, BRAND_NAMES, BRAND_COLORS } from "@/lib/api";
 import { Sidebar, Badge } from "@/app/page";
-import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, BarChart, Bar, XAxis, YAxis } from "recharts";
-import { useRouter } from "next/navigation";
+import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from "recharts";
 
 export default function BrandPage() {
   const { id } = useParams() as { id: string };
   const [metrics, setMetrics] = useState<any>(null);
   const [conversations, setConversations] = useState<any[]>([]);
+  const [expanded, setExpanded] = useState<string | null>(null);
+  const [threadData, setThreadData] = useState<Record<string, any>>({});
+  const [loadingThread, setLoadingThread] = useState<string | null>(null);
   const router = useRouter();
 
   useEffect(() => {
@@ -17,15 +19,31 @@ export default function BrandPage() {
     getConversations(id).then(setConversations);
   }, [id]);
 
-  if (!metrics) return <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100vh", color: "#4a5568" }}>Loading...</div>;
+  const handleExpand = async (convId: string) => {
+    if (expanded === convId) { setExpanded(null); return; }
+    setExpanded(convId);
+    if (!threadData[convId]) {
+      setLoadingThread(convId);
+      try {
+        const detail = await getConversationDetail(convId);
+        setThreadData(prev => ({ ...prev, [convId]: detail }));
+      } catch (e) {
+        console.error("Failed to load conversation", e);
+      } finally {
+        setLoadingThread(null);
+      }
+    }
+  };
+
+  if (!metrics) return (
+    <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100vh", color: "#4a5568" }}>Loading...</div>
+  );
 
   const brandColor = BRAND_COLORS[id] || "#818cf8";
   const brandName = BRAND_NAMES[id] || id.slice(0, 8);
   const activeKey = id === "680a0a8b70a26f7a0e24eedd" ? "brand-a" : id === "6983153e1497a62e8542a0ad" ? "brand-b" : "brand-c";
-
   const intentData = Object.entries(metrics.intent_distribution || {}).map(([name, value]) => ({ name, value }));
   const INTENT_COLORS = ["#818cf8", "#34d399", "#fbbf24", "#f87171", "#c084fc"];
-
   const flagData = [
     { name: "Frustration", value: metrics.frustration_count || 0, color: "#f87171" },
     { name: "Irrelevant product", value: metrics.irrelevant_product_count || 0, color: "#fbbf24" },
@@ -38,6 +56,8 @@ export default function BrandPage() {
     <div style={{ display: "flex", minHeight: "100vh" }}>
       <Sidebar active={activeKey} />
       <main style={{ flex: 1, padding: "28px 32px", overflowY: "auto" }}>
+
+        {/* Header */}
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 24 }}>
           <div>
             <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
@@ -46,7 +66,7 @@ export default function BrandPage() {
             </div>
             <p style={{ fontSize: 12, color: "#4a5568", marginTop: 4 }}>widgetId: {id.slice(0, 8)}... · {metrics.total_conversations} conversations</p>
           </div>
-          <button onClick={() => router.push(`/insights/${id}?conv=${c.conversation_id}`)}
+          <button onClick={() => router.push(`/insights/${id}`)}
             style={{ background: "#1a1f3d", border: "1px solid #818cf8", color: "#818cf8", padding: "8px 16px", borderRadius: 8, cursor: "pointer", fontSize: 12 }}>
             View top insights →
           </button>
@@ -67,9 +87,8 @@ export default function BrandPage() {
           ))}
         </div>
 
-        {/* Charts row */}
+        {/* Charts */}
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14, marginBottom: 20 }}>
-          {/* Intent pie */}
           <div style={{ background: "#161b27", border: "1px solid #1e2535", borderRadius: 10, padding: 20 }}>
             <div style={{ fontSize: 11, color: "#4a5568", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 14 }}>Intent distribution</div>
             <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
@@ -92,7 +111,6 @@ export default function BrandPage() {
             </div>
           </div>
 
-          {/* Flag bar chart */}
           <div style={{ background: "#161b27", border: "1px solid #1e2535", borderRadius: 10, padding: 20 }}>
             <div style={{ fontSize: 11, color: "#4a5568", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 14 }}>Flag breakdown</div>
             <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
@@ -114,28 +132,124 @@ export default function BrandPage() {
 
         {/* Conversations list */}
         <div style={{ background: "#161b27", border: "1px solid #1e2535", borderRadius: 10, padding: 20 }}>
-          <div style={{ fontSize: 11, color: "#4a5568", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 14 }}>Top scored conversations</div>
-          {conversations.slice(0, 15).map(c => (
-            <div key={c.conversation_id} onClick={() => router.push(`/insights/${id}?conv=${c.conversation_id}`)}
-              style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "10px 12px", background: "#0f1117", borderRadius: 8, marginBottom: 6, cursor: "pointer", border: "1px solid #1a2030" }}
-              onMouseEnter={e => { e.currentTarget.style.borderColor = brandColor; e.currentTarget.style.background = "#1a1f35"; }}
-              onMouseLeave={e => { e.currentTarget.style.borderColor = "#1a2030"; e.currentTarget.style.background = "#0f1117"; }}>
-              <div style={{ flex: 1, minWidth: 0 }}>
-                <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
-                  <span style={{ fontSize: 11, color: "#4a5568", fontFamily: "monospace" }}>{c.conversation_id.slice(0, 16)}...</span>
-                  <Badge color="gray" text={`score ${c.score}`} />
-                  {c.flags?.frustration && <Badge color="red" text="frustration" />}
-                  {c.flags?.hallucination && <Badge color="purple" text="hallucination" />}
-                  {c.flags?.low_quality_response && <Badge color="amber" text="low quality" />}
-                  {c.flags?.irrelevant_product && <Badge color="amber" text="irrelevant product" />}
+          <div style={{ fontSize: 11, color: "#4a5568", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 14 }}>
+            Flagged conversations — click to expand full thread
+          </div>
+
+          {conversations.slice(0, 15).map(c => {
+            const isExpanded = expanded === c.conversation_id;
+            const thread = threadData[c.conversation_id];
+            const isLoading = loadingThread === c.conversation_id;
+
+            return (
+              <div key={c.conversation_id} style={{
+                background: "#0f1117",
+                borderRadius: 8,
+                marginBottom: 8,
+                border: `1px solid ${isExpanded ? brandColor : "#1a2030"}`,
+                overflow: "hidden",
+                transition: "border-color 0.15s",
+              }}>
+
+                {/* Row header */}
+                <div
+                  onClick={() => handleExpand(c.conversation_id)}
+                  style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "10px 12px", cursor: "pointer" }}
+                  onMouseEnter={e => { if (!isExpanded) e.currentTarget.style.background = "#1a1f35"; }}
+                  onMouseLeave={e => { if (!isExpanded) e.currentTarget.style.background = "transparent"; }}
+                >
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
+                      <span style={{ fontSize: 11, color: "#4a5568", fontFamily: "monospace" }}>{c.conversation_id.slice(0, 16)}...</span>
+                      <Badge color="gray" text={`score ${c.score}`} />
+                      {c.flags?.frustration && <Badge color="red" text="frustration" />}
+                      {c.flags?.hallucination && <Badge color="purple" text="hallucination" />}
+                      {c.flags?.low_quality_response && <Badge color="amber" text="low quality" />}
+                      {c.flags?.irrelevant_product && <Badge color="amber" text="irrelevant product" />}
+                    </div>
+                    <div style={{ fontSize: 11, color: "#4a5568", marginTop: 4, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", maxWidth: "90%" }}>
+                      {c.preview || "No preview available"}
+                    </div>
+                  </div>
+                  <span style={{ color: "#4a5568", fontSize: 13, marginLeft: 8, flexShrink: 0 }}>
+                    {isExpanded ? "▲ collapse" : "▼ view thread"}
+                  </span>
                 </div>
-                <div style={{ fontSize: 11, color: "#4a5568", marginTop: 4, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", maxWidth: "90%" }}>
-                  {c.preview || "No preview available"}
-                </div>
+
+                {/* Expanded full thread */}
+                {isExpanded && (
+                  <div style={{ borderTop: "1px solid #1e2535", padding: "16px 14px" }}>
+                    {isLoading ? (
+                      <div style={{ color: "#4a5568", fontSize: 12, textAlign: "center", padding: "16px 0" }}>Loading conversation...</div>
+                    ) : thread ? (
+                      <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+                        {thread.messages.map((msg: any, i: number) => {
+                          const isUser = msg.sender === "user";
+                          const hasFrust = msg.tags.includes("frustration");
+                          const hasHallu = msg.tags.includes("hallucination");
+                          const isTagged = hasFrust || hasHallu;
+
+                          // Color logic
+                          let bgColor = isUser ? "#1e2535" : "#1a1f3d";
+                          let borderColor = "#2d3748";
+                          if (hasFrust) { bgColor = "#3b1515"; borderColor = "#f87171"; }
+                          if (hasHallu) { bgColor = "#1e1040"; borderColor = "#c084fc"; }
+
+                          return (
+                            <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: isUser ? "flex-start" : "flex-end" }}>
+                              {/* Sender label */}
+                              <div style={{ fontSize: 10, color: "#4a5568", marginBottom: 3, textTransform: "uppercase", letterSpacing: "0.05em" }}>
+                                {isUser ? "Customer" : "Assistant"}
+                              </div>
+
+                              {/* Message bubble */}
+                              <div style={{
+                                background: bgColor,
+                                border: `1px solid ${borderColor}`,
+                                borderRadius: 8,
+                                padding: "9px 13px",
+                                maxWidth: "75%",
+                                fontSize: 12.5,
+                                color: "#a0aec0",
+                                lineHeight: 1.6,
+                                wordBreak: "break-word",
+                              }}>
+                                {msg.text || "(empty)"}
+                              </div>
+
+                              {/* Flag tags */}
+                              {isTagged && (
+                                <div style={{ display: "flex", flexDirection: "column", gap: 4, marginTop: 5, alignItems: isUser ? "flex-start" : "flex-end" }}>
+                                  <div style={{ display: "flex", gap: 5 }}>
+                                    {hasFrust && <Badge color="red" text="Frustration detected" />}
+                                    {hasHallu && <Badge color="purple" text="Possible hallucination" />}
+                                  </div>
+                                  {/* Why flagged explanation */}
+                                  {msg.why && (
+                                    <div style={{
+                                      fontSize: 10.5,
+                                      color: hasFrust ? "#f87171" : "#c084fc",
+                                      maxWidth: "75%",
+                                      fontStyle: "italic",
+                                      opacity: 0.8,
+                                    }}>
+                                      {msg.why}
+                                    </div>
+                                  )}
+                                </div>
+                              )}
+                            </div>
+                          );
+                        })}
+                      </div>
+                    ) : (
+                      <div style={{ color: "#4a5568", fontSize: 12 }}>Failed to load conversation.</div>
+                    )}
+                  </div>
+                )}
               </div>
-              <span style={{ color: "#4a5568", fontSize: 18, marginLeft: 8 }}>›</span>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </main>
     </div>

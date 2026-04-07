@@ -14,20 +14,6 @@
     }
   },
   {
-    "conversation_id": "69c5053706069052a32e9faa",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "score": 64.7,
-    "flags": {
-      "conversation_id": "69c5053706069052a32e9faa",
-      "widgetId": "680a0a8b70a26f7a0e24eedd",
-      "frustration": true,
-      "low_quality_response": false,
-      "hallucination": true,
-      "irrelevant_product": false,
-      "repetition_score": 0.4702
-    }
-  },
-  {
     "conversation_id": "69c4f8e516599deb6989affe",
     "widgetId": "680a0a8b70a26f7a0e24eedd",
     "score": 45,
@@ -207,6 +193,20 @@
       "hallucination": false,
       "irrelevant_product": false,
       "repetition_score": 0.8882
+    }
+  },
+  {
+    "conversation_id": "69c5053706069052a32e9faa",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 44.7,
+    "flags": {
+      "conversation_id": "69c5053706069052a32e9faa",
+      "widgetId": "680a0a8b70a26f7a0e24eedd",
+      "frustration": true,
+      "low_quality_response": false,
+      "hallucination": false,
+      "irrelevant_product": false,
+      "repetition_score": 0.4702
     }
   },
   {
