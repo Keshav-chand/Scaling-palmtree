@@ -1,6 +1,5 @@
 import axios from "axios";
-
-const BASE = "http://localhost:8000";
+const BASE = "https://scaling-palmtree.onrender.com";
 
 export const BRAND_NAMES: Record<string, string> = {
   "680a0a8b70a26f7a0e24eedd": "Blue Nectar — Wellness",
