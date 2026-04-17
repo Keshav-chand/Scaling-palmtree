@@ -35,12 +35,12 @@ export default function Home() {
     <div style={{ display: "flex", minHeight: "100vh" }}>
       <Sidebar active="overview" />
       <main style={{ flex: 1, padding: "28px 32px", overflowY: "auto" }}>
+
         <div style={{ marginBottom: 24 }}>
           <h1 style={{ fontSize: 20, fontWeight: 600, color: "#e2e8f0" }}>Brand performance overview</h1>
           <p style={{ fontSize: 12, color: "#4a5568", marginTop: 4 }}>3 brands · 298 conversations analysed · 45 insights generated</p>
         </div>
 
-        {/* Top metric cards */}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(4,1fr)", gap: 12, marginBottom: 24 }}>
           {[
             { label: "Total conversations", value: "298", color: "#818cf8" },
@@ -55,7 +55,6 @@ export default function Home() {
           ))}
         </div>
 
-        {/* Brand cards */}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 14, marginBottom: 24 }}>
           {brands.map(b => (
             <div key={b.widgetId} onClick={() => router.push(`/brand/${b.widgetId}`)}
@@ -81,7 +80,6 @@ export default function Home() {
           ))}
         </div>
 
-        {/* Comparison table */}
         <div style={{ background: "#161b27", border: "1px solid #1e2535", borderRadius: 10, padding: 20, marginBottom: 20 }}>
           <div style={{ fontSize: 11, color: "#4a5568", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 14 }}>Brand comparison</div>
           <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12.5 }}>
@@ -115,11 +113,11 @@ export default function Home() {
           </table>
         </div>
 
-        {/* Charts */}
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }}>
           <ChartCard title="Drop-off % by brand" data={dropOffData} />
           <ChartCard title="Frustration % by brand" data={frustrationData} />
         </div>
+
       </main>
     </div>
   );
@@ -164,13 +162,10 @@ export function Sidebar({ active }: { active: string }) {
   const router = useRouter();
   const items = [
     { key: "overview", label: "All brands", path: "/", dot: "#818cf8", section: "Overview" },
+   { key: "flagged", label: "Issues", path: "/flagged", dot: "#f87171", section: "Flagged Issues" },
     { key: "brand-a", label: "Blue Nectar — Wellness", path: "/brand/680a0a8b70a26f7a0e24eedd", dot: "#f87171", section: "Brands" },
     { key: "brand-b", label: "Blue Nectar — Skincare", path: "/brand/6983153e1497a62e8542a0ad", dot: "#fbbf24", section: null },
     { key: "brand-c", label: "Sri Sri Tattva", path: "/brand/69a92ad76dcbf2da868e0f9b", dot: "#34d399", section: null },
-    { key: "insights-a", label: "Blue Nectar — Wellness", path: "/insights/680a0a8b70a26f7a0e24eedd", dot: "#f87171", section: "Insights" },
-    { key: "insights-b", label: "Blue Nectar — Skincare", path: "/insights/6983153e1497a62e8542a0ad", dot: "#fbbf24", section: null },
-    { key: "insights-c", label: "Sri Sri Tattva", path: "/insights/69a92ad76dcbf2da868e0f9b", dot: "#34d399", section: null },
-    { key: "cross-brand", label: "Cross-brand finding", path: "/cross-brand", dot: "#f87171", section: "Findings" },
   ];
 
   return (

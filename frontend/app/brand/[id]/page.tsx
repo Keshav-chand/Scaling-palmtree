@@ -5,6 +5,24 @@ import { getMetrics, getConversations, getConversationDetail, BRAND_NAMES, BRAND
 import { Sidebar, Badge } from "@/app/page";
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from "recharts";
 
+const FLAG_COLORS: Record<string, string> = {
+  frustration: "#f87171",
+  hallucination: "#c084fc",
+  irrelevant_product: "#fbbf24",
+};
+
+const FLAG_BG: Record<string, string> = {
+  frustration: "#3b1515",
+  hallucination: "#1e1040",
+  irrelevant_product: "#2d2000",
+};
+
+const FLAG_LABELS: Record<string, string> = {
+  frustration: "Frustration",
+  hallucination: "Hallucination",
+  irrelevant_product: "Irrelevant Product",
+};
+
 export default function BrandPage() {
   const { id } = useParams() as { id: string };
   const [metrics, setMetrics] = useState<any>(null);
@@ -48,7 +66,6 @@ export default function BrandPage() {
     { name: "Frustration", value: metrics.frustration_count || 0, color: "#f87171" },
     { name: "Irrelevant product", value: metrics.irrelevant_product_count || 0, color: "#fbbf24" },
     { name: "Drop-offs", value: metrics.drop_offs || 0, color: "#818cf8" },
-    { name: "Low quality", value: metrics.low_quality_count || 0, color: "#4a5568" },
     { name: "Hallucination", value: metrics.hallucination_count || 0, color: "#c084fc" },
   ];
 
@@ -118,7 +135,7 @@ export default function BrandPage() {
                 const max = Math.max(...flagData.map(x => x.value)) || 1;
                 return (
                   <div key={f.name} style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 12 }}>
-                    <div style={{ width: 100, color: "#718096", fontSize: 11, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{f.name}</div>
+                    <div style={{ width: 100, color: "#718096", fontSize: 11 }}>{f.name}</div>
                     <div style={{ flex: 1, height: 8, background: "#1e2535", borderRadius: 4, overflow: "hidden" }}>
                       <div style={{ height: "100%", width: `${(f.value / max) * 100}%`, background: f.color, borderRadius: 4 }} />
                     </div>
@@ -133,7 +150,7 @@ export default function BrandPage() {
         {/* Conversations list */}
         <div style={{ background: "#161b27", border: "1px solid #1e2535", borderRadius: 10, padding: 20 }}>
           <div style={{ fontSize: 11, color: "#4a5568", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 14 }}>
-            Flagged conversations — click to expand full thread
+            Conversations — flagged sorted first · click to expand thread
           </div>
 
           {conversations.slice(0, 15).map(c => {
@@ -146,7 +163,7 @@ export default function BrandPage() {
                 background: "#0f1117",
                 borderRadius: 8,
                 marginBottom: 8,
-                border: `1px solid ${isExpanded ? brandColor : "#1a2030"}`,
+                border: `1px solid ${isExpanded ? brandColor : c.has_flags ? "#2d2535" : "#1a2030"}`,
                 overflow: "hidden",
                 transition: "border-color 0.15s",
               }}>
@@ -162,10 +179,10 @@ export default function BrandPage() {
                     <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
                       <span style={{ fontSize: 11, color: "#4a5568", fontFamily: "monospace" }}>{c.conversation_id.slice(0, 16)}...</span>
                       <Badge color="gray" text={`score ${c.score}`} />
-                      {c.flags?.frustration && <Badge color="red" text="frustration" />}
-                      {c.flags?.hallucination && <Badge color="purple" text="hallucination" />}
-                      {c.flags?.low_quality_response && <Badge color="amber" text="low quality" />}
-                      {c.flags?.irrelevant_product && <Badge color="amber" text="irrelevant product" />}
+                      {c.flag_types?.includes("frustration") && <Badge color="red" text="frustration" />}
+                      {c.flag_types?.includes("hallucination") && <Badge color="purple" text="hallucination" />}
+                      {c.flag_types?.includes("irrelevant_product") && <Badge color="amber" text="irrelevant product" />}
+                      {!c.has_flags && <span style={{ fontSize: 10, color: "#4a5568", fontStyle: "italic" }}>no issues</span>}
                     </div>
                     <div style={{ fontSize: 11, color: "#4a5568", marginTop: 4, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", maxWidth: "90%" }}>
                       {c.preview || "No preview available"}
@@ -176,72 +193,81 @@ export default function BrandPage() {
                   </span>
                 </div>
 
-                {/* Expanded full thread */}
+                {/* Expanded thread */}
                 {isExpanded && (
                   <div style={{ borderTop: "1px solid #1e2535", padding: "16px 14px" }}>
                     {isLoading ? (
                       <div style={{ color: "#4a5568", fontSize: 12, textAlign: "center", padding: "16px 0" }}>Loading conversation...</div>
                     ) : thread ? (
-                      <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-                        {thread.messages.map((msg: any, i: number) => {
-                          const isUser = msg.sender === "user";
-                          const hasFrust = msg.tags.includes("frustration");
-                          const hasHallu = msg.tags.includes("hallucination");
-                          const isTagged = hasFrust || hasHallu;
+                      <>
+                        {/* No issues state */}
+                        {thread.flags.length === 0 && (
+                          <div style={{ fontSize: 11, color: "#34d399", marginBottom: 12, padding: "6px 10px", background: "#0d2018", borderRadius: 6, border: "1px solid #1a3a28", display: "inline-block" }}>
+                            ✓ No issues detected in this conversation
+                          </div>
+                        )}
 
-                          // Color logic
-                          let bgColor = isUser ? "#1e2535" : "#1a1f3d";
-                          let borderColor = "#2d3748";
-                          if (hasFrust) { bgColor = "#3b1515"; borderColor = "#f87171"; }
-                          if (hasHallu) { bgColor = "#1e1040"; borderColor = "#c084fc"; }
+                        <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+                          {thread.messages.map((msg: any) => {
+                            const isUser = msg.sender === "user";
+                            const flag = msg.flag;
+                            const flagType = flag?.type;
 
-                          return (
-                            <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: isUser ? "flex-start" : "flex-end" }}>
-                              {/* Sender label */}
-                              <div style={{ fontSize: 10, color: "#4a5568", marginBottom: 3, textTransform: "uppercase", letterSpacing: "0.05em" }}>
-                                {isUser ? "Customer" : "Assistant"}
-                              </div>
+                            const bgColor = flagType ? FLAG_BG[flagType] : (isUser ? "#1e2535" : "#1a1f3d");
+                            const borderColor = flagType ? FLAG_COLORS[flagType] : "#2d3748";
 
-                              {/* Message bubble */}
-                              <div style={{
-                                background: bgColor,
-                                border: `1px solid ${borderColor}`,
-                                borderRadius: 8,
-                                padding: "9px 13px",
-                                maxWidth: "75%",
-                                fontSize: 12.5,
-                                color: "#a0aec0",
-                                lineHeight: 1.6,
-                                wordBreak: "break-word",
-                              }}>
-                                {msg.text || "(empty)"}
-                              </div>
+                            return (
+                              <div key={msg.message_id} style={{ display: "flex", flexDirection: "column", alignItems: isUser ? "flex-start" : "flex-end" }}>
+                                <div style={{ fontSize: 10, color: "#4a5568", marginBottom: 3, textTransform: "uppercase", letterSpacing: "0.05em" }}>
+                                  {isUser ? "Customer" : "Assistant"}
+                                </div>
 
-                              {/* Flag tags */}
-                              {isTagged && (
-                                <div style={{ display: "flex", flexDirection: "column", gap: 4, marginTop: 5, alignItems: isUser ? "flex-start" : "flex-end" }}>
-                                  <div style={{ display: "flex", gap: 5 }}>
-                                    {hasFrust && <Badge color="red" text="Frustration detected" />}
-                                    {hasHallu && <Badge color="purple" text="Possible hallucination" />}
-                                  </div>
-                                  {/* Why flagged explanation */}
-                                  {msg.why && (
+                                <div style={{
+                                  background: bgColor,
+                                  border: `1px solid ${borderColor}`,
+                                  borderRadius: 8,
+                                  padding: "9px 13px",
+                                  maxWidth: "75%",
+                                  fontSize: 12.5,
+                                  color: "#a0aec0",
+                                  lineHeight: 1.6,
+                                  wordBreak: "break-word",
+                                }}>
+                                  {msg.text || "(empty)"}
+                                </div>
+
+                                {/* Flag label + reason */}
+                                {flag && (
+                                  <div style={{ marginTop: 5, alignItems: isUser ? "flex-start" : "flex-end", display: "flex", flexDirection: "column", gap: 3 }}>
+                                    <span style={{
+                                      fontSize: 10,
+                                      fontWeight: 600,
+                                      color: FLAG_COLORS[flagType],
+                                      background: FLAG_BG[flagType],
+                                      border: `1px solid ${FLAG_COLORS[flagType]}`,
+                                      padding: "2px 8px",
+                                      borderRadius: 4,
+                                      letterSpacing: "0.04em",
+                                      textTransform: "uppercase",
+                                    }}>
+                                      {FLAG_LABELS[flagType]}
+                                    </span>
                                     <div style={{
                                       fontSize: 10.5,
-                                      color: hasFrust ? "#f87171" : "#c084fc",
+                                      color: FLAG_COLORS[flagType],
                                       maxWidth: "75%",
                                       fontStyle: "italic",
-                                      opacity: 0.8,
+                                      opacity: 0.85,
                                     }}>
-                                      {msg.why}
+                                      {flag.reason}
                                     </div>
-                                  )}
-                                </div>
-                              )}
-                            </div>
-                          );
-                        })}
-                      </div>
+                                  </div>
+                                )}
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </>
                     ) : (
                       <div style={{ color: "#4a5568", fontSize: 12 }}>Failed to load conversation.</div>
                     )}

@@ -20,3 +20,4 @@ export const getConversations = (id: string) => axios.get(`${BASE}/conversations
 export const getConversationDetail = (id: string) => axios.get(`${BASE}/conversation/${id}`).then(r => r.data);
 export const getInsights = (id: string) => axios.get(`${BASE}/insights/${id}`).then(r => r.data);
 export const getCrossBrand = () => axios.get(`${BASE}/cross-brand`).then(r => r.data);
+export const getFlagged = () => axios.get(`${BASE}/flagged`).then(r => r.data);
