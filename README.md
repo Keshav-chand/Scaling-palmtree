@@ -1,78 +1,101 @@
-# Helio Analysis — AI Assistant Conversation Intelligence
+# Helio Analysis — AI Conversation Intelligence
 
- ### Automated system to analyse e-commerce AI assistant conversations, surface actionable insights, and compare performance across brands.
+Automated system to analyse e-commerce AI assistant conversations, surface actionable insights, and flag real problems across brands.
 
-<img width="1919" height="872" alt="image" src="https://github.com/user-attachments/assets/6dcba593-c3b5-4652-a851-9442b79fb5fd" />
-
+<img width="1918" height="917" alt="image" src="https://github.com/user-attachments/assets/9a0dee1c-f9e7-4c31-b8ee-017e0342cbc1" />
 
 
 ---
 
-## What This Is
+## Live Demo
 
-Helio's team manually reviews conversations every week to find issues with their AI assistants. This doesn't scale.
+**Frontend:** https://scaling-palmtree.vercel.app  
 
-This system automates that process end-to-end:
+---
+
+## What This Does
+
+Helio's team manually reviewed conversations every week to find issues with their AI assistants. This doesn't scale.
+
+This system automates that end-to-end:
 
 1. Ingests raw MongoDB conversation data
-2. Computes quality signals per conversation (frustration, drop-off, hallucination, irrelevant products)
-3. Ranks conversations by severity score
-4. Uses an LLM to analyse the top 15 worst conversations per brand
+2. Uses an LLM to read every conversation in full context before deciding anything
+3. Flags specific messages — not whole conversations — with precise one-line reasons
+4. Ranks flagged conversations by severity
 5. Serves everything via a FastAPI backend
-6. Displays insights in a clean Next.js dashboard
+6. Displays a clean Next.js dashboard where reviewers see exactly what went wrong in under 3 seconds
 
 ---
 
 ## What the Data Showed
 
-**3 brands analysed · 298 conversations · 1,525 messages · 45 LLM-generated insights**
+**3 brands · 298 conversations · 18 flagged with confirmed issues**
 
-### Blue Nectar Wellness (`680a0a8b`)
-- **13.3% drop-off rate** highest across all brands
-- **20 irrelevant product flags**  users viewed products but never clicked, suggesting the assistant recommends wrong items
-- Avg conversation duration: 4,298 seconds  users spend a long time before giving up
-- Top issue: assistant repeatedly asks for order details the customer already provided
+| Brand | Frustration | Drop-off | Top Issue |
+|---|---|---|---|
+| Blue Nectar — Wellness | 6.1% | 13.3% | Wrong category recommendations when intent is unclear |
+| Blue Nectar — Skincare | 3% | 6% | Generic responses without tailoring to specific queries |
+| Sri Sri Tattva | 4% | 12% | Deflects order queries to account login instead of resolving |
 
-### Blue Nectar Skincare (`6983153e`)
-- **11% frustration rate**  highest across all brands
-- Only 3.3 avg messages per conversation  users leave very quickly
-- Recurring pattern: assistant gives the same response twice without detecting repetition
-- Top issue: no context retention between turns, leading to copy-paste replies
 
-### Sri Sri Tattva (`69a92ad7`)
-- **Best performing brand**  2% frustration, zero hallucination flags
-- Avg conversation resolves in 779 seconds  5x faster than Blue Nectar Wellness
-- 12% drop-off still present  driven mostly by low quality short responses
-- Top issue: assistant gives generic answers without tailoring to product-specific queries
+<img width="1918" height="917" alt="image" src="https://github.com/user-attachments/assets/2fee744e-e4dc-474e-a995-e8439956b769" />
 
-### Cross-brand finding (not asked, discovered independently)
-Conversations starting with "I am confused between" consistently score higher on frustration. These users need comparison help  the assistant treats them as standard product queries instead of guiding them through a decision.
+
+<img width="1919" height="925" alt="image" src="https://github.com/user-attachments/assets/2afff7f3-271e-426b-90de-80c26285b297" />
+
+
+<img width="1645" height="758" alt="image" src="https://github.com/user-attachments/assets/217533d0-229e-4deb-9f81-a2f3ad9b2b93" />
+
+
 
 ---
 
 ## Architecture
-### Pipeline runs once → results cached → API serves instantly
+
 ```
 MongoDB
-  ↓
-pipeline/ingest.py      — fetch raw data
-pipeline/clean.py       — separate text vs event messages, group by brand
-analysis/features.py    — per-conversation metrics (duration, drop-off, message count)
-analysis/repetition.py  — sentence-transformer embeddings, cosine similarity
-analysis/flags.py       — frustration, hallucination, low quality, irrelevant product
-analysis/scoring.py     — weighted score per conversation
-analysis/aggregation.py — brand-level rollups
-llm/intent.py           — Groq LLaMA 8b: classify first user message
-llm/insights.py         — Groq LLaMA 8b: analyse top 15 per brand
-  ↓
+↓
+pipeline/ingest.py              — fetch raw conversation + message data
+pipeline/clean.py               — group messages by conversation, filter noise
+analysis/feature.py             — per-conversation metrics (duration, drop-off, message count)
+llm/conversation_analyzer.py   — LLM reads full conversation, flags specific messages
+analysis/scoring.py             — score each conversation from flag count and type
+analysis/aggregation.py         — brand-level rollups
+llm/intent.py                   — classify first user message intent
+llm/insights.py                 — LLM analysis of top 15 worst conversations per brand
+↓
 data/ (cached JSON)
-  ↓
-FastAPI (4 endpoints)
-  ↓
+↓
+FastAPI (6 endpoints)
+↓
 Next.js dashboard
 ```
 
-All pipeline outputs are cached. The API never recomputes it only reads from `data/`.
+Pipeline outputs are cached. The API never recomputes — it only reads from `data/`.
+
+---
+
+## The Flagging System
+
+### Old approach (removed)
+Keyword lists — flagged 80%+ of conversations. Produced noise, not signal.
+
+### New approach
+LLM reads the **full conversation** before deciding anything. Never analyzes messages in isolation.
+
+| Type | Applied to | When |
+|---|---|---|
+| `frustration` | User messages only | User explicitly angry, repeats same request with no resolution, or gives up |
+| `hallucination` | Assistant messages only | Assistant states something factually wrong that user explicitly corrects |
+| `irrelevant_product` | Assistant messages only | Hard mismatch — user asked for product type A, assistant recommended type B |
+
+Each flag contains:
+- `message_id` — exact index of the flagged message
+- `type` — frustration / hallucination / irrelevant_product
+- `reason` — one line, specific to that conversation
+
+**Result:** 18 flagged out of 298 (~6%) — only real problems surface.
 
 ---
 
@@ -82,46 +105,49 @@ All pipeline outputs are cached. The API never recomputes it only reads from `da
 |---|---|
 | Database | MongoDB |
 | Backend | FastAPI + Python |
-| NLP | sentence-transformers (all-MiniLM-L6-v2) |
-| LLM | Groq API — LLaMA 3.1 8b Instant |
-| Frontend | Next.js 15 (App Router) + TypeScript |
+| LLM (flagging) | Groq API — LLaMA 3.3 70b Versatile |
+| LLM (insights) | Groq API — LLaMA 3.1 8b Instant |
+| Frontend | Next.js 15 + TypeScript |
 | Charts | Recharts |
-| Styling | Tailwind + inline styles |
 
 ---
 
 ## API Endpoints
 
 ```
+GET /health                  — health check
 GET /brands                  — all brands with key metrics
-GET /metrics/{brand}         — deep metrics + intent distribution for one brand
-GET /conversations/{brand}   — top 50 scored conversations with flags and preview
-GET /insights/{brand}        — LLM analysis for top 15 worst conversations
+GET /metrics/{brand}         — deep metrics + intent distribution
+GET /conversations/{brand}   — flagged conversations first, then clean
+GET /conversation/{id}       — full thread with flags mapped to exact message_ids
+GET /flagged                 — all flagged conversations sorted by severity
 ```
+
+---
+
+## Dashboard Pages
+
+| Page | Purpose |
+|---|---|
+| Overview | Brand performance summary — metrics, comparison table, charts |
+| Issues | All flagged conversations — click to expand thread with highlighted messages |
+| Brand detail | Per-brand deep dive — intent distribution, flag breakdown, conversation list |
 
 ---
 
 ## Setup
 
-### Prerequisites
-- Python 3.10+
-- Node.js 18+
-- MongoDB running locally
-- Groq API key (free at console.groq.com)
-
 ### 1. Import data
-
 ```bash
 mongoimport --db helio_intern --collection conversations --file conversations.json --jsonArray
 mongoimport --db helio_intern --collection messages --file messages.json --jsonArray
 ```
 
 ### 2. Backend
-
 ```bash
 cd backend
 python -m venv venv
-venv\Scripts\activate        # Windows
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -132,75 +158,33 @@ DB_NAME=helio_intern
 GROQ_API_KEY=gsk_...
 ```
 
-Run pipeline (once):
 ```bash
 python run_pipeline.py
-```
-
-Start API:
-```bash
 uvicorn main:app --reload
 ```
 
 ### 3. Frontend
-
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
 
-Open `http://localhost:3000`
-
 ---
-
-## Project Structure
-
-```
-helio-analysis/
-├── backend/
-│   ├── data/                  # cached pipeline outputs (gitignored)
-│   ├── db/mongo.py
-│   ├── pipeline/              # ingest, clean, build_dataset
-│   ├── analysis/              # features, repetition, flags, scoring, aggregation
-│   ├── llm/                   # intent, insights, prompts
-│   ├── api/                   # FastAPI routes and schemas
-│   ├── config.py
-│   ├── run_pipeline.py
-│   └── main.py
-└── frontend/
-    ├── app/
-    │   ├── page.tsx            # overview — all brands
-    │   ├── brand/[id]/         # brand detail — charts and conversations
-    │   └── insights/[id]/      # top 15 LLM insights per brand
-    └── lib/api.ts              # API client
-```
-
----
-
-## Screenshots
-### Overview → Brand deep dive → LLM insights
-
-<img width="1919" height="872" alt="image" src="https://github.com/user-attachments/assets/44577c40-58d7-4e00-878b-6054f9916d92" />
-
-
-<img width="1919" height="879" alt="image" src="https://github.com/user-attachments/assets/57a118cc-8e81-47ba-9e99-62939d28c465" />
-
-
-<img width="1918" height="866" alt="image" src="https://github.com/user-attachments/assets/88efeaef-8a88-4324-aa06-7a84cb29664b" />
-
-
-<img width="1915" height="866" alt="image" src="https://github.com/user-attachments/assets/8abf1dc0-5572-4e58-ac0b-c064da8def37" />
-
-
-
 
 ## Key Design Decisions
 
-**Why not just paste conversations into ChatGPT?** That's a one-time manual analysis. It doesn't scale, can't compare brands, and produces no structured output. This system runs on any new data automatically.
+**Why LLM flagging instead of keywords?**  
+Keywords flagged 80%+ of conversations. The LLM reads full context, dropping flag rate to ~6% — only genuine problems.
 
-**Why top 15 per brand, not global top 45?** Picking globally could give 40 results from one brand and 0 from another. Per-brand selection ensures every assistant gets equal analysis regardless of conversation volume.
+**Why LLaMA 3.3 70b for flagging?**  
+The 8b model couldn't reliably follow nuanced instructions. The 70b model understands the distinction correctly.
 
-**Why cache everything?** The pipeline runs once. The API just reads JSON. Response times stay under 50ms regardless of dataset size.
+**Why message-level flags?**  
+Conversation-level flags tell a reviewer "something went wrong". Message-level flags tell them exactly where and why.
 
-**Why LLaMA 8b instead of a larger model?** For 5-message e-commerce conversations, 8b is more than sufficient and fits comfortably within Groq's free tier (500k tokens/day vs 100k for 70b).
+**Why cache everything?**  
+Pipeline runs once. API reads JSON. Response times under 50ms.
+
+---
+
