@@ -1,190 +1,93 @@
-# Helio Analysis — AI Conversation Intelligence
+# AI Assistant Chat Audit — Message Flagging System
 
-Automated system to analyse e-commerce AI assistant conversations, surface actionable insights, and flag real problems across brands.
-
-<img width="1918" height="917" alt="image" src="https://github.com/user-attachments/assets/9a0dee1c-f9e7-4c31-b8ee-017e0342cbc1" />
-
-
----
+<img width="1913" height="868" alt="image" src="https://github.com/user-attachments/assets/9fcd6403-78fc-4ca4-865b-7511b47d6fc5" />
 
 ## Live Demo
 
-**Frontend:** https://scaling-palmtree.vercel.app  
-
----
+Frontend: https://scaling-palmtree.vercel.app 
 
 ## What This Does
 
-Helio's team manually reviewed conversations every week to find issues with their AI assistants. This doesn't scale.
+Automatically reads e-commerce AI assistant conversations and flags specific messages that need attention. Built for HelioAI to replace manual weekly conversation review.
 
-This system automates that end-to-end:
+For each flagged exchange, the system produces:
+- The conversation context
+- The flagged message
+- A flag label (e.g. CONTEXT_IGNORED, UNANSWERED_QUESTION)
+- A specific explanation of what went wrong
 
-1. Ingests raw MongoDB conversation data
-2. Uses an LLM to read every conversation in full context before deciding anything
-3. Flags specific messages — not whole conversations — with precise one-line reasons
-4. Ranks flagged conversations by severity
-5. Serves everything via a FastAPI backend
-6. Displays a clean Next.js dashboard where reviewers see exactly what went wrong in under 3 seconds
-
----
-
-## What the Data Showed
-
-**3 brands · 298 conversations · 18 flagged with confirmed issues**
-
-| Brand | Frustration | Drop-off | Top Issue |
-|---|---|---|---|
-| Blue Nectar — Wellness | 6.1% | 13.3% | Wrong category recommendations when intent is unclear |
-| Blue Nectar — Skincare | 3% | 6% | Generic responses without tailoring to specific queries |
-| Sri Sri Tattva | 4% | 12% | Deflects order queries to account login instead of resolving |
-
-
-<img width="1918" height="917" alt="image" src="https://github.com/user-attachments/assets/2fee744e-e4dc-474e-a995-e8439956b769" />
-
-
-<img width="1919" height="925" alt="image" src="https://github.com/user-attachments/assets/2afff7f3-271e-426b-90de-80c26285b297" />
-
-
-<img width="1645" height="758" alt="image" src="https://github.com/user-attachments/assets/217533d0-229e-4deb-9f81-a2f3ad9b2b93" />
+<img width="1918" height="877" alt="image" src="https://github.com/user-attachments/assets/f6e4e657-f6b3-40f9-8bf6-ed4c33612877" />
+<img width="1606" height="606" alt="image" src="https://github.com/user-attachments/assets/b551cb79-c8c0-436a-8c94-046186fdc09b" />
+<img width="1667" height="805" alt="image" src="https://github.com/user-attachments/assets/82c252f3-bec0-45a4-80cd-c8ee44bfba21" />
+<img width="1635" height="652" alt="image" src="https://github.com/user-attachments/assets/2b4bae9d-e801-4d17-a65a-5fcad4ddbbad" />
 
 
 
----
+
+
+
+## Brands Analyzed
+
+| Brand | Widget ID | Conversations |
+|---|---|---|
+| Blue Tea | 680a0a8b... | 198 |
+| Blue Nectar — Skincare | 6983153e... | 199 |
+| Sri Sri Tattva | 69a92ad7... | 200 |
+
+## Flag Types
+
+| Flag | Target | Description |
+|---|---|---|
+| `frustration` | User messages | User expresses anger or repeats question with no resolution |
+| `hallucination` | Assistant messages | Assistant answers about wrong product or states incorrect fact |
+| `irrelevant_product` | Assistant messages | Assistant recommends product from different brand or domain |
+| `unanswered_question` | Assistant messages | Assistant completely ignores user's direct question |
+| `context_ignored` | Assistant messages | Assistant repeats same response after user provides new information |
 
 ## Architecture
-
-```
-MongoDB
+conversations.json + messages.json (v1 March 2026)
+conversations_v2.json + messages_v2.json (v2 April 2026)
 ↓
-pipeline/ingest.py              — fetch raw conversation + message data
-pipeline/clean.py               — group messages by conversation, filter noise
-analysis/feature.py             — per-conversation metrics (duration, drop-off, message count)
-llm/conversation_analyzer.py   — LLM reads full conversation, flags specific messages
-analysis/scoring.py             — score each conversation from flag count and type
-analysis/aggregation.py         — brand-level rollups
-llm/intent.py                   — classify first user message intent
-llm/insights.py                 — LLM analysis of top 15 worst conversations per brand
+pipeline/ingest.py       — loads and merges both datasets
+pipeline/clean.py        — groups by conversation, extracts page context from slugs and events
 ↓
-data/ (cached JSON)
+llm/conversation_analyzer.py  — LLaMA 3.3 70B via Groq, analyzes each conversation
+analysis/aggregation.py       — computes brand-level metrics
+analysis/scoring.py           — ranks conversations by severity
 ↓
-FastAPI (6 endpoints)
-↓
-Next.js dashboard
-```
-
-Pipeline outputs are cached. The API never recomputes — it only reads from `data/`.
-
----
-
-## The Flagging System
-
-### Old approach (removed)
-Keyword lists — flagged 80%+ of conversations. Produced noise, not signal.
-
-### New approach
-LLM reads the **full conversation** before deciding anything. Never analyzes messages in isolation.
-
-| Type | Applied to | When |
-|---|---|---|
-| `frustration` | User messages only | User explicitly angry, repeats same request with no resolution, or gives up |
-| `hallucination` | Assistant messages only | Assistant states something factually wrong that user explicitly corrects |
-| `irrelevant_product` | Assistant messages only | Hard mismatch — user asked for product type A, assistant recommended type B |
-
-Each flag contains:
-- `message_id` — exact index of the flagged message
-- `type` — frustration / hallucination / irrelevant_product
-- `reason` — one line, specific to that conversation
-
-**Result:** 18 flagged out of 298 (~6%) — only real problems surface.
-
----
-
-## Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Database | MongoDB |
-| Backend | FastAPI + Python |
-| LLM (flagging) | Groq API — LLaMA 3.3 70b Versatile |
-| LLM (insights) | Groq API — LLaMA 3.1 8b Instant |
-| Frontend | Next.js 15 + TypeScript |
-| Charts | Recharts |
-
----
-
-## API Endpoints
-
-```
-GET /health                  — health check
-GET /brands                  — all brands with key metrics
-GET /metrics/{brand}         — deep metrics + intent distribution
-GET /conversations/{brand}   — flagged conversations first, then clean
-GET /conversation/{id}       — full thread with flags mapped to exact message_ids
-GET /flagged                 — all flagged conversations sorted by severity
-```
-
----
-
-## Dashboard Pages
-
-| Page | Purpose |
-|---|---|
-| Overview | Brand performance summary — metrics, comparison table, charts |
-| Issues | All flagged conversations — click to expand thread with highlighted messages |
-| Brand detail | Per-brand deep dive — intent distribution, flag breakdown, conversation list |
-
----
-
-## Setup
-
-### 1. Import data
-```bash
-mongoimport --db helio_intern --collection conversations --file conversations.json --jsonArray
-mongoimport --db helio_intern --collection messages --file messages.json --jsonArray
-```
-
-### 2. Backend
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
-Create `.env`:
-```
-MONGODB_URI=mongodb://localhost:27017
-DB_NAME=helio_intern
-GROQ_API_KEY=gsk_...
-```
-
-```bash
-python run_pipeline.py
-uvicorn main:app --reload
-```
-
-### 3. Frontend
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
----
+api/routes.py            — FastAPI backend serving flagged data
+frontend/                — Next.js dashboard
+utils/formatter.py       — generates plain text audit_report.txt
 
 ## Key Design Decisions
 
-**Why LLM flagging instead of keywords?**  
-Keywords flagged 80%+ of conversations. The LLM reads full context, dropping flag rate to ~6% — only genuine problems.
+**Page context extraction** — user messages often contain the product slug they were browsing appended at the end (e.g. `"How do I use this? kumkumadi-face-oil-serum"`). The system extracts these slugs and passes them to the LLM so it knows what page the user was on when they typed their question.
 
-**Why LLaMA 3.3 70b for flagging?**  
-The 8b model couldn't reliably follow nuanced instructions. The 70b model understands the distinction correctly.
+**Event interleaving** — click and navigation events are merged into the conversation timeline chronologically so the LLM sees the full picture of what the user was doing between messages.
 
-**Why message-level flags?**  
-Conversation-level flags tell a reviewer "something went wrong". Message-level flags tell them exactly where and why.
+**Precision over recall** — the system targets ~10-15% flag rate. A false positive is treated as seriously as a miss. The LLM is instructed to only flag when there is clear or strongly likely evidence of a problem.
 
-**Why cache everything?**  
-Pipeline runs once. API reads JSON. Response times under 50ms.
+**Resume capability** — `llm_flags.json` is saved after every conversation. If the pipeline crashes or hits API rate limits, it resumes from the exact conversation it stopped at.
 
----
+## Data Notes
 
+v1 data (March 2026) has limited page context as the widget was not consistently passing product slugs at that time. v2 data (April 2026) has richer context and produces more accurate flagging. Both datasets are processed and included in the final analysis.
+
+## Running Locally
+
+```bash
+# Backend
+cd backend
+python -m pipeline.built_dataset   # builds processed_data.json
+python -m run_pipeline              # runs LLM analysis and scoring
+
+# Start backend server
+uvicorn main:app --reload
+
+# Frontend
+cd frontend
+npm run dev
+```
+
+## Environment Variables
+GROQ_API_KEY=your_key_here
