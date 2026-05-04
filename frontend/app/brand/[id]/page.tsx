@@ -9,18 +9,24 @@ const FLAG_COLORS: Record<string, string> = {
   frustration: "#f87171",
   hallucination: "#c084fc",
   irrelevant_product: "#fbbf24",
+  unanswered_question: "#38bdf8",
+  context_ignored: "#fb923c",
 };
 
 const FLAG_BG: Record<string, string> = {
   frustration: "#3b1515",
   hallucination: "#1e1040",
   irrelevant_product: "#2d2000",
+  unanswered_question: "#0c1f2d",
+  context_ignored: "#2d1500",
 };
 
 const FLAG_LABELS: Record<string, string> = {
   frustration: "Frustration",
   hallucination: "Hallucination",
   irrelevant_product: "Irrelevant Product",
+  unanswered_question: "Unanswered Question",
+  context_ignored: "Context Ignored",
 };
 
 export default function BrandPage() {
@@ -64,9 +70,11 @@ export default function BrandPage() {
   const INTENT_COLORS = ["#818cf8", "#34d399", "#fbbf24", "#f87171", "#c084fc"];
   const flagData = [
     { name: "Frustration", value: metrics.frustration_count || 0, color: "#f87171" },
-    { name: "Irrelevant product", value: metrics.irrelevant_product_count || 0, color: "#fbbf24" },
-    { name: "Drop-offs", value: metrics.drop_offs || 0, color: "#818cf8" },
     { name: "Hallucination", value: metrics.hallucination_count || 0, color: "#c084fc" },
+    { name: "Irrelevant Product", value: metrics.irrelevant_product_count || 0, color: "#fbbf24" },
+    { name: "Unanswered Q", value: metrics.unanswered_question_count || 0, color: "#38bdf8" },
+    { name: "Context Ignored", value: metrics.context_ignored_count || 0, color: "#fb923c" },
+    { name: "Drop-offs", value: metrics.drop_offs || 0, color: "#818cf8" },
   ];
 
   return (
@@ -95,7 +103,7 @@ export default function BrandPage() {
             { label: "Total conversations", value: metrics.total_conversations, color: "#818cf8" },
             { label: "Drop-off rate", value: `${metrics.drop_off_pct}%`, color: metrics.drop_off_pct > 10 ? "#fbbf24" : "#34d399" },
             { label: "Frustration rate", value: `${metrics.frustration_pct}%`, color: metrics.frustration_pct > 8 ? "#f87171" : "#fbbf24" },
-            { label: "Irrelevant products", value: metrics.irrelevant_product_count, color: metrics.irrelevant_product_count > 10 ? "#f87171" : "#fbbf24" },
+            { label: "Context ignored", value: `${metrics.context_ignored_pct || 0}%`, color: (metrics.context_ignored_pct || 0) > 8 ? "#fb923c" : "#fbbf24" },
           ].map(m => (
             <div key={m.label} style={{ background: "#161b27", border: "1px solid #1e2535", borderRadius: 10, padding: "14px 16px" }}>
               <div style={{ fontSize: 11, color: "#4a5568", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 8 }}>{m.label}</div>
@@ -135,7 +143,7 @@ export default function BrandPage() {
                 const max = Math.max(...flagData.map(x => x.value)) || 1;
                 return (
                   <div key={f.name} style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 12 }}>
-                    <div style={{ width: 100, color: "#718096", fontSize: 11 }}>{f.name}</div>
+                    <div style={{ width: 110, color: "#718096", fontSize: 11 }}>{f.name}</div>
                     <div style={{ flex: 1, height: 8, background: "#1e2535", borderRadius: 4, overflow: "hidden" }}>
                       <div style={{ height: "100%", width: `${(f.value / max) * 100}%`, background: f.color, borderRadius: 4 }} />
                     </div>
@@ -182,6 +190,8 @@ export default function BrandPage() {
                       {c.flag_types?.includes("frustration") && <Badge color="red" text="frustration" />}
                       {c.flag_types?.includes("hallucination") && <Badge color="purple" text="hallucination" />}
                       {c.flag_types?.includes("irrelevant_product") && <Badge color="amber" text="irrelevant product" />}
+                      {c.flag_types?.includes("unanswered_question") && <Badge color="blue" text="unanswered question" />}
+                      {c.flag_types?.includes("context_ignored") && <Badge color="orange" text="context ignored" />}
                       {!c.has_flags && <span style={{ fontSize: 10, color: "#4a5568", fontStyle: "italic" }}>no issues</span>}
                     </div>
                     <div style={{ fontSize: 11, color: "#4a5568", marginTop: 4, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", maxWidth: "90%" }}>
@@ -200,65 +210,83 @@ export default function BrandPage() {
                       <div style={{ color: "#4a5568", fontSize: 12, textAlign: "center", padding: "16px 0" }}>Loading conversation...</div>
                     ) : thread ? (
                       <>
-                        {/* No issues state */}
                         {thread.flags.length === 0 && (
                           <div style={{ fontSize: 11, color: "#34d399", marginBottom: 12, padding: "6px 10px", background: "#0d2018", borderRadius: 6, border: "1px solid #1a3a28", display: "inline-block" }}>
                             ✓ No issues detected in this conversation
                           </div>
                         )}
 
-                        <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-                          {thread.messages.map((msg: any) => {
+                        {/* Page context strip */}
+                        {thread.page_context?.length > 0 && (
+                          <div style={{ marginBottom: 12, padding: "8px 10px", background: "#0f1a2d", borderRadius: 6, border: "1px solid #1e3a5f" }}>
+                            <div style={{ fontSize: 10, color: "#4a5568", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 6 }}>Pages viewed in this conversation</div>
+                            <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+                              {thread.page_context.map((p: any, i: number) => (
+                                <span key={i} style={{
+                                  fontSize: 10.5, color: "#38bdf8",
+                                  background: "#0c1f2d", border: "1px solid #1e3a5f",
+                                  borderRadius: 4, padding: "2px 7px",
+                                }}>
+                                  {p.label} <span style={{ color: "#4a5568" }}>({p.source})</span>
+                                </span>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+
+                        <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+                          {thread.messages.map((msg: any, idx: number) => {
+
+                            // ── EVENT ROW ──
+                            if (msg.kind === "event" || msg.sender === "event") {
+                              return (
+                                <div key={idx} style={{
+                                  display: "flex", alignItems: "center", gap: 6,
+                                  padding: "3px 10px", fontSize: 11,
+                                  color: "#4a5568", fontStyle: "italic",
+                                  borderLeft: "2px solid #1f2937",
+                                }}>
+                                  <span style={{ color: "#374151", fontSize: 10 }}>⬡</span>
+                                  <span>[event] {msg.text}</span>
+                                </div>
+                              );
+                            }
+
+                            // ── MESSAGE ROW ──
                             const isUser = msg.sender === "user";
                             const flag = msg.flag;
                             const flagType = flag?.type;
-
                             const bgColor = flagType ? FLAG_BG[flagType] : (isUser ? "#1e2535" : "#1a1f3d");
                             const borderColor = flagType ? FLAG_COLORS[flagType] : "#2d3748";
 
                             return (
-                              <div key={msg.message_id} style={{ display: "flex", flexDirection: "column", alignItems: isUser ? "flex-start" : "flex-end" }}>
+                              <div key={idx} style={{ display: "flex", flexDirection: "column", alignItems: isUser ? "flex-start" : "flex-end" }}>
                                 <div style={{ fontSize: 10, color: "#4a5568", marginBottom: 3, textTransform: "uppercase", letterSpacing: "0.05em" }}>
                                   {isUser ? "Customer" : "Assistant"}
                                 </div>
-
                                 <div style={{
                                   background: bgColor,
                                   border: `1px solid ${borderColor}`,
-                                  borderRadius: 8,
-                                  padding: "9px 13px",
-                                  maxWidth: "75%",
-                                  fontSize: 12.5,
-                                  color: "#a0aec0",
-                                  lineHeight: 1.6,
+                                  borderRadius: 8, padding: "9px 13px",
+                                  maxWidth: "75%", fontSize: 12.5,
+                                  color: "#a0aec0", lineHeight: 1.6,
                                   wordBreak: "break-word",
                                 }}>
                                   {msg.text || "(empty)"}
                                 </div>
-
-                                {/* Flag label + reason */}
                                 {flag && (
                                   <div style={{ marginTop: 5, alignItems: isUser ? "flex-start" : "flex-end", display: "flex", flexDirection: "column", gap: 3 }}>
                                     <span style={{
-                                      fontSize: 10,
-                                      fontWeight: 600,
+                                      fontSize: 10, fontWeight: 600,
                                       color: FLAG_COLORS[flagType],
                                       background: FLAG_BG[flagType],
                                       border: `1px solid ${FLAG_COLORS[flagType]}`,
-                                      padding: "2px 8px",
-                                      borderRadius: 4,
-                                      letterSpacing: "0.04em",
-                                      textTransform: "uppercase",
+                                      padding: "2px 8px", borderRadius: 4,
+                                      letterSpacing: "0.04em", textTransform: "uppercase",
                                     }}>
                                       {FLAG_LABELS[flagType]}
                                     </span>
-                                    <div style={{
-                                      fontSize: 10.5,
-                                      color: FLAG_COLORS[flagType],
-                                      maxWidth: "75%",
-                                      fontStyle: "italic",
-                                      opacity: 0.85,
-                                    }}>
+                                    <div style={{ fontSize: 10.5, color: FLAG_COLORS[flagType], maxWidth: "75%", fontStyle: "italic", opacity: 0.85 }}>
                                       {flag.reason}
                                     </div>
                                   </div>

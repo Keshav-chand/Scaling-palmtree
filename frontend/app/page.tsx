@@ -143,12 +143,13 @@ function ChartCard({ title, data }: { title: string; data: any[] }) {
 
 export function Badge({ color, text }: { color: string; text: string }) {
   const colors: Record<string, { bg: string; fg: string }> = {
-    red: { bg: "#3b1515", fg: "#f87171" },
-    amber: { bg: "#2d2010", fg: "#fbbf24" },
-    green: { bg: "#0d2b1e", fg: "#34d399" },
-    blue: { bg: "#1a1f3d", fg: "#818cf8" },
+    red:    { bg: "#3b1515", fg: "#f87171" },
+    amber:  { bg: "#2d2010", fg: "#fbbf24" },
+    green:  { bg: "#0d2b1e", fg: "#34d399" },
+    blue:   { bg: "#1a1f3d", fg: "#818cf8" },
     purple: { bg: "#1e1535", fg: "#c084fc" },
-    gray: { bg: "#1e2535", fg: "#718096" },
+    gray:   { bg: "#1e2535", fg: "#718096" },
+    orange: { bg: "#2d1500", fg: "#fb923c" },  // ← ADDED for context_ignored
   };
   const c = colors[color] || colors.gray;
   return (
@@ -161,11 +162,11 @@ export function Badge({ color, text }: { color: string; text: string }) {
 export function Sidebar({ active }: { active: string }) {
   const router = useRouter();
   const items = [
-    { key: "overview", label: "All brands", path: "/", dot: "#818cf8", section: "Overview" },
-   { key: "flagged", label: "Issues", path: "/flagged", dot: "#f87171", section: "Flagged Issues" },
-    { key: "brand-a", label: "Blue Nectar — Wellness", path: "/brand/680a0a8b70a26f7a0e24eedd", dot: "#f87171", section: "Brands" },
-    { key: "brand-b", label: "Blue Nectar — Skincare", path: "/brand/6983153e1497a62e8542a0ad", dot: "#fbbf24", section: null },
-    { key: "brand-c", label: "Sri Sri Tattva", path: "/brand/69a92ad76dcbf2da868e0f9b", dot: "#34d399", section: null },
+    { key: "overview",  label: "All brands",            path: "/",                                        dot: "#818cf8", section: "Overview" },
+    { key: "flagged",   label: "Issues",                 path: "/flagged",                                 dot: "#f87171", section: "Flagged Issues" },
+    { key: "brand-a",  label: "Blue Tea",               path: "/brand/680a0a8b70a26f7a0e24eedd",          dot: "#f87171", section: "Brands" },  // ← FIXED
+    { key: "brand-b",  label: "Blue Nectar — Skincare", path: "/brand/6983153e1497a62e8542a0ad",          dot: "#fbbf24", section: null },
+    { key: "brand-c",  label: "Sri Sri Tattva",         path: "/brand/69a92ad76dcbf2da868e0f9b",          dot: "#34d399", section: null },
   ];
 
   return (

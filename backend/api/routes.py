@@ -1,9 +1,9 @@
 import json
+import re
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
-
 
 app.add_middleware(
     CORSMiddleware,
@@ -12,13 +12,15 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
 @app.api_route("/health", methods=["GET", "HEAD"])
 def health():
     return {"status": "ok"}
 
+
 def load(path):
     try:
-        with open(path) as f:
+        with open(path, encoding="utf-8") as f:
             return json.load(f)
     except Exception:
         return {}
@@ -34,26 +36,69 @@ conv_by_id = {c["conversation_id"]: c for c in processed}
 scored_by_id = {s["conversation_id"]: s for s in scored}
 
 BRAND_NAMES_MAP = {
-    "680a0a8b70a26f7a0e24eedd": "Blue Nectar — Wellness",
+    "680a0a8b70a26f7a0e24eedd": "Blue Tea",
     "6983153e1497a62e8542a0ad": "Blue Nectar — Skincare",
     "69a92ad76dcbf2da868e0f9b": "Sri Sri Tattva",
 }
 
 
+def clean_text(text):
+    text = (text or "").split("End of stream")[0].strip()
+    text = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', text)
+    text = text.replace("**", "")
+    return text
+
+
 def build_messages_with_flags(conv, flags):
     flag_by_mid = {f["message_id"]: f for f in flags}
-    messages = []
-    for i, m in enumerate(conv.get("messages", [])):
-        text = (m.get("text") or "").split("End of stream")[0].strip()
-        flag_data = flag_by_mid.get(i)
-        messages.append({
+
+    text_msgs = conv.get("messages", [])
+    events = conv.get("events", [])
+
+    # Tag text messages with index and flag data
+    tagged_texts = []
+    for i, m in enumerate(text_msgs):
+        tagged_texts.append({
+            "timestamp": m.get("timestamp", 0),
+            "kind": "message",
             "message_id": i,
             "sender": m.get("sender"),
-            "text": text,
-            "timestamp": m.get("timestamp"),
-            "flag": {"type": flag_data["type"], "reason": flag_data["reason"]} if flag_data else None,
+            "text": clean_text(m.get("text", "")),
+            "flag": (
+                {"type": flag_by_mid[i]["type"], "reason": flag_by_mid[i]["reason"]}
+                if i in flag_by_mid else None
+            ),
         })
-    return messages
+
+    # Tag events — clean URLs to readable paths
+    tagged_events = []
+    for e in events:
+        raw = (e.get("text") or "").strip()
+        if not raw:
+            continue
+        match = re.search(r"https?://[^\s]+(/[^\s?#]*)", raw)
+        if match:
+            path = match.group(1)
+            display = f"user clicked: {path}"
+        elif "Viewed product" in raw:
+            display = raw.replace("Viewed product:", "user viewed:").strip()
+        else:
+            display = raw
+
+        tagged_events.append({
+            "timestamp": e.get("timestamp", 0),
+            "kind": "event",
+            "message_id": None,
+            "sender": "event",
+            "text": display,
+            "flag": None,
+        })
+
+    # Merge and sort chronologically
+    combined = tagged_texts + tagged_events
+    combined.sort(key=lambda x: x.get("timestamp") or 0)
+
+    return combined
 
 
 @app.get("/brands")
@@ -61,10 +106,13 @@ def get_brands():
     return [
         {
             "widgetId": wid,
+            "brand_name": BRAND_NAMES_MAP.get(wid, wid[:8]),
             "total_conversations": m["total_conversations"],
             "drop_off_pct": m["drop_off_pct"],
             "frustration_pct": m["frustration_pct"],
-            "hallucination_pct": m["hallucination_pct"],
+            "hallucination_pct": m.get("hallucination_pct", 0),
+            "unanswered_question_pct": m.get("unanswered_question_pct", 0),
+            "context_ignored_pct": m.get("context_ignored_pct", 0),
             "avg_messages": m["avg_messages"],
             "avg_duration_seconds": m["avg_duration_seconds"],
         }
@@ -103,7 +151,7 @@ def get_conversations(brand: str):
             "flag_types": list({f["type"] for f in flags}),
             "flags": flags,
             "message_count": len(messages),
-            "preview": messages[0].get("text", "")[:120] if messages else "",
+            "preview": clean_text(messages[0].get("text", ""))[:120] if messages else "",
         })
     return result
 
@@ -120,8 +168,10 @@ def get_conversation_detail(conversation_id: str):
     return {
         "conversation_id": conversation_id,
         "widgetId": conv.get("widgetId"),
+        "brand_name": BRAND_NAMES_MAP.get(conv.get("widgetId", ""), ""),
         "score": score_data.get("score", 0),
         "flags": flags,
+        "page_context": conv.get("page_context", []),
         "messages": build_messages_with_flags(conv, flags),
     }
 
@@ -138,7 +188,7 @@ def get_insights(brand: str):
             item["score"] = scored_by_id[cid].get("score", 0)
     return brand_insights
 
-#flagged updates
+
 @app.get("/flagged")
 def get_flagged():
     results = []
@@ -151,24 +201,15 @@ def get_flagged():
         conv = conv_by_id.get(cid, {})
         messages = conv.get("messages", [])
 
-        # Attach actual message text to each flag
         enriched_flags = []
         for f in flags:
             mid = f.get("message_id")
             msg_text = ""
             if mid is not None and mid < len(messages):
-                raw = (messages[mid].get("text") or "").split("End of stream")[0].strip()
-                # Strip markdown
-                import re
-                raw = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', raw)
-                raw = raw.replace("**", "")
-                msg_text = raw[:300]
-            enriched_flags.append({
-                **f,
-                "message_text": msg_text,
-            })
+                msg_text = clean_text(messages[mid].get("text", ""))[:300]
+            enriched_flags.append({**f, "message_text": msg_text})
 
-        preview = messages[0].get("text", "")[:120] if messages else ""
+        preview = clean_text(messages[0].get("text", ""))[:120] if messages else ""
         results.append({
             "conversation_id": cid,
             "widgetId": wid,
@@ -183,7 +224,7 @@ def get_flagged():
     results.sort(key=lambda x: (-x["flag_count"], -x["score"]))
     return results
 
-#consfusion updates
+
 CONFUSION_PATTERNS = [
     "confused between", "difference between", "which one",
     "which is better", "cant decide", "can't decide",

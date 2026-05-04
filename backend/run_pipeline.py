@@ -15,16 +15,23 @@ def run():
         structured = json.load(f)
     print(f"Loaded {len(structured)} conversations")
 
-    # Assign message_id = index to every message
+    # Assign message_id to every text message
+    # Sync into timeline so LLM gets correct IDs
     for conv in structured:
-        for i, msg in enumerate(conv.get("messages", [])):
+        text_msgs = conv.get("messages", [])
+        for i, msg in enumerate(text_msgs):
             msg["message_id"] = i
+
+        timeline = conv.get("timeline", [])
+        text_idx = 0
+        for item in timeline:
+            if item["kind"] == "message":
+                item["message_id"] = text_idx
+                text_idx += 1
 
     print("\nComputing features...")
     features = compute_all_features(structured)
 
-    # LLM analyzer replaces all keyword flag logic
-    # Delete data/llm_flags.json to force a re-run
     print("\nRunning LLM conversation analyzer...")
     llm_flags = batch_analyze(structured)
 
@@ -52,10 +59,33 @@ def run():
     with open("data/intents.json", "w") as f:
         json.dump(intents, f, indent=2)
 
+    with open("data/insights.json", "w") as f:
+        json.dump(insights, f, indent=2)
+
+    # Generate plain text audit report matching README format exactly
+    from utils.formatter import format_all
+    conv_by_id_map = {c["conversation_id"]: c for c in structured}
+    format_all(llm_flags, conv_by_id_map, output_path="data/audit_report.txt")
+    print("  Audit report written to data/audit_report.txt")
+
     print("\n✅ Pipeline complete.")
+    print(f"\nBrand summary:")
     for wid, metrics in brand_metrics.items():
-        print(f"  {wid}: {metrics['total_conversations']} convs, "
-              f"{metrics['frustration_pct']}% frustrated")
+        from pipeline.clean import BRAND_CONTEXT
+        brand_name = BRAND_CONTEXT.get(wid, {}).get("name", wid[:12])
+        total = metrics['total_conversations']
+        flagged = (
+            metrics['frustration_count'] +
+            metrics['hallucination_count'] +
+            metrics['irrelevant_product_count'] +
+            metrics['unanswered_question_count'] +
+            metrics['context_ignored_count']
+        )
+        print(f"  {brand_name}: {total} convs | "
+              f"frustration {metrics['frustration_pct']}% | "
+              f"unanswered {metrics['unanswered_question_pct']}% | "
+              f"context_ignored {metrics['context_ignored_pct']}% | "
+              f"{flagged} total flags")
 
 
 if __name__ == "__main__":

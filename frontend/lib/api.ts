@@ -2,7 +2,7 @@ import axios from "axios";
 const BASE = "https://scaling-palmtree.onrender.com";
 
 export const BRAND_NAMES: Record<string, string> = {
-  "680a0a8b70a26f7a0e24eedd": "Blue Nectar — Wellness",
+  "680a0a8b70a26f7a0e24eedd": "Blue Tea",           // was "Blue Nectar — Wellness"
   "6983153e1497a62e8542a0ad": "Blue Nectar — Skincare",
   "69a92ad76dcbf2da868e0f9b": "Sri Sri Tattva",
 };

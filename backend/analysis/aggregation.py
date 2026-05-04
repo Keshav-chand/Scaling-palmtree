@@ -10,6 +10,8 @@ def aggregate_by_brand(llm_flags, features_list):
         "frustration_count": 0,
         "hallucination_count": 0,
         "irrelevant_product_count": 0,
+        "unanswered_question_count": 0,
+        "context_ignored_count": 0,
         "total_duration": 0,
         "total_messages": 0,
         "product_views": 0,
@@ -27,6 +29,8 @@ def aggregate_by_brand(llm_flags, features_list):
         b["frustration_count"] += int("frustration" in flag_types)
         b["hallucination_count"] += int("hallucination" in flag_types)
         b["irrelevant_product_count"] += int("irrelevant_product" in flag_types)
+        b["unanswered_question_count"] += int("unanswered_question" in flag_types)
+        b["context_ignored_count"] += int("context_ignored" in flag_types)
         b["drop_offs"] += int(feat.get("drop_off_flag", False))
         b["total_duration"] += feat.get("duration_seconds", 0)
         b["total_messages"] += feat.get("message_count", 0)
@@ -41,6 +45,8 @@ def aggregate_by_brand(llm_flags, features_list):
             "drop_off_pct": round(b["drop_offs"] / total * 100, 1),
             "frustration_pct": round(b["frustration_count"] / total * 100, 1),
             "hallucination_pct": round(b["hallucination_count"] / total * 100, 1),
+            "unanswered_question_pct": round(b["unanswered_question_count"] / total * 100, 1),
+            "context_ignored_pct": round(b["context_ignored_count"] / total * 100, 1),
             "avg_messages": round(b["total_messages"] / total, 1),
             "avg_duration_seconds": round(b["total_duration"] / total, 1),
         }
