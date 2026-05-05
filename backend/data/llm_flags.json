@@ -672,11 +672,6 @@
         "reason": "The conversation starts with a question about hair, which is not the primary product category of Blue Nectar, a skincare brand."
       },
       {
-        "message_id": 8,
-        "type": "irrelevant_product",
-        "reason": "The assistant is still discussing hair and scalp, which is outside the brand's skincare product category."
-      },
-      {
         "message_id": 10,
         "type": "unanswered_question",
         "reason": "The customer has been answering questions about their hair, but it is unclear what products the assistant is referring to, and the conversation has not addressed any skincare-related topics."
@@ -3329,11 +3324,6 @@
     "conversation_id": "69ec230949f035ad81607cd2",
     "widgetId": "6983153e1497a62e8542a0ad",
     "flags": [
-      {
-        "message_id": 1,
-        "type": "unanswered_question",
-        "reason": "The user asked about the time it takes to see results for the Skin Glow Oil, but the assistant did not provide a relevant answer."
-      },
       {
         "message_id": 3,
         "type": "unanswered_question",
