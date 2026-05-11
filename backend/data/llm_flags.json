@@ -1,1598 +1,5 @@
 [
   {
-    "conversation_id": "69c5053f16599deb6989b10b",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c5053706069052a32e9faa",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c501db06069052a32e3d9a",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4faa716599deb6989b00c",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4f99b16599deb6989b003",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4f8e516599deb6989affe",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4f08506069052a32ba65f",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4ef2306069052a32b5ccf",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4edd706069052a32ae7a8",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4ed2706069052a32acd31",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4e51406069052a329e000",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4e46006069052a329cdc0",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4e42906069052a329c6f9",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4dfb316599deb6989ae17",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4d4ef16599deb6989acfd",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4d1c906069052a3273953",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4c73606069052a325f064",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4c4be06069052a325aef5",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4c3e406069052a32591b6",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4b92106069052a324120f",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4b106b69374161c562288",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4b0cf80af262206b939d8",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4a23cb69374161c5574cc",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c49eafb69374161c5548cd",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c499f716599deb6989a804",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4988280af262206b8858d",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": [
-      {
-        "message_id": 3,
-        "type": "context_ignored",
-        "reason": "Assistant repeats the same response without adapting after the user repeats their question."
-      }
-    ]
-  },
-  {
-    "conversation_id": "69c49531b69374161c54e67e",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c49086b69374161c54bbd0",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c46193b69374161c535f80",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c45ce8b69374161c534229",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c450e5b69374161c52ee7d",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c44ccbb69374161c52d01c",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": [
-      {
-        "message_id": 1,
-        "type": "irrelevant_product",
-        "reason": "The assistant recommended Skin Glow Herbal Tea, which is a skincare-related product, not a wellness tea product."
-      },
-      {
-        "message_id": 5,
-        "type": "context_ignored",
-        "reason": "The user repeated the same question, and the assistant repeated the same response without adapting to the user's query."
-      }
-    ]
-  },
-  {
-    "conversation_id": "69c44534b69374161c5287a2",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c435f9b69374161c51dd72",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c426e3b69374161c50d5c8",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c42519b69374161c50a694",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4219a16599deb6989a4df",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c42081b69374161c50311a",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c41d06b69374161c4ff58c",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c41b1016599deb6989a487",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c41a3cb69374161c4fc3b3",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4179fb69374161c4f8fb8",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c40edb16599deb6989a3df",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c40de1b69374161c4e8b21",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c40a6616599deb6989a398",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3fbe8b69374161c4d27a7",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3f91116599deb6989a29a",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3e842b69374161c4ad8f6",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3e59616599deb6989a16d",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3da1cb69374161c496744",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3d87ab69374161c49451d",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3d730b69374161c4924dd",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3d653b69374161c49125f",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": [
-      {
-        "message_id": 5,
-        "type": "hallucination",
-        "reason": "The assistant mentions 'Skin Glow Herbal Tea' which is not a known product from Blue Tea and seems unrelated to the customer's order of Butterfly Pea Flower tea."
-      }
-    ]
-  },
-  {
-    "conversation_id": "69c3d4c4b69374161c48eb4f",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3d03416599deb69899ff9",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3cfb516599deb69899fb5",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": [
-      {
-        "message_id": 7,
-        "type": "irrelevant_product",
-        "reason": "The product 'Moringa Powder' is not a tea product, which is the only type of product Blue Tea sells."
-      }
-    ]
-  },
-  {
-    "conversation_id": "69c3cde9b69374161c481265",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3cbb9b69374161c477f5f",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": [
-      {
-        "message_id": 3,
-        "type": "hallucination",
-        "reason": "Assistant provides a specific product link to Blue Tea Indian Chai Masala and Detox Desi Kahwa, but the customer asked about using a stick product, which is not clearly related to these tea bag products."
-      }
-    ]
-  },
-  {
-    "conversation_id": "69c3c26e16599deb69899eaa",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3c197b69374161c461f83",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3be5eb69374161c45c778",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3b77bb69374161c45066a",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3b1d9b69374161c43d66c",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3b14e16599deb69897021",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3ae32b69374161c42ee64",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3ac3d16599deb69896d55",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3aa41b69374161c42325e",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3a91316599deb69896cf8",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3a42e16599deb69896ca8",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3a0d2b69374161c413f38",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c39727b69374161c402dea",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c396f2b69374161c40270f",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3961a16599deb69896bc3",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3938b16599deb69896b8c",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c38e0816599deb69896b22",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c38b65b69374161c3d82e3",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3857b5287f2ec783a6409",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c384885287f2ec783a44fe",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c381d616599deb6989662d",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c37cc416599deb698965c1",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c37a4b5287f2ec7838a207",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c379e35287f2ec78387dcf",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c374b45287f2ec7837fc9e",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c372a816599deb6989641c",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3716816599deb698963f6",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c370405287f2ec78377cf5",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c36f755287f2ec7837552b",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c367575287f2ec78365bfe",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c361195287f2ec7835e6bc",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c35a3f16599deb6989629a",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3529f16599deb6989624a",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c34e5d5287f2ec7834d4ad",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c34ab25287f2ec7834aa24",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3493a5287f2ec78349758",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3489e5287f2ec7834911c",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c343a25287f2ec7834593d",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c33da05287f2ec7833d7eb",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c33a905287f2ec7833bc49",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c504de06069052a32e9497",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": [
-      {
-        "message_id": 3,
-        "type": "context_ignored",
-        "reason": "Assistant repeats the same response without adapting after the user repeats the same question."
-      }
-    ]
-  },
-  {
-    "conversation_id": "69c501c506069052a32e3bb4",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c5014b06069052a32e2c4d",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4ffaa06069052a32df8b6",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4ff2206069052a32de8b7",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4f3d206069052a32c6a7c",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4f04606069052a32b946a",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4eeee06069052a32b514b",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4e94206069052a32a5c52",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4e86c06069052a32a443f",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": [
-      {
-        "message_id": 3,
-        "type": "context_ignored",
-        "reason": "Assistant repeats the same response without adapting after the user mentions 'Customer care', which is new information."
-      }
-    ]
-  },
-  {
-    "conversation_id": "69c4dfd806069052a3293ba1",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4dd7006069052a328e14b",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4da9006069052a3287bc8",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4cd4706069052a326a002",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4c25806069052a3254a02",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4c0e906069052a3250406",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4c02606069052a324ec51",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c48d8eb69374161c54a0f5",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c44c0eb69374161c52c924",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c435e2b69374161c51dbfa",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c42dedb69374161c516845",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c41440b69374161c4f28c0",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c413a5b69374161c4f1519",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": [
-      {
-        "message_id": 3,
-        "type": "context_ignored",
-        "reason": "Assistant repeats the same response without adapting after the user repeats their question about using the Pain Relief Compress Potli in a daily routine."
-      }
-    ]
-  },
-  {
-    "conversation_id": "69c40c10b69374161c4e627c",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c40be3b69374161c4e5c36",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": [
-      {
-        "message_id": 0,
-        "type": "irrelevant_product",
-        "reason": "The conversation starts with a question about hair, which is not the primary product category of Blue Nectar, a skincare brand."
-      },
-      {
-        "message_id": 10,
-        "type": "unanswered_question",
-        "reason": "The customer has been answering questions about their hair, but it is unclear what products the assistant is referring to, and the conversation has not addressed any skincare-related topics."
-      }
-    ]
-  },
-  {
-    "conversation_id": "69c3fe8ab69374161c4d587b",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3f169b69374161c4c47ef",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3e760b69374161c4ac9e4",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3e6a5b69374161c4a9fcc",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3db81b69374161c498197",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3d51bb69374161c48f438",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3d093b69374161c487b81",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3c9e8b69374161c474c2b",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3c6c1b69374161c46e45e",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3bc4ab69374161c458a3f",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3b689b69374161c44eb53",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3aae3b69374161c4241d9",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3aa74b69374161c42378f",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3a280b69374161c4166fd",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c39f67b69374161c411b6b",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c395b0b69374161c3ffa03",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c38cd5b69374161c3dfcde",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c38a69b69374161c3d627f",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c387405287f2ec783a9c88",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c381945287f2ec7839df5f",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c37eeb5287f2ec78398bd8",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c378d75287f2ec78385b6b",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c366d95287f2ec783650f9",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c366445287f2ec78364399",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c361555287f2ec7835ea29",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c357bb5287f2ec78355926",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c353cf5287f2ec783520a7",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c34b825287f2ec7834b418",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c340ca5287f2ec78340e14",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c30d7d5287f2ec78324d3c",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c2eab95287f2ec7831504a",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c2d92e5287f2ec78308703",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c2d6765287f2ec78305839",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c2d3c65287f2ec7830309e",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c2d14d5287f2ec782fe4b3",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c2d1305287f2ec782fe0e8",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c2cbd75287f2ec782f5ac3",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c2a7455287f2ec782cb251",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c289165287f2ec78297415",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c2789c696b82a9e9e66211",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c275b4696b82a9e9e61bab",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c271ad696b82a9e9e58bd3",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c26b99696b82a9e9e4df77",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c26b7f696b82a9e9e4dc3c",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c259c52127ff0f141e90ef",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c24eb62127ff0f141d7b61",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c241425c221e72d05edbe5",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c23feb5c221e72d05ebd96",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c2363fc5090237eb2909b9",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c228b5c5090237eb278869",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c22459c5090237eb270cb8",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c220ccc5090237eb26a71a",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c20c80c5090237eb24ab83",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c1f731c5090237eb238a51",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c19b331866ef69c61bf999",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c183841866ef69c61ade32",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c17cd91866ef69c61a77a4",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c178881866ef69c61a2b7e",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": [
-      {
-        "message_id": 3,
-        "type": "hallucination",
-        "reason": "Assistant mentions haircare products, which are not part of the Blue Nectar brand's skincare product line."
-      }
-    ]
-  },
-  {
-    "conversation_id": "69c16ecf1866ef69c6197eac",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c169981866ef69c619165a",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c1662b1866ef69c618d527",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c165f71866ef69c618d17d",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c163ae1866ef69c618a465",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c161bf1866ef69c6187be5",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c15d2f1866ef69c61821fe",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c13ec51866ef69c615afdd",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c13da11866ef69c6159b49",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c137591866ef69c6151424",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c135b01866ef69c614ec00",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c1287f1866ef69c6137bf9",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c125631866ef69c6132fdf",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c11c0788180372f237e130",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c11af888180372f237c640",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c118ff88180372f23792c2",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c1174d88180372f2376bc6",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c506d006069052a32ecdb8",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c5063d16599deb6989b123",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": [
-      {
-        "message_id": 3,
-        "type": "irrelevant_product",
-        "reason": "The assistant recommended a product 'Deep Cleanse Facial Ubtan, by Shankara' which is from a different brand 'Shankara', not Sri Sri Tattva."
-      }
-    ]
-  },
-  {
-    "conversation_id": "69c502f306069052a32e5841",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c5002b06069052a32e06e4",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4ffdb06069052a32dff10",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4fa5306069052a32d480c",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4f34606069052a32c50eb",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4f11906069052a32bce26",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4ee8c06069052a32b4190",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4e3cf06069052a329bcf9",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4e2cb06069052a329a1b5",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4e12e06069052a3296a91",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4dfc106069052a329379d",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4df8106069052a3293020",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4df5a06069052a3292922",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4df4306069052a3292743",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4dbc906069052a328a731",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4d50906069052a3279e89",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4cb2906069052a326642b",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4c73506069052a325f054",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4c6e306069052a325e8ee",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4c3ab06069052a325858f",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4c24106069052a3254285",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4b8a406069052a323fef0",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4b25e80af262206b94910",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4ab8fb69374161c55e4c8",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4a597b69374161c559de5",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c49feb80af262206b8af11",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c49219b69374161c54c8ed",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c47f67b69374161c542c11",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c47b1cb69374161c540c79",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4789180af262206b7e4df",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c45432b69374161c530648",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c451ffb69374161c52f6ee",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c443e1b69374161c527a4e",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c436dbb69374161c51ea49",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c42ea2b69374161c517392",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c42d84b69374161c5160e9",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c425bcb69374161c50b690",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4226ab69374161c505d0c",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4214db69374161c503f79",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c41f80b69374161c5020ec",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c41873b69374161c4fa128",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c41535b69374161c4f47cf",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c41252b69374161c4eecde",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c410feb69374161c4ec90b",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c40dceb69374161c4e89fa",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c40d37b69374161c4e7cad",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c40cb0b69374161c4e708e",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c40a49b69374161c4e3f40",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c407cfb69374161c4e11e5",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c406eab69374161c4dfc8a",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c4058ab69374161c4de171",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": [
-      {
-        "message_id": 3,
-        "type": "context_ignored",
-        "reason": "The user asked 'Where is my order?' but the assistant repeated the same response to sign in to the account without adapting to the new question."
-      },
-      {
-        "message_id": 5,
-        "type": "context_ignored",
-        "reason": "The user provided their phone number, but the assistant repeated the same response to sign in to the account without adapting to the new information."
-      }
-    ]
-  },
-  {
-    "conversation_id": "69c40394b69374161c4dbaab",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c40178b69374161c4d9170",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3ff5bb69374161c4d68b6",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3fe20b69374161c4d5073",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3fc4ab69374161c4d2de8",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3fac5b69374161c4d0e47",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3fa6ab69374161c4d06d5",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3f9cab69374161c4cfadf",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3f959b69374161c4cf2d6",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3f88cb69374161c4ce337",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3f5b2b69374161c4caecf",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3f312b69374161c4c7e01",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3edc8b69374161c4baf86",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3e83ab69374161c4ad884",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3e3c9b69374161c4a3446",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3e34316599deb6989a143",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": [
-      {
-        "message_id": 1,
-        "type": "unanswered_question",
-        "reason": "The customer asked where their order is, but the assistant responded with a request to sign in to their account without addressing the question."
-      },
-      {
-        "message_id": 3,
-        "type": "context_ignored",
-        "reason": "The customer repeated their question about the order location, but the assistant repeated the same response to sign in to their account without adapting to the customer's repeated inquiry."
-      },
-      {
-        "message_id": 5,
-        "type": "frustration",
-        "reason": "The customer asked about their order location for the third time, indicating frustration with the lack of resolution."
-      }
-    ]
-  },
-  {
-    "conversation_id": "69c3db91b69374161c498398",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3db14b69374161c497a5b",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3d792b69374161c492b4f",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3d781b69374161c492a0c",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3d72fb69374161c4924d3",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3cef3b69374161c483215",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3cdccb69374161c480774",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3ca84b69374161c475cf8",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3c701b69374161c46ec5f",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3c43fb69374161c467498",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3c123b69374161c46137e",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3bbd8b69374161c457d4a",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3b30eb69374161c4410ae",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3b2b6b69374161c4400a1",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3b053b69374161c438d85",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3ab9eb69374161c4258ea",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3a6e9b69374161c41e154",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3a4ddb69374161c41aee6",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3a321b69374161c41768c",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c39fb4b69374161c41249c",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3971eb69374161c402d2d",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3938db69374161c3fadb0",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c39275b69374161c3f8bb7",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c39238b69374161c3f867f",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c39133b69374161c3f5d11",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c38fbfb69374161c3ed6ef",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c38f4f16599deb69896b2b",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c3892d5287f2ec783ae398",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c387195287f2ec783a971b",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c386f05287f2ec783a90bb",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
-    "conversation_id": "69c386285287f2ec783a7870",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
-  },
-  {
     "conversation_id": "69f3e0915cad2f5538195931",
     "widgetId": "69a92ad76dcbf2da868e0f9b",
     "flags": []
@@ -1609,7 +16,7 @@
       {
         "message_id": 3,
         "type": "context_ignored",
-        "reason": "Assistant repeated the same response after the user repeated their question about who should use the Aroma Delight product."
+        "reason": "Assistant repeated the same response without adapting after the user repeated the same question."
       }
     ]
   },
@@ -1640,7 +47,7 @@
       {
         "message_id": 2,
         "type": "frustration",
-        "reason": "Customer repeated the same question about daily usage of Organic Brown Sugar, indicating potential frustration with the lack of a helpful response."
+        "reason": "Customer repeated the same question about daily usage of Organic Brown Sugar, indicating potential frustration or lack of resolution."
       }
     ]
   },
@@ -1656,7 +63,7 @@
       {
         "message_id": 4,
         "type": "context_ignored",
-        "reason": "Assistant repeated the same response without adapting after the customer provided new information, order number 843412."
+        "reason": "Assistant repeated the same response about signing in after the customer provided new information, order number 843412, without adapting to the new context."
       }
     ]
   },
@@ -1730,14 +137,9 @@
         "reason": "Assistant repeated the same response after the customer stated they were already signed in."
       },
       {
-        "message_id": 5,
-        "type": "context_ignored",
-        "reason": "Assistant repeated the same response again after the customer stated they were already signed in and asked where to view order details."
-      },
-      {
-        "message_id": 6,
-        "type": "context_ignored",
-        "reason": "Assistant repeated the same response for the third time without adapting to the customer's previous messages."
+        "message_id": 8,
+        "type": "frustration",
+        "reason": "Customer expressed frustration with the assistant's unhelpful responses."
       }
     ]
   },
@@ -1838,12 +240,7 @@
       {
         "message_id": 5,
         "type": "context_ignored",
-        "reason": "Assistant repeats the same response to sign in after the customer has already clicked the login link multiple times and expressed frustration with 'Tell now'."
-      },
-      {
-        "message_id": 4,
-        "type": "frustration",
-        "reason": "Customer expresses clear frustration with 'Tell now' after not being able to find their order history and receiving an unhelpful response."
+        "reason": "Assistant repeated the same response to sign in after the customer expressed concern and was told to contact support, without adapting to the new information."
       }
     ]
   },
@@ -1910,13 +307,7 @@
   {
     "conversation_id": "69f0e46a2ebeef143b1d65b9",
     "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": [
-      {
-        "message_id": 2,
-        "type": "unanswered_question",
-        "reason": "The customer didn't ask about changing their shipping address, but the assistant provided a response related to it."
-      }
-    ]
+    "flags": []
   },
   {
     "conversation_id": "69f0e3d02ebeef143b1d579b",
@@ -1985,19 +376,20 @@
       {
         "message_id": 5,
         "type": "context_ignored",
-        "reason": "Assistant repeated the same response after the customer stated they were already signed in."
-      },
-      {
-        "message_id": 7,
-        "type": "context_ignored",
-        "reason": "Assistant repeated the same response again after the customer explicitly mentioned they were signed in and still not seeing order details."
+        "reason": "Assistant repeated the same response to sign in after the customer stated they were already signed in."
       }
     ]
   },
   {
     "conversation_id": "69f06774e8681adac911e43d",
     "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": []
+    "flags": [
+      {
+        "message_id": 3,
+        "type": "context_ignored",
+        "reason": "User provided order number 8431119 but assistant repeated the same response to sign in to account without adapting to the new information."
+      }
+    ]
   },
   {
     "conversation_id": "69f0605f089867045ac8342b",
@@ -2042,13 +434,7 @@
   {
     "conversation_id": "69f01f497149e4aa909557f4",
     "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "flags": [
-      {
-        "message_id": 2,
-        "type": "context_ignored",
-        "reason": "Assistant repeated the same response to sign in after the customer had already clicked the sign in link multiple times."
-      }
-    ]
+    "flags": []
   },
   {
     "conversation_id": "69f016057149e4aa90949b41",
@@ -2085,19 +471,14 @@
     "widgetId": "69a92ad76dcbf2da868e0f9b",
     "flags": [
       {
-        "message_id": 1,
-        "type": "unanswered_question",
-        "reason": "The customer asked about their order not showing in the list and partial order being delivered, but the assistant did not address this question."
-      },
-      {
         "message_id": 2,
         "type": "context_ignored",
-        "reason": "The customer had already been asked to sign in, but the assistant repeated the same response without adapting to the customer's concern about their order."
+        "reason": "Assistant repeated the same response without adapting after the customer mentioned their order issue."
       },
       {
         "message_id": 5,
-        "type": "context_ignored",
-        "reason": "The customer provided new information about their order, including the amount paid, but the assistant repeated the same response to sign in without addressing the customer's concern."
+        "type": "unanswered_question",
+        "reason": "Customer asked about an issue with their order and the assistant did not address the question, instead repeating the same response about signing in to their account."
       }
     ]
   },
@@ -2183,7 +564,7 @@
       {
         "message_id": 3,
         "type": "context_ignored",
-        "reason": "The assistant repeated the same response to sign in to the account after the customer provided new information about their order issue."
+        "reason": "The assistant repeated the same response to sign in to the account without addressing the customer's concern about the missing order items."
       }
     ]
   },
@@ -2334,7 +715,7 @@
       {
         "message_id": 3,
         "type": "hallucination",
-        "reason": "Assistant gives information about Keto Herbal Tea when the customer asked about consuming Slim Tea only once a day."
+        "reason": "Assistant gives information about Keto Herbal Tea when the customer asked about Slim Tea."
       }
     ]
   },
@@ -2375,12 +756,12 @@
       {
         "message_id": 4,
         "type": "context_ignored",
-        "reason": "The assistant repeated the same response about Belly Fat Herbal Tea without adapting to the customer's repeated question about the best blue tea for weight loss with thyroid concerns."
+        "reason": "Assistant repeats the same response about Belly Fat Herbal Tea without adapting to the customer's repeated question about the best blue tea for weight loss with thyroid concerns."
       },
       {
         "message_id": 5,
         "type": "frustration",
-        "reason": "The customer repeated the same question about the best blue tea for weight loss with thyroid concerns, indicating frustration or lack of resolution."
+        "reason": "Customer repeats the same question about the best blue tea for weight loss in thyroid, indicating frustration or lack of resolution from the previous responses."
       }
     ]
   },
@@ -2494,37 +875,16 @@
     "widgetId": "680a0a8b70a26f7a0e24eedd",
     "flags": [
       {
-        "message_id": 5,
-        "type": "context_ignored",
-        "reason": "The assistant repeated the same response without adapting after the customer provided new information, the phone number 8252904257, in message 4."
-      },
-      {
         "message_id": 7,
         "type": "context_ignored",
-        "reason": "The assistant repeated the same response again without adapting after the customer provided the order number 396019 and phone number 8252904257 in messages 3, 4, and 6."
+        "reason": "The assistant repeats the same response without adapting after the customer provided new information, including the order number."
       }
     ]
   },
   {
     "conversation_id": "69f32a2c67150fce800579c2",
     "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "flags": [
-      {
-        "message_id": 3,
-        "type": "context_ignored",
-        "reason": "Assistant repeated the same response about tracking the order without addressing the customer's new question about which tea to use for fat burning."
-      },
-      {
-        "message_id": 9,
-        "type": "context_ignored",
-        "reason": "Assistant repeated the same response about tracking the order without addressing the customer's previous interactions and questions."
-      },
-      {
-        "message_id": 5,
-        "type": "frustration",
-        "reason": "Customer repeated the same question about which tea to use for fat burning, indicating frustration with the lack of response or resolution."
-      }
-    ]
+    "flags": []
   },
   {
     "conversation_id": "69f3284d67150fce80052f98",
@@ -2604,12 +964,7 @@
       {
         "message_id": 8,
         "type": "frustration",
-        "reason": "The customer expresses clear frustration and annoyance with the assistant's inconsistent responses, using phrases like 'aren't u not know English dear !!!'."
-      },
-      {
-        "message_id": 15,
-        "type": "frustration",
-        "reason": "The customer explicitly states 'Just its waste of money of costumers', indicating a strong sense of frustration and dissatisfaction with the product and the conversation."
+        "reason": "The customer expresses frustration and annoyance due to the inconsistency in the assistant's responses regarding the consumption timing of Belly Fat Herbal Tea."
       }
     ]
   },
@@ -2830,7 +1185,12 @@
       {
         "message_id": 3,
         "type": "context_ignored",
-        "reason": "Assistant repeated the same response after the user asked the same question again, without adapting to the user's repetition."
+        "reason": "Assistant repeated the same response after the user repeated their question about seeing results, without adapting to the user's follow-up inquiry."
+      },
+      {
+        "message_id": 2,
+        "type": "frustration",
+        "reason": "User expressed repetition of the same question, indicating potential frustration due to lack of resolution."
       }
     ]
   },
@@ -2845,13 +1205,8 @@
     "flags": [
       {
         "message_id": 3,
-        "type": "irrelevant_product",
-        "reason": "The assistant mentions Rosemary Hair Gel, which is a hair care product and not a skincare product, contradicting the Blue Nectar brand's skincare focus."
-      },
-      {
-        "message_id": 5,
-        "type": "irrelevant_product",
-        "reason": "The assistant continues to discuss the Rosemary Hair Gel, which is not a skincare product, ignoring the brand's skincare domain."
+        "type": "hallucination",
+        "reason": "Assistant mentions Rosemary Hair Gel, which is not a skincare product and does not match the Blue Nectar brand's Ayurvedic skincare product category."
       }
     ]
   },
@@ -2997,7 +1352,7 @@
       {
         "message_id": 2,
         "type": "frustration",
-        "reason": "User repeated the same question about seeing results with the Almond Flax Seed Powder Face Cleanser, indicating frustration with the lack of a helpful response."
+        "reason": "User repeated the same question about how long it takes to see results with the Almond Flax Seed Powder Face Cleanser, indicating potential frustration with the lack of a clear answer."
       }
     ]
   },
@@ -3008,7 +1363,7 @@
       {
         "message_id": 12,
         "type": "hallucination",
-        "reason": "The assistant answers about the Coffee Bean Powder Face Cleanser, which is a different product from the Men's and Women's Shata Dhauta Ghrita Face Cream that the user was asking about."
+        "reason": "The assistant is discussing the Coffee Bean Powder Face Cleanser, but the customer's question is about the difference between the men's and women's Shata Dhauta Ghrita Face Cream, and the assistant should have provided information about the creams instead of the cleanser."
       }
     ]
   },
@@ -3048,13 +1403,18 @@
     "flags": [
       {
         "message_id": 13,
+        "type": "unanswered_question",
+        "reason": "The customer explicitly stated 'I don\u2019t know, don\u2019t send me this order', which implies a request to cancel the order, but the assistant's response still asks the customer to email or call, instead of acknowledging the cancellation request and providing a direct solution."
+      },
+      {
+        "message_id": 11,
         "type": "context_ignored",
-        "reason": "The assistant repeats the same instruction to email or call, despite the customer already stating they've tried and it's not working, and explicitly asking to cancel the order."
+        "reason": "The customer mentioned that none of the executives are receiving their calls or messages, but the assistant repeated the same response, providing the same contact information, without adapting to the customer's concern or offering an alternative solution."
       },
       {
         "message_id": 8,
         "type": "frustration",
-        "reason": "The customer expresses frustration with the support process, stating 'It\u2019s not helping'."
+        "reason": "The customer expressed frustration with the support process, stating 'It\u2019s not helping', indicating a clear emotional response to the unhelpful responses from the assistant."
       }
     ]
   },
@@ -3085,12 +1445,12 @@
       {
         "message_id": 4,
         "type": "hallucination",
-        "reason": "The assistant recommended Rosemary Hair Tonic, which is a hair care product, while the customer was inquiring about a face cream, indicating a wrong product recommendation."
+        "reason": "Assistant recommends Rosemary Hair Tonic, which is not relevant to the customer's initial question about the cream, and instead discusses hair care, which is outside the brand's skincare product category."
       },
       {
         "message_id": 7,
         "type": "irrelevant_product",
-        "reason": "The assistant continued to provide information about Rosemary Hair Tonic, a hair care product, instead of addressing the customer's initial inquiry about the face cream, further indicating a wrong product recommendation."
+        "reason": "Assistant continues to discuss Rosemary Hair Tonic, a hair care product, which is not a part of Blue Nectar's skincare product offerings."
       }
     ]
   },
@@ -3116,17 +1476,7 @@
       {
         "message_id": 2,
         "type": "context_ignored",
-        "reason": "Assistant asks for the question to be shared in English despite the customer's initial question being in English."
-      },
-      {
-        "message_id": 10,
-        "type": "context_ignored",
-        "reason": "Assistant repeats the same response asking for the question to be shared in English, ignoring the customer's previous attempts to communicate."
-      },
-      {
-        "message_id": 13,
-        "type": "context_ignored",
-        "reason": "Assistant repeats the same response asking for the question to be shared in English, ignoring the customer's repeated attempts to communicate."
+        "reason": "Assistant asked the customer to share their question in English despite the customer's initial question being in English."
       }
     ]
   },
@@ -3167,7 +1517,7 @@
       {
         "message_id": 4,
         "type": "unanswered_question",
-        "reason": "The customer asked how long it takes to see results for the Kojic Acid Cream Pigmentation product, but the assistant responded with information about the product's texture and suitability for daily use instead of addressing the question about the timeframe for seeing results."
+        "reason": "The customer asked how long it takes to see results, but the assistant responded with information about the product's texture and suitability for daily use, without addressing the question about the timeframe for seeing results."
       }
     ]
   },
@@ -3218,12 +1568,12 @@
       {
         "message_id": 2,
         "type": "context_ignored",
-        "reason": "Assistant repeated the same response without adapting after the user repeated their question about using the product in a daily routine."
+        "reason": "Assistant repeated the same response without adapting after the customer repeated their question about using the product in a daily routine."
       },
       {
         "message_id": 3,
         "type": "frustration",
-        "reason": "User repeated the same question about using the product in a daily routine for the second time, indicating frustration with the lack of a helpful response."
+        "reason": "Customer repeated the same question for the second time with no resolution, indicating frustration with the conversation."
       }
     ]
   },
@@ -3269,7 +1619,7 @@
       {
         "message_id": 5,
         "type": "context_ignored",
-        "reason": "The assistant repeated the same response as message 3, without adapting to the customer's repeated question."
+        "reason": "Assistant repeated the same response as message 3 without adapting, despite the customer repeating the same question."
       }
     ]
   },
@@ -3286,23 +1636,7 @@
   {
     "conversation_id": "69ec332149f035ad8161df10",
     "widgetId": "6983153e1497a62e8542a0ad",
-    "flags": [
-      {
-        "message_id": 3,
-        "type": "unanswered_question",
-        "reason": "The customer asked about the application time and method for Kumkumadi gold tailam, but the assistant did not provide any relevant information and instead asked for more details."
-      },
-      {
-        "message_id": 5,
-        "type": "context_ignored",
-        "reason": "The customer repeated the same question about Kumkumadi gold tailam, but the assistant provided the same response asking for more details without addressing the customer's query."
-      },
-      {
-        "message_id": 6,
-        "type": "context_ignored",
-        "reason": "The assistant repeated the same response again, ignoring the customer's repeated questions about Kumkumadi gold tailam and not providing any relevant information."
-      }
-    ]
+    "flags": []
   },
   {
     "conversation_id": "69ec2d9649f035ad81615b55",
@@ -3316,7 +1650,7 @@
       {
         "message_id": 3,
         "type": "context_ignored",
-        "reason": "The user initially asked about using the Kumkumadi Face Oil Serum in a daily routine, but the assistant ignored this context and instead asked for the order number after the user mentioned tracking their order."
+        "reason": "The user initially asked about using the Kumkumadi Face Oil Serum in a daily routine, but the assistant ignored this context and instead asked for an order number after the user mentioned tracking their order."
       }
     ]
   },
@@ -3325,14 +1659,14 @@
     "widgetId": "6983153e1497a62e8542a0ad",
     "flags": [
       {
-        "message_id": 3,
+        "message_id": 1,
         "type": "unanswered_question",
-        "reason": "The user rephrased their question about the time it takes to make skin glow and its suitability for oily skin, but the assistant did not provide a relevant answer."
+        "reason": "The user asked about the time it takes to see results for the Skin Glow Oil, but the assistant did not provide a relevant answer."
       },
       {
         "message_id": 6,
         "type": "frustration",
-        "reason": "The user expressed frustration with the assistant's unhelpful responses, calling it the 'worst'."
+        "reason": "The user expressed frustration with the assistant's responses, calling it the 'worst'."
       }
     ]
   },

@@ -1,5 +1,6 @@
 import json
 import re
+import os
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -32,6 +33,20 @@ intents = load("data/intents.json")
 insights = load("data/insights.json")
 processed = load("data/processed_data.json")
 
+# ── V2 ONLY FILTER 
+v2_ids = set()
+try:
+    with open("data/conversations_v2.json", encoding="utf-8") as f:
+        v2_convs = json.load(f)
+    v2_ids = {str(c["_id"]) for c in v2_convs}
+except Exception:
+    pass
+
+if v2_ids:
+    processed = [c for c in processed if c["conversation_id"] in v2_ids]
+    scored = [s for s in scored if s["conversation_id"] in v2_ids]
+# ─────────────────────────────────────────────────────────────
+
 conv_by_id = {c["conversation_id"]: c for c in processed}
 scored_by_id = {s["conversation_id"]: s for s in scored}
 
@@ -55,7 +70,6 @@ def build_messages_with_flags(conv, flags):
     text_msgs = conv.get("messages", [])
     events = conv.get("events", [])
 
-    # Tag text messages with index and flag data
     tagged_texts = []
     for i, m in enumerate(text_msgs):
         tagged_texts.append({
@@ -70,7 +84,6 @@ def build_messages_with_flags(conv, flags):
             ),
         })
 
-    # Tag events — clean URLs to readable paths
     tagged_events = []
     for e in events:
         raw = (e.get("text") or "").strip()
@@ -78,8 +91,7 @@ def build_messages_with_flags(conv, flags):
             continue
         match = re.search(r"https?://[^\s]+(/[^\s?#]*)", raw)
         if match:
-            path = match.group(1)
-            display = f"user clicked: {path}"
+            display = f"user clicked: {match.group(1)}"
         elif "Viewed product" in raw:
             display = raw.replace("Viewed product:", "user viewed:").strip()
         else:
@@ -94,10 +106,8 @@ def build_messages_with_flags(conv, flags):
             "flag": None,
         })
 
-    # Merge and sort chronologically
     combined = tagged_texts + tagged_events
     combined.sort(key=lambda x: x.get("timestamp") or 0)
-
     return combined
 
 

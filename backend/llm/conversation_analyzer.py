@@ -44,14 +44,12 @@ If no page context is available:
 SPECIAL BEHAVIOR RULES:
 
 AUTOMATED PRE-RESPONSES:
-The assistant may send messages triggered by user actions (e.g., button clicks) before the user types.
+The chat widget sends automated responses triggered by button clicks BEFORE the user types.
+These appear BEFORE the user message in the timeline.
 
-Do NOT flag an assistant message as "unanswered_question" solely because it appears before the user's question.
-If it is topically relevant, treat it as valid.
-
-INFORMATION GATHERING IS VALID:
-If the user asks about an order (e.g., delivery status) and the assistant asks for required details (order number, phone number, email), do NOT flag.
-This is a correct step, not an unanswered question.
+Do NOT flag these under ANY flag type — not unanswered_question, not context_ignored.
+To identify: if an assistant message appears before the user's question AND the content
+is topically relevant to what the user later asks — it is automated. Skip it entirely.
 
 CONTEXT WINDOW:
 Always consider the last 3-5 messages before making a decision.
@@ -142,6 +140,7 @@ Do NOT flag:
 - Slightly modified responses
 - Valid clarification attempts
 - Responses that convey the same information with minor rewording
+- Responses where the agent gave a full answer but user repeated the question anyway.
 
 --------------------------------------------------
 
@@ -324,11 +323,17 @@ def analyze_conversation(conv):
         ]
 
         seen_ids = set()
+        seen_types = set()
         deduplicated = []
         for f in flags:
-            if f["message_id"] not in seen_ids and len(deduplicated) < 3:
+            if (
+                f["message_id"] not in seen_ids
+                and f["type"] not in seen_types
+                and len(deduplicated) < 3
+            ):
                 deduplicated.append(f)
                 seen_ids.add(f["message_id"])
+                seen_types.add(f["type"])
 
         return {
             "conversation_id": conv["conversation_id"],

@@ -1,307 +1,44 @@
 ========================================================
-  AI ASSISTANT CHAT AUDIT — 42 conversations flagged
+  AI ASSISTANT CHAT AUDIT — 26 conversations flagged
 ========================================================
 
-CONVERSATION 69c40be3b69374161c4e5c36...  [brand: Blue Tea (Secondary)]
+CONVERSATION 69eee23be22e8aec160f45fb...  [brand: Blue Tea (Secondary)]
 --------------------------------------------------------
 
-[agent]  Does your hair reflect light or show a soft natural shine even without styling
-         products?
+[user]   It’s not helping
 
-         ^ IRRELEVANT_PRODUCT
-         The conversation starts with a question about hair, which is not the primary
-         product category of Blue Nectar, a skincare brand.
-  ...
+[agent]  I understand your frustration and sincerely apologize for the delay in support.
+         Please share your specific concern here, and I will ensure it is escalated to our
+         team for prompt resolution within 24-48 hours. Your satisfaction and trust in our
+         Ayurvedic care are very important to us.
 
-[user]   Yes
+[user]   None of your executives are receiving the call or msg
 
-[agent]  Do the ends look smooth rather than frayed or split?
+[agent]  I regret the difficulty you are facing in reaching us by call or message. Our
+         customer care is available Monday to Saturday, 10:00 A.M. to 6:00 P.M. IST, at
+         +91 9999519750 and cs@bluenectar.co.in. Please send your details via email or
+         WhatsApp [here](https://api.whatsapp.com/send/?phone=919999519750), and we will
+         address your concern within 24-48 hours. We appreciate your patience and are
+         committed to assisting you promptly.
 
-[user]   Yes
+         ^ CONTEXT_IGNORED
+         The customer mentioned that none of the executives are receiving their calls or
+         messages, but the assistant repeated the same response, providing the same
+         contact information, without adapting to the customer's concern or offering an
+         alternative solution.
 
-[agent]  Does your scalp feel calm and comfortable without itching, tightness, or
-         irritation?
+[user]   I don’t know, don’t send me this order
 
-         ^ IRRELEVANT_PRODUCT
-         The assistant is still discussing hair and scalp, which is outside the brand's
-         skincare product category.
-
---------------------------------------------------------
-
-CONVERSATION 69c3e34316599deb6989a143...  [brand: Sri Sri Tattva]
---------------------------------------------------------
-
-[user]   Where is my order?
-
-[agent]  To view your order details, please [**sign in to your
-         account**](https://www.srisritattva.com/account/login) first.
+[agent]  To cancel your order, please email us immediately at cs@bluenectar.co.in or call
+         9999519750 within 5 hours of placing the order. If the order has already been
+         dispatched, cancellation may not be possible. We will assist you promptly once we
+         receive your request.
 
          ^ UNANSWERED_QUESTION
-         The customer asked where their order is, but the assistant responded with a
-         request to sign in to their account without addressing the question.
-
-[user]   Where is my order?
-
-[agent]  To view your order details, please [**sign in to your
-         account**](https://www.srisritattva.com/account/login) first.
-
-         ^ CONTEXT_IGNORED
-         The customer repeated their question about the order location, but the assistant
-         repeated the same response to sign in to their account without adapting to the
-         customer's repeated inquiry.
-
---------------------------------------------------------
-
-CONVERSATION 69f2c44842d388a44624d1be...  [brand: Sri Sri Tattva]
---------------------------------------------------------
-
-[user]   When will my order be delivered
-
-[agent]  To view your order details, please [**sign in to your
-         account**](https://www.srisritattva.com/account/login) first.
-
-[user]   Already signed in
-
-[agent]  To view your order details, please [**sign in to your
-         account**](https://www.srisritattva.com/account/login) first.
-
-         ^ CONTEXT_IGNORED
-         Assistant repeated the same response after the customer stated they were already
-         signed in.
-
-[user]   Where
-
-[agent]  To view your order details, please [**sign in to your
-         account**](https://www.srisritattva.com/account/login) first.
-
-         ^ CONTEXT_IGNORED
-         Assistant repeated the same response again after the customer stated they were
-         already signed in and asked where to view order details.
-
---------------------------------------------------------
-
-CONVERSATION 69ef8a807149e4aa908a645d...  [brand: Sri Sri Tattva]
---------------------------------------------------------
-
-[user]   My cmy order is not showing in the list and partial order is delivered
-
-[agent]  To view your order details, please [**sign in to your
-         account**](https://www.srisritattva.com/account/login) first.
-
-         ^ UNANSWERED_QUESTION
-         The customer asked about their order not showing in the list and partial order
-         being delivered, but the assistant did not address this question.
-
-[agent]  To view your order details, please [**sign in to your
-         account**](https://www.srisritattva.com/account/login) first.
-
-         ^ CONTEXT_IGNORED
-         The customer had already been asked to sign in, but the assistant repeated the
-         same response without adapting to the customer's concern about their order.
-
---------------------------------------------------------
-
-CONVERSATION 69f32a2c67150fce800579c2...  [brand: Blue Tea]
---------------------------------------------------------
-
-[user]   Where is my order?
-
-[agent]  To track your order, please share both your order number and the phone number
-         used when placing the order in a single message.
-
-[user]   which tea use to fat burn
-
-[agent]  To track your order, please share both your order number and the phone number
-         used when placing the order in a single message.
-
-         ^ CONTEXT_IGNORED
-         Assistant repeated the same response about tracking the order without addressing
-         the customer's new question about which tea to use for fat burning.
-  ...
-
-[user]   which tea use to fat burn
-
-[agent]  For fat burning, we have two excellent herbal infusion options depending on your
-         lifestyle:  [**Belly Fat Monthly Pack - 120 Tea
-         Bags**](https://bluetea.co.in/products/belly-fat-monthly-pack-120-tea-
-         bags?variant=41035682971691) - ₹1399.00 - Boosts metabolism, burns fat, reduces
-         bloating, aids digestion. Drink 3 cups daily with a balanced diet for best
-         results.  [**Butterfly Pea Flower Herbal Tea - 200
-         Teabags**](https://bluetea.co.in/products/butterfly-pea-flower-
-         tea-200-teabags?variant=43999030804523) - ₹1399.00 - Supports metabolism and
-         weight loss, caffeine-free. Enjoy 3 cups daily as a morning detox or pre-workout
-         booster.  Both are made with natural ingredients like Butterfly Pea, Lemongrass,
-         Ginger, and Spearmint. Belly Fat is ideal if you're starting your weight-loss
-         journey, while Butterfly Pea works great for overall metabolic support.  Do you
-         work out regularly, or are you looking to reduce bloating and water retention?
-
-[user]   Where is my order?
-
-[agent]  To track your order, please share both your order number and the phone number
-         used when placing the order in a single message.
-
-         ^ CONTEXT_IGNORED
-         Assistant repeated the same response about tracking the order without addressing
-         the customer's previous interactions and questions.
-
---------------------------------------------------------
-
-CONVERSATION 69edd8168281557686c81a8c...  [brand: Blue Tea (Secondary)]
---------------------------------------------------------
-
-[user]   Can this be used in a daily routine? mouth-pulling-oil
-
-[agent]  Yes, this Mouth Pulling Oil is designed for daily use as part of your oral care
-         routine. Regular oil pulling helps improve oral hygiene, freshens breath, and
-         supports glowing skin through natural detoxification.
-
-[agent]  Could you please share your question in English so I can help you better?
-
-         ^ CONTEXT_IGNORED
-         Assistant asks for the question to be shared in English despite the customer's
-         initial question being in English.
-  ...
-
-[agent]  If you have any questions about the Mouth Pulling Oil or need guidance on its
-         use, feel free to ask!
-
-[user]   Vgn, o
-
-[agent]  This Mouth Pulling Oil is **100% vegan** and crafted with natural herbs, free
-         from harmful chemicals and mineral oils, honoring authentic Ayurvedic traditions.
-
-[agent]  Could you please share your question in English so I can help you better?
-
-         ^ CONTEXT_IGNORED
-         Assistant repeats the same response asking for the question to be shared in
-         English, ignoring the customer's previous attempts to communicate.
-
---------------------------------------------------------
-
-CONVERSATION 69ec332149f035ad8161df10...  [brand: Blue Tea (Secondary)]
---------------------------------------------------------
-
-[user]   How to apply and when to apply
-
-[agent]  I'd be happy to help answer your question. Could you rephrase it or provide more
-         details?
-
-[user]   Kumkumadi gold tailam what is time to apply and how to apply
-
-[agent]  I'd be happy to help answer your question. Could you rephrase it or provide more
-         details?
-
-         ^ UNANSWERED_QUESTION
-         The customer asked about the application time and method for Kumkumadi gold
-         tailam, but the assistant did not provide any relevant information and instead
-         asked for more details.
-
-[user]   Kumkumadi gold tailam what is time to apply and how to apply
-
-[agent]  I'd be happy to help answer your question. Could you rephrase it or provide more
-         details?
-
-         ^ CONTEXT_IGNORED
-         The customer repeated the same question about Kumkumadi gold tailam, but the
-         assistant provided the same response asking for more details without addressing
-         the customer's query.
-
---------------------------------------------------------
-
-CONVERSATION 69ec230949f035ad81607cd2...  [brand: Blue Tea (Secondary)]
---------------------------------------------------------
-
-[user]   How long does it take to see results? skin-glow-oil-for-body-polishing-nourishing
-
-[agent]  I'd be happy to help answer your question. Could you rephrase it or provide more
-         details?
-
-         ^ UNANSWERED_QUESTION
-         The user asked about the time it takes to see results for the Skin Glow Oil, but
-         the assistant did not provide a relevant answer.
-
-[user]   How long it takes to make skin glow. And is that suitable for oily skin.
-
-[agent]  I'd be happy to help answer your question. Could you rephrase it or provide more
-         details?
-
-         ^ UNANSWERED_QUESTION
-         The user rephrased their question about the time it takes to make skin glow and
-         its suitability for oily skin, but the assistant did not provide a relevant
-         answer.
-
---------------------------------------------------------
-
-CONVERSATION 69c44ccbb69374161c52d01c...  [brand: Blue Tea]
---------------------------------------------------------
-
-[user]   beauty Din Mein Char bar किस-किस time Le jaldi effect ke liye
-
-[agent]  Namaste Khushboo! Beauty ke liye char baar din mein herbal infusion lena, aapko
-         jaldi results dene ke liye, hum aapko sabse accha option suggest kar rahe hain.
-         [**Skin Glow Herbal Tea -50 Tea Bags**](https://bluetea.co.in/products/skin-glow-
-         herbal-infusion-50-tea-bags?variant=41135841640491) - ₹649.00 - Lotus aur natural
-         ingredients se skin brighten aur nourish hota  [**Flower Herbal Tea  - Pack Of
-         7**](https://bluetea.co.in/products/flower-tea-pack-of-7?variant=40894814322731)
-         - ₹999.00 - Enjoy the exquisite selection of seven delectable teas,
-
-         ^ IRRELEVANT_PRODUCT
-         The assistant recommended Skin Glow Herbal Tea, which is a skincare-related
-         product, not a wellness tea product.
-
-[user]   duty Kitni bar Le Din Mein Jaldi patale hone ke
-
-[agent]  Bilkul! Jaldi patale hone ke liye, aapko **din mein 3 baar** hamara herbal
-         infusion lena chahiye.  [**Belly Fat Monthly Pack - 120 Tea
-         Bags**](https://bluetea.co.in/products/belly-fat-monthly-pack-120-tea-
-         bags?variant=41035682971691) - ₹1399.00 - Metabolism boost, fat burn, bloating
-         reduce  [**Slim Herbal Tea - 120 Tea Bags**](https://bluetea.co.in/products/slim-
-         herbal-tea-120-tea-bags?variant=41898453696555) - ₹1299.00 - Metabolism support,
-         bloating reduce, fat melt  Aapka budget aur duration kya hai, taaki main aapke
-         liye perfect pack suggest kar saku?
-
-[user]   duty Kitni bar Le Din Mein Jaldi patale hone ke liye
-
-[agent]  Bilkul! Jaldi patale hone ke liye, aapko **din mein 3 baar** hamara herbal
-         infusion lena chahiye.  [**Belly Fat Herbal
-         Tea**](https://bluetea.co.in/products/belly-fat-herbal-tea-60-tea-
-         bags?variant=43108262510635) - ₹799.00 - Metabolism boost, fat burn, bloating
-         reduce  [**Slim Herbal Tea - 60 Tea Bags**](https://bluetea.co.in/products/slim-
-         herbal-tea-60-tea-bags?variant=40981205647403) - ₹789.00 - Metabolism support,
-         bloating reduce, fat melt  Balanced diet aur regular exercise ke saath ye herbal
-         infusions aapko jaldi results denge. Aapka budget kya hai?
-
-         ^ CONTEXT_IGNORED
-         The user repeated the same question, and the assistant repeated the same response
-         without adapting to the user's query.
-
---------------------------------------------------------
-
-CONVERSATION 69c4058ab69374161c4de171...  [brand: Sri Sri Tattva]
---------------------------------------------------------
-
-[user]   My Order
-
-[agent]  To view your order details, please [**sign in to your
-         account**](https://www.srisritattva.com/account/login) first.
-
-[user]   Where is my order?
-
-[agent]  To view your order details, please [**sign in to your
-         account**](https://www.srisritattva.com/account/login) first.
-
-         ^ CONTEXT_IGNORED
-         The user asked 'Where is my order?' but the assistant repeated the same response
-         to sign in to the account without adapting to the new question.
-
-[user]   8918768423
-
-[agent]  To view your order details, please [**sign in to your
-         account**](https://www.srisritattva.com/account/login) first.
-
-         ^ CONTEXT_IGNORED
-         The user provided their phone number, but the assistant repeated the same
-         response to sign in to the account without adapting to the new information.
+         The customer explicitly stated 'I don’t know, don’t send me this order', which
+         implies a request to cancel the order, but the assistant's response still asks
+         the customer to email or call, instead of acknowledging the cancellation request
+         and providing a direct solution.
 
 --------------------------------------------------------
 
@@ -326,7 +63,7 @@ CONVERSATION 69f35cb0c9c3baf2e3abf3bc...  [brand: Sri Sri Tattva]
 
          ^ FRUSTRATION
          Customer repeated the same question about daily usage of Organic Brown Sugar,
-         indicating potential frustration with the lack of a helpful response.
+         indicating potential frustration or lack of resolution.
 
 [agent]  [**Organic Brown Sugar, 500 g**](https://www.srisritattva.com/products/organic-
          brown-sugar-500g) is a versatile natural sweetener perfect for daily use.
@@ -346,44 +83,15 @@ CONVERSATION 69f35cb0c9c3baf2e3abf3bc...  [brand: Sri Sri Tattva]
 
 --------------------------------------------------------
 
-CONVERSATION 69f1c92698f9bb251e1ff201...  [brand: Sri Sri Tattva]
+CONVERSATION 69f2c44842d388a44624d1be...  [brand: Sri Sri Tattva]
 --------------------------------------------------------
+
+[user]   When will my order be delivered
 
 [agent]  To view your order details, please [**sign in to your
          account**](https://www.srisritattva.com/account/login) first.
 
-[user]   It us nit there
-
-[agent]  I understand your concern. Since your order isn't showing in your account
-         history, please reach out to our support team with any details you have (order
-         number, email used, or approximate order date).  **Contact us:** Email:
-         onlinesupport@srisritattva.com  Our team will locate your order and assist you
-         promptly.
-
-[user]   Tell now
-
-         ^ FRUSTRATION
-         Customer expresses clear frustration with 'Tell now' after not being able to find
-         their order history and receiving an unhelpful response.
-
-[agent]  To view your order details, please [**sign in to your
-         account**](https://www.srisritattva.com/account/login) first.
-
-         ^ CONTEXT_IGNORED
-         Assistant repeats the same response to sign in after the customer has already
-         clicked the login link multiple times and expressed frustration with 'Tell now'.
-
---------------------------------------------------------
-
-CONVERSATION 69f06950e8681adac91262b2...  [brand: Sri Sri Tattva]
---------------------------------------------------------
-
-[agent]  To view your order details, please [**sign in to your
-         account**](https://www.srisritattva.com/account/login) first.
-
-[user]   Already sign in
-
-[user]   Not showing order details
+[user]   Already signed in
 
 [agent]  To view your order details, please [**sign in to your
          account**](https://www.srisritattva.com/account/login) first.
@@ -391,15 +99,49 @@ CONVERSATION 69f06950e8681adac91262b2...  [brand: Sri Sri Tattva]
          ^ CONTEXT_IGNORED
          Assistant repeated the same response after the customer stated they were already
          signed in.
+  ...
 
-[user]   Even after sign in not showing order details.
+[agent]  To view your order details, please [**sign in to your
+         account**](https://www.srisritattva.com/account/login) first.
+
+[agent]  To view your order details, please [**sign in to your
+         account**](https://www.srisritattva.com/account/login) first.
+
+[user]   After sign in can't view order
+
+[user]   You are not helping
+
+         ^ FRUSTRATION
+         Customer expressed frustration with the assistant's unhelpful responses.
+
+--------------------------------------------------------
+
+CONVERSATION 69ef8a807149e4aa908a645d...  [brand: Sri Sri Tattva]
+--------------------------------------------------------
+
+[user]   My cmy order is not showing in the list and partial order is delivered
+
+[agent]  To view your order details, please [**sign in to your
+         account**](https://www.srisritattva.com/account/login) first.
 
 [agent]  To view your order details, please [**sign in to your
          account**](https://www.srisritattva.com/account/login) first.
 
          ^ CONTEXT_IGNORED
-         Assistant repeated the same response again after the customer explicitly
-         mentioned they were signed in and still not seeing order details.
+         Assistant repeated the same response without adapting after the customer
+         mentioned their order issue.
+
+[user]   Is there s issue in the order , I hv paid 30000 rs and can't see the
+
+[user]   Ordered items it's 3000
+
+[agent]  To view your order details, please [**sign in to your
+         account**](https://www.srisritattva.com/account/login) first.
+
+         ^ UNANSWERED_QUESTION
+         Customer asked about an issue with their order and the assistant did not address
+         the question, instead repeating the same response about signing in to their
+         account.
 
 --------------------------------------------------------
 
@@ -437,136 +179,41 @@ CONVERSATION 69f360f5c9c3baf2e3acc820...  [brand: Blue Tea]
          can provide personalized guidance based on your health needs.
 
          ^ CONTEXT_IGNORED
-         The assistant repeated the same response about Belly Fat Herbal Tea without
-         adapting to the customer's repeated question about the best blue tea for weight
-         loss with thyroid concerns.
+         Assistant repeats the same response about Belly Fat Herbal Tea without adapting
+         to the customer's repeated question about the best blue tea for weight loss with
+         thyroid concerns.
 
 [user]   Which blue tea is best for wt loss in thiriod
 
          ^ FRUSTRATION
-         The customer repeated the same question about the best blue tea for weight loss
-         with thyroid concerns, indicating frustration or lack of resolution.
+         Customer repeats the same question about the best blue tea for weight loss in
+         thyroid, indicating frustration or lack of resolution from the previous
+         responses.
 
 --------------------------------------------------------
 
-CONVERSATION 69f32a3767150fce80057aec...  [brand: Blue Tea]
+CONVERSATION 69f1d47798f9bb251e2234f6...  [brand: Blue Tea (Secondary)]
 --------------------------------------------------------
 
-[agent]  The phone number provided does not match this order. Please provide the phone
-         number you used when placing the order.
+[user]   How long does it take to see results? nabhi-belly-button-oil-almond-oil-skin-glow
 
-[user]   396019
+[agent]  With regular nightly application of 1-2 drops on the belly button, you may start
+         noticing improved skin glow, digestion, and joint flexibility within 2-3 weeks,
+         as Ayurvedic oils work gently to nourish and balance from within.
 
-[user]   this was the phone number i used 8252904257
-
-[agent]  The phone number provided does not match this order. Please provide the phone
-         number you used when placing the order.
-
-         ^ CONTEXT_IGNORED
-         The assistant repeated the same response without adapting after the customer
-         provided new information, the phone number 8252904257, in message 4.
-
-[user]   and my order number is 396019
-
-[agent]  The phone number provided does not match this order. Please provide the phone
-         number you used when placing the order.
-
-         ^ CONTEXT_IGNORED
-         The assistant repeated the same response again without adapting after the
-         customer provided the order number 396019 and phone number 8252904257 in messages
-         3, 4, and 6.
-
---------------------------------------------------------
-
-CONVERSATION 69f301be61498ecf96076f15...  [brand: Blue Tea]
---------------------------------------------------------
-
-[agent]  Our **recommended consumption** for [**Belly Fat Herbal
-         Tea**](https://bluetea.co.in/products/copy-of-belly-fat-herbal-tea-30-tea-bags-
-         pack-of-3) is **three times daily** with a balanced diet for optimal results.
-         However, since our products are **100% organic, herbal, and natural** with no
-         known side effects, if you're considering drinking it four times daily, we advise
-         **consulting your doctor first**. They can provide personalized guidance based on
-         your individual health needs and goals.  For specific questions about adjusted
-         consumption, please contact our Customer Care at **+91 7980528437** or
-         **contact@bluetea.co.in**.
-
-[user]   Three times when
-
-[agent]  Drink [**Belly Fat Herbal Tea**](https://bluetea.co.in/products/copy-of-belly-
-         fat-herbal-tea-30-tea-bags-pack-of-3) **three times daily** at these times:  1.
-         **First thing in the morning** on an empty stomach 2. **30 minutes after
-         breakfast or lunch** 3. **Before bedtime**  This timing helps boost metabolism
-         throughout the day and supports fat-burning while you rest at night. Pair with a
-         balanced diet and limit junk food for best results.
-
-[user]   When i questioned u first time this when to take u ans that 30 mins after
-         breakfast AND lunch nd now u re writing 30 mins after breakfast OR lunch aren’t u
-         not know English dear !!!
+[user]   How long does it take to see results? nabhi-belly-button-oil-almond-oil-skin-glow
 
          ^ FRUSTRATION
-         The customer expresses clear frustration and annoyance with the assistant's
-         inconsistent responses, using phrases like 'aren't u not know English dear !!!'.
-  ...
+         User expressed repetition of the same question, indicating potential frustration
+         due to lack of resolution.
 
-[user]   Hmm
+[agent]  With regular nightly application of 1-2 drops on the belly button, you may start
+         noticing improved skin glow, digestion, and joint flexibility within 2-3 weeks,
+         as Ayurvedic oils work gently to nourish and balance from within.
 
-[agent]  I understand your frustration. You deserve clear, consistent answers about how to
-         use [**Belly Fat Herbal Tea**](https://bluetea.co.in/products/copy-of-belly-fat-
-         herbal-tea-30-tea-bags-pack-of-3) properly.  For the most accurate consumption
-         schedule tailored to your needs, please reach out to our Customer Care team:
-         **Phone:** +91 7980528437 **Email:** contact@bluetea.co.in  They'll clarify the
-         exact timing and frequency to help you get the best results.
-
-[agent]  We don't offer a **weight loss guarantee**. [**Belly Fat Herbal
-         Tea**](https://bluetea.co.in/products/copy-of-belly-fat-herbal-tea-30-tea-bags-
-         pack-of-3) is a **natural herbal infusion** designed to support your weight loss
-         journey by boosting metabolism, reducing cravings, and improving digestion.
-         **Results depend on:** Consistent use (three times daily), a balanced diet,
-         limiting junk food and sweets, and regular exercise.  Our product is **100%
-         organic and herbal** with no known side effects. It's rated **4.98/5 by 1,068
-         customers**, showing real people have found value in it when paired with
-         lifestyle changes.  Weight loss is a personal journey, not a one-product
-         solution. If you have concerns about value or results, contact our Customer Care
-         at **+91 7980528437** or **contact@bluetea.co.in** to discuss your experience.
-
-[user]   Are u giving granty for weight loss or ??!! Just its waste of money of costumers
-
-         ^ FRUSTRATION
-         The customer explicitly states 'Just its waste of money of costumers', indicating
-         a strong sense of frustration and dissatisfaction with the product and the
-         conversation.
-
---------------------------------------------------------
-
-CONVERSATION 69f1b0a498f9bb251e1b899f...  [brand: Blue Tea (Secondary)]
---------------------------------------------------------
-
-[user]   What is the consignment
-
-[agent]  Consignment refers to the shipment or delivery of your order from the seller to
-         you. For specific details on shipping, delivery timelines, or tracking your
-         consignment with Blue Nectar, please contact their support as this info is not in
-         the current knowledge base.
-
-[user]   What is the consistency of the product
-
-[agent]  The Rosemary Hair Gel has a lightweight, non-sticky consistency that absorbs
-         quickly, providing a flexible hold while taming frizz and baby hair for smooth,
-         shiny, and vibrant hair.
-
-         ^ IRRELEVANT_PRODUCT
-         The assistant mentions Rosemary Hair Gel, which is a hair care product and not a
-         skincare product, contradicting the Blue Nectar brand's skincare focus.
-
-[user]   Is it a strong hold gel?
-
-[agent]  This provides a flexible hold rather than a strong hold, effectively taming frizz
-         and baby hair while keeping your hairstyle smooth and polished all day.
-
-         ^ IRRELEVANT_PRODUCT
-         The assistant continues to discuss the Rosemary Hair Gel, which is not a skincare
-         product, ignoring the brand's skincare domain.
+         ^ CONTEXT_IGNORED
+         Assistant repeated the same response after the user repeated their question about
+         seeing results, without adapting to the user's follow-up inquiry.
 
 --------------------------------------------------------
 
@@ -585,8 +232,9 @@ CONVERSATION 69ef49e7bd8b63ad6cb1407a...  [brand: Blue Tea (Secondary)]
          skin-firming-anti-aging
 
          ^ FRUSTRATION
-         User repeated the same question about seeing results with the Almond Flax Seed
-         Powder Face Cleanser, indicating frustration with the lack of a helpful response.
+         User repeated the same question about how long it takes to see results with the
+         Almond Flax Seed Powder Face Cleanser, indicating potential frustration with the
+         lack of a clear answer.
 
 [agent]  With the Almond Flax Seed Anti Aging Face Ubtan Powder, you may start noticing
          skin firming, reduced redness, and improved tone within 2-3 weeks of regular use,
@@ -597,50 +245,6 @@ CONVERSATION 69ef49e7bd8b63ad6cb1407a...  [brand: Blue Tea (Secondary)]
          Assistant repeated the same response without adapting after the user repeated
          their question about seeing results with the Almond Flax Seed Powder Face
          Cleanser.
-
---------------------------------------------------------
-
-CONVERSATION 69eee23be22e8aec160f45fb...  [brand: Blue Tea (Secondary)]
---------------------------------------------------------
-
-[user]   I would like to modify this order, I had placed a wrong order.. if it’s possible
-         kindly help, if not please cancel my order
-
-[user]   I’ve been trying to call and I’ve also texted on WhatsApp
-
-[agent]  We apologize for the inconvenience caused. Our team is available Monday to
-         Saturday, 10:00 A.M. to 6:00 P.M. IST. Please share your query via email at
-         cs@bluenectar.co.in or WhatsApp
-         [here](https://api.whatsapp.com/send/?phone=919999519750), and we will respond
-         promptly within 24-48 hours. Thank you for your patience.
-
-[user]   It’s not helping
-
-         ^ FRUSTRATION
-         The customer expresses frustration with the support process, stating 'It’s not
-         helping'.
-  ...
-
-[user]   None of your executives are receiving the call or msg
-
-[agent]  I regret the difficulty you are facing in reaching us by call or message. Our
-         customer care is available Monday to Saturday, 10:00 A.M. to 6:00 P.M. IST, at
-         +91 9999519750 and cs@bluenectar.co.in. Please send your details via email or
-         WhatsApp [here](https://api.whatsapp.com/send/?phone=919999519750), and we will
-         address your concern within 24-48 hours. We appreciate your patience and are
-         committed to assisting you promptly.
-
-[user]   I don’t know, don’t send me this order
-
-[agent]  To cancel your order, please email us immediately at cs@bluenectar.co.in or call
-         9999519750 within 5 hours of placing the order. If the order has already been
-         dispatched, cancellation may not be possible. We will assist you promptly once we
-         receive your request.
-
-         ^ CONTEXT_IGNORED
-         The assistant repeats the same instruction to email or call, despite the customer
-         already stating they've tried and it's not working, and explicitly asking to
-         cancel the order.
 
 --------------------------------------------------------
 
@@ -665,9 +269,9 @@ CONVERSATION 69ee0529e22e8aec16fb1ca1...  [brand: Blue Tea (Secondary)]
          din use karna behtar hota hai for natural hair growth aur dandruff control.
 
          ^ HALLUCINATION
-         The assistant recommended Rosemary Hair Tonic, which is a hair care product,
-         while the customer was inquiring about a face cream, indicating a wrong product
-         recommendation.
+         Assistant recommends Rosemary Hair Tonic, which is not relevant to the customer's
+         initial question about the cream, and instead discusses hair care, which is
+         outside the brand's skincare product category.
 
 [user]   Es hair tonic ko use kaise karte h
 
@@ -679,9 +283,8 @@ CONVERSATION 69ee0529e22e8aec16fb1ca1...  [brand: Blue Tea (Secondary)]
          karein.
 
          ^ IRRELEVANT_PRODUCT
-         The assistant continued to provide information about Rosemary Hair Tonic, a hair
-         care product, instead of addressing the customer's initial inquiry about the face
-         cream, further indicating a wrong product recommendation.
+         Assistant continues to discuss Rosemary Hair Tonic, a hair care product, which is
+         not a part of Blue Nectar's skincare product offerings.
 
 --------------------------------------------------------
 
@@ -700,15 +303,15 @@ CONVERSATION 69ecbd4411e0b127fbc86222...  [brand: Blue Tea (Secondary)]
          skin, making it ideal for a daily anti-aging skincare routine.
 
          ^ CONTEXT_IGNORED
-         Assistant repeated the same response without adapting after the user repeated
+         Assistant repeated the same response without adapting after the customer repeated
          their question about using the product in a daily routine.
 
 [user]   Can this be used in a daily routine? anti-aging-cream-for-women-best-anti-
          wrinkle-cream-moisturizer-for-face
 
          ^ FRUSTRATION
-         User repeated the same question about using the product in a daily routine for
-         the second time, indicating frustration with the lack of a helpful response.
+         Customer repeated the same question for the second time with no resolution,
+         indicating frustration with the conversation.
 
 --------------------------------------------------------
 
@@ -730,253 +333,37 @@ CONVERSATION 69ec2d9649f035ad81615b55...  [brand: Blue Tea (Secondary)]
 
          ^ CONTEXT_IGNORED
          The user initially asked about using the Kumkumadi Face Oil Serum in a daily
-         routine, but the assistant ignored this context and instead asked for the order
+         routine, but the assistant ignored this context and instead asked for an order
          number after the user mentioned tracking their order.
 
 --------------------------------------------------------
 
-CONVERSATION 69c4988280af262206b8858d...  [brand: Blue Tea]
+CONVERSATION 69ec230949f035ad81607cd2...  [brand: Blue Tea (Secondary)]
 --------------------------------------------------------
 
-[user]   Which team should I take
+[user]   How long does it take to see results? skin-glow-oil-for-body-polishing-nourishing
 
-[agent]  Are you interested in:  [**Butterfly Pea Flower Herbal Tea - 100
-         Teabags**](https://bluetea.co.in/products/butterfly-pea-flower-
-         tea-100-teabags?variant=42531073065003) - ₹899.00 - Experience the benefits of
-         Butterfly Pea Tea, a  [**Spearmint Herbal Tea -
-         200g**](https://bluetea.co.in/products/spearmint-tea-200g?variant=41721472122923)
-         - ₹499.00 - Savor the smooth, naturally sweet flavor of Spearmint  I'd love to
-         help you find the perfect herbal infusion! To recommend what suits you best,
-         could you share what you're looking for?
+[agent]  I'd be happy to help answer your question. Could you rephrase it or provide more
+         details?
 
-[user]   Which team should I take
+         ^ UNANSWERED_QUESTION
+         The user asked about the time it takes to see results for the Skin Glow Oil, but
+         the assistant did not provide a relevant answer.
+  ...
 
-[agent]  Are you interested in:  [**Butterfly Pea Flower Herbal Tea - 100
-         Teabags**](https://bluetea.co.in/products/butterfly-pea-flower-
-         tea-100-teabags?variant=42531073065003) - ₹899.00 - Experience the benefits of
-         Butterfly Pea Tea, a  [**Spearmint Herbal Tea -
-         200g**](https://bluetea.co.in/products/spearmint-tea-200g?variant=41721472122923)
-         - ₹499.00 - Savor the smooth, naturally sweet flavor of Spearmint  I'd love to
-         help you find the perfect herbal infusion! To recommend the right blend, could
-         you share what you're looking for?
+[agent]  I'd be happy to help answer your question. Could you rephrase it or provide more
+         details?
 
-         ^ CONTEXT_IGNORED
-         Assistant repeats the same response without adapting after the user repeats their
-         question.
+[agent]  I'd be happy to help answer your question. Could you rephrase it or provide more
+         details?
 
---------------------------------------------------------
+[user]   How long it takes to make skin glow. And is that suitable for oily skin.
 
-CONVERSATION 69c3d653b69374161c49125f...  [brand: Blue Tea]
---------------------------------------------------------
+[user]   You're worst
 
-[user]   Mujhe apna weight kam krna hai uske lie best blue tea batae
-
-[agent]  वजन कम करने के लिए आपके पास बेहतरीन विकल्प हैं! हमारे पास **मेटाबोलिज्म बूस्ट**
-         और **फैट बर्निंग** के लिए विशेष हर्बल इनफ्यूजन हैं।  [**Blue Tea Indian Chai
-         Masala (Calming Blue Tea) - 60 Teabags**](https://bluetea.co.in/products/blue-
-         tea-indian-chai-masala-calming-blue-tea-60-teabags?variant=40556685393963) -
-         ₹849.00 - वजन घटाने और मेटाबोलिज्म बढ़ाने में मदद  [**Blue Tea Indian Chai Masala
-         (Calming Blue Tea) - 20 tea bags**](https://bluetea.co.in/products/blue-tea-
-         indian-chai-masala-calming-blue-tea-20-tea-bags?variant=41220222812203) - ₹219.00
-         - Our Indian Chai Masala Tea is more than  कौन सा विकल्प आपको ज़्यादा सूट करेगा?
-
-[user]   Mai butterfly pea flower order Kiya huu vo kaisa hai
-
-[agent]  Your recent order **#394515** is currently **Processing** (placed on 25 March,
-         2026). It includes: - Butterfly Pea Flower Herbal Tea - 200 Teabags - Skin Glow
-         Herbal Tea - 10 Teabags  Total: ₹1349.   You can check the status here: [Track
-         Order](https://bluetea.co.in/26998400/orders/80a0c56ad9b5740cdc0406b8ebaac4d6)
-         If you need detailed tracking or info on another order, just share the order
-         number!
-
-         ^ HALLUCINATION
-         The assistant mentions 'Skin Glow Herbal Tea' which is not a known product from
-         Blue Tea and seems unrelated to the customer's order of Butterfly Pea Flower tea.
-
---------------------------------------------------------
-
-CONVERSATION 69c3cfb516599deb69899fb5...  [brand: Blue Tea]
---------------------------------------------------------
-
-[user]   9845863698
-
-[agent]  The phone number provided does not match this order. Please provide the phone
-         number you used when placing the order.
-
-[user]   Where is my order?
-
-[agent]  🧾 **Order Details**  * **Order Number:** #391427 * **Order Date:** 22 March 2026
-         * **Total Amount:** ₹1148.20 * **Shipping Location:** Karnataka, India  🚚
-         **Shipping Status**  * **Status:** In Transit * [Track Order](https://www.bluedar
-         t.com/web/guest/trackdartresult?trackFor=0&trackNo=90454244543)  🛒 **Products**
-         * **🎁 Acid Ease Herbal Tea** - ₹0.00 x1 * **Belly Fat Monthly Pack** - ₹1399.00
-         x1 * **Moringa Powder** - ₹500.00 x1
-
-         ^ IRRELEVANT_PRODUCT
-         The product 'Moringa Powder' is not a tea product, which is the only type of
-         product Blue Tea sells.
-
---------------------------------------------------------
-
-CONVERSATION 69c3cbb9b69374161c477f5f...  [brand: Blue Tea]
---------------------------------------------------------
-
-[user]   stick ko use kaise karna hai
-
-[agent]  Namaste! Blue Tea ke **stick products** ke baare mein poochne ke liye shukriya.
-         Dukh ke saath, mujhe apke paas jo specific stick product hai uske liye detailed
-         instructions mere knowledge mein nahi hain. Lekin main aapko sahi guidance dene
-         ke liye ek chhota sa sawal poochna chahta hoon:  **Aap kis type ka stick use kar
-         rahe hain?** Kya yeh: - **Slim Tea Stick** hai? - **Detox ya Cleanse blend** hai?
-         - **Koi aur herbal infusion stick** hai?  Ek baar aap batayein, main aapko sahi
-         tarike se use karne ke liye poori jaankari dijiye. Alternatively, aap
-         **contact@bluetea.co.in** par email karke bhi detailed instructions maang sakte
-         hain.  Aapka swasthya hamara priority hai! 🌿
-
-[user]   kaise use karna hai
-
-[agent]  Aapke stick product ke liye, yeh general tarika hai:  [**Blue Tea Indian Chai
-         Masala (Calming Blue Tea) - 60 Teabags**](https://bluetea.co.in/products/blue-
-         tea-indian-chai-masala-calming-blue-tea-60-teabags?variant=40556685393963) -
-         ₹849.00 - Our Indian Chai Masala Tea is more than  [**Detox Desi Kahwa - 60 Tea
-         Bags | Blue Tea Blend**](https://bluetea.co.in/products/butterfly-pea-detox-desi-
-         kahwa-60-tea-bags?variant=41077598093355) - ₹899.00 - Blue Tea Kahwa is a unique
-         blend of
-
-         ^ HALLUCINATION
-         Assistant provides a specific product link to Blue Tea Indian Chai Masala and
-         Detox Desi Kahwa, but the customer asked about using a stick product, which is
-         not clearly related to these tea bag products.
-
---------------------------------------------------------
-
-CONVERSATION 69c504de06069052a32e9497...  [brand: Blue Tea (Secondary)]
---------------------------------------------------------
-
-[user]   Want to go for buy one get one offers
-
-[agent]  Welcome! The **Buy 1 Get 1 Free Sale** is currently live at Blue Nectar. Simply
-         add any two products to your cart, and the lowest-priced item will be free. You
-         can also explore the special B1G1 GPAY collection, which includes popular
-         products like the Triphaladi Ayurvedic Slimming Oil, Kumkumadi Face Serum, Shubhr
-         Anti Aging Cream, Niraa Cocoa Butter Stretch Mark Cream, and Rosemary Hair Tonic.
-         For more details, visit [Blue Nectar](https://www.bluenectar.co.in). Enjoy your
-         Ayurvedic self-care journey!
-
-[user]   Want to go for buy one get one offers
-
-[agent]  Welcome! The **Buy 1 Get 1 Free Sale** is currently live at Blue Nectar. Simply
-         add any two products to your cart, and you’ll get the lowest-priced item for
-         free. This offer applies to a wide range of products, including popular choices
-         like the Triphaladi Ayurvedic Slimming Oil, Kumkumadi Face Serum, Shubhr Anti
-         Aging Cream, Niraa Cocoa Butter Stretch Mark Cream, and Rosemary Hair Tonic. For
-         select collections, you can also use code **BLUENEW** at checkout. Enjoy
-         exploring authentic Ayurvedic wellness while making the most of this special
-         offer!
-
-         ^ CONTEXT_IGNORED
-         Assistant repeats the same response without adapting after the user repeats the
-         same question.
-
---------------------------------------------------------
-
-CONVERSATION 69c4e86c06069052a32a443f...  [brand: Blue Tea (Secondary)]
---------------------------------------------------------
-
-[user]   I want to track my order.
-
-[agent]  Please share your order number starting with # to track your order.
-
-[user]   Customer care
-
-[agent]  Please share your order number starting with # to track your order.
-
-         ^ CONTEXT_IGNORED
-         Assistant repeats the same response without adapting after the user mentions
-         'Customer care', which is new information.
-
---------------------------------------------------------
-
-CONVERSATION 69c413a5b69374161c4f1519...  [brand: Blue Tea (Secondary)]
---------------------------------------------------------
-
-[user]   Can this be used in a daily routine? pain-relief-compress-potli-for-body-back-
-         joint-pain
-
-[agent]  Yes, the [**Devtvakadi Herbal Compress Potli
-         Massage**](https://www.bluenectar.co.in/products/pain-relief-compress-potli-for-
-         body-back-joint-pain) can be safely incorporated into your daily routine. Regular
-         use, especially when gently heated and combined with an Ayurvedic massage oil,
-         helps relieve stiffness, support flexibility, and ease back or joint pain. Its
-         blend of 16 Ayurvedic herbs—including Neem and Turmeric—offers natural comfort
-         and supports your body’s healing. This traditional ritual is gentle enough for
-         daily use and honors time-tested Ayurvedic practices for holistic wellness.
-
-[user]   Can this be used in a daily routine? pain-relief-compress-potli-for-body-back-
-         joint-pain
-
-[agent]  Yes, the [**Devtvakadi Herbal Compress Potli
-         Massage**](https://www.bluenectar.co.in/products/pain-relief-compress-potli-for-
-         body-back-joint-pain) can be safely incorporated into your daily routine. Regular
-         use, especially when gently heated and combined with an Ayurvedic massage oil,
-         helps relieve stiffness, support flexibility, and ease back or joint pain. Its
-         blend of 16 Ayurvedic herbs—including Neem and Turmeric—offers natural comfort
-         and supports your body’s healing. This traditional ritual is gentle enough for
-         daily use and honors time-tested Ayurvedic practices for holistic wellness.
-
-         ^ CONTEXT_IGNORED
-         Assistant repeats the same response without adapting after the user repeats their
-         question about using the Pain Relief Compress Potli in a daily routine.
-
---------------------------------------------------------
-
-CONVERSATION 69c178881866ef69c61a2b7e...  [brand: Blue Tea (Secondary)]
---------------------------------------------------------
-
-[user]   I need discount
-
-[agent]  Namaste! Currently, the **Buy 1 Get 1 Free Sale** is live at Blue Nectar. Simply
-         add any two products to your cart, and you’ll get the lower-priced item for free.
-         This is a wonderful opportunity to experience authentic Ayurvedic wellness while
-         enjoying great value. If you need help selecting products, please let me know!
-
-[user]   Yes
-
-[agent]  The **Buy 1 Get 1 Free Sale** is active—add any two products to your cart, and
-         the lower-priced one will be free. This offer applies across a wide range of
-         Ayurvedic skincare, haircare, and wellness products. For select products, you can
-         also use the **GPAY offer** by adding eligible items and redeeming a unique code
-         at checkout. If you need recommendations or details about eligible products, I am
-         here to assist you.
-
-         ^ HALLUCINATION
-         Assistant mentions haircare products, which are not part of the Blue Nectar
-         brand's skincare product line.
-
---------------------------------------------------------
-
-CONVERSATION 69c5063d16599deb6989b123...  [brand: Sri Sri Tattva]
---------------------------------------------------------
-
-[user]   Where is my order?
-
-[agent]  To view your order details, please [**sign in to your
-         account**](https://www.srisritattva.com/account/login) first.
-
-[user]   your very vest felo castmar care
-
-[agent]  For nurturing facial care, I recommend these Ayurvedic options for healthy,
-         radiant skin.  [**Twaqure, Derma Care |
-         500mg**](https://www.srisritattva.com/products/twaqure-derma-
-         care-500mg?variant=48826856898720) - ₹469.00 - Hydrates, soothes, and deeply
-         cleanses with herbal nutrients.  [**Deep Cleanse Facial Ubtan, by Shankara - 120
-         g**](https://www.srisritattva.com/products/deep-cleanse-facial-ubtan-by-
-         shankara-120gm?variant=39539921977504) - ₹945.00 - A hydrating and soothing face
-         wash infused with  Would you like guidance for a specific skin concern?
-
-         ^ IRRELEVANT_PRODUCT
-         The assistant recommended a product 'Deep Cleanse Facial Ubtan, by Shankara'
-         which is from a different brand 'Shankara', not Sri Sri Tattva.
+         ^ FRUSTRATION
+         The user expressed frustration with the assistant's responses, calling it the
+         'worst'.
 
 --------------------------------------------------------
 
@@ -1008,8 +395,8 @@ CONVERSATION 69f39b615cad2f55381436ab...  [brand: Sri Sri Tattva]
          Call](https://api.whatsapp.com/send/?phone=918310160508)
 
          ^ CONTEXT_IGNORED
-         Assistant repeated the same response after the user repeated their question about
-         who should use the Aroma Delight product.
+         Assistant repeated the same response without adapting after the user repeated the
+         same question.
 
 --------------------------------------------------------
 
@@ -1029,49 +416,76 @@ CONVERSATION 69f3578dc9c3baf2e3aae908...  [brand: Sri Sri Tattva]
          account**](https://www.srisritattva.com/account/login) first.
 
          ^ CONTEXT_IGNORED
-         Assistant repeated the same response without adapting after the customer provided
-         new information, order number 843412.
+         Assistant repeated the same response about signing in after the customer provided
+         new information, order number 843412, without adapting to the new context.
 
 --------------------------------------------------------
 
-CONVERSATION 69f0e46a2ebeef143b1d65b9...  [brand: Sri Sri Tattva]
+CONVERSATION 69f1c92698f9bb251e1ff201...  [brand: Sri Sri Tattva]
 --------------------------------------------------------
 
-[user]   Hello
+[user]   It us nit there
 
-[agent]  🙏 Namaste! Welcome to **Sri Sri Tattva**.  I'm here to help you with our
-         Ayurvedic wellness products, answer questions about orders, policies, or guide
-         you toward the right solution for your health and wellness needs.  What can I
-         assist you with today?
+[agent]  I understand your concern. Since your order isn't showing in your account
+         history, please reach out to our support team with any details you have (order
+         number, email used, or approximate order date).  **Contact us:** Email:
+         onlinesupport@srisritattva.com  Our team will locate your order and assist you
+         promptly.
 
-[agent]  I understand you'd like to change your shipping address for your order.
-         Unfortunately, I don't have access to modify addresses directly through this
-         chat. Please contact our support team right away at
-         **onlinesupport@srisritattva.com** with your **Order ID**, and they'll assist you
-         promptly.  If your order hasn't been dispatched yet, they may be able to update
-         it. Once shipped, address changes become difficult, so reaching out immediately
-         is best.  Is there anything else I can help with?
-
-         ^ UNANSWERED_QUESTION
-         The customer didn't ask about changing their shipping address, but the assistant
-         provided a response related to it.
-
---------------------------------------------------------
-
-CONVERSATION 69f01f497149e4aa909557f4...  [brand: Sri Sri Tattva]
---------------------------------------------------------
-
-[user]   My current order
-
-[agent]  To view your order details, please [**sign in to your
-         account**](https://www.srisritattva.com/account/login) first.
+[user]   Tell now
 
 [agent]  To view your order details, please [**sign in to your
          account**](https://www.srisritattva.com/account/login) first.
 
          ^ CONTEXT_IGNORED
-         Assistant repeated the same response to sign in after the customer had already
-         clicked the sign in link multiple times.
+         Assistant repeated the same response to sign in after the customer expressed
+         concern and was told to contact support, without adapting to the new information.
+
+--------------------------------------------------------
+
+CONVERSATION 69f06950e8681adac91262b2...  [brand: Sri Sri Tattva]
+--------------------------------------------------------
+
+[agent]  To view your order details, please [**sign in to your
+         account**](https://www.srisritattva.com/account/login) first.
+
+[user]   Already sign in
+
+[user]   Not showing order details
+
+[agent]  To view your order details, please [**sign in to your
+         account**](https://www.srisritattva.com/account/login) first.
+
+         ^ CONTEXT_IGNORED
+         Assistant repeated the same response to sign in after the customer stated they
+         were already signed in.
+
+--------------------------------------------------------
+
+CONVERSATION 69f06774e8681adac911e43d...  [brand: Sri Sri Tattva]
+--------------------------------------------------------
+
+[user]   Shipment is very much delayed lying at Vadodara since 2 days..
+
+[agent]  I understand your concern about the delay. A 2-day hold in Vadodara can be
+         frustrating, especially when you're expecting your wellness products.  Our
+         standard delivery timeline is 3 to 4 working days from dispatch. Occasional
+         delays at transit hubs like Vadodara do happen due to sorting or logistics
+         volume, but your package should move forward soon.  To help you better, I'd need
+         your **order number or tracking ID**. With that, I can provide more specific
+         details about your shipment status.  For immediate assistance with tracking or to
+         escalate this delay, please reach out to our support team at
+         **support@srisritattva.com** with your order details. They can investigate and
+         ensure prompt resolution.
+
+[user]   8431119
+
+[agent]  To view your order details, please [**sign in to your
+         account**](https://www.srisritattva.com/account/login) first.
+
+         ^ CONTEXT_IGNORED
+         User provided order number 8431119 but assistant repeated the same response to
+         sign in to account without adapting to the new information.
 
 --------------------------------------------------------
 
@@ -1090,8 +504,8 @@ CONVERSATION 69ef1382e22e8aec1619d4b7...  [brand: Sri Sri Tattva]
          account**](https://www.srisritattva.com/account/login) first.
 
          ^ CONTEXT_IGNORED
-         The assistant repeated the same response to sign in to the account after the
-         customer provided new information about their order issue.
+         The assistant repeated the same response to sign in to the account without
+         addressing the customer's concern about the missing order items.
 
 --------------------------------------------------------
 
@@ -1119,7 +533,26 @@ CONVERSATION 69f36c11c9c3baf2e3ae15e0...  [brand: Blue Tea]
 
          ^ HALLUCINATION
          Assistant gives information about Keto Herbal Tea when the customer asked about
-         consuming Slim Tea only once a day.
+         Slim Tea.
+
+--------------------------------------------------------
+
+CONVERSATION 69f32a3767150fce80057aec...  [brand: Blue Tea]
+--------------------------------------------------------
+
+[user]   this was the phone number i used 8252904257
+
+[agent]  The phone number provided does not match this order. Please provide the phone
+         number you used when placing the order.
+
+[user]   and my order number is 396019
+
+[agent]  The phone number provided does not match this order. Please provide the phone
+         number you used when placing the order.
+
+         ^ CONTEXT_IGNORED
+         The assistant repeats the same response without adapting after the customer
+         provided new information, including the order number.
 
 --------------------------------------------------------
 
@@ -1144,24 +577,57 @@ CONVERSATION 69f31bfc67150fce80036806...  [brand: Blue Tea]
 
 --------------------------------------------------------
 
-CONVERSATION 69f1d47798f9bb251e2234f6...  [brand: Blue Tea (Secondary)]
+CONVERSATION 69f301be61498ecf96076f15...  [brand: Blue Tea]
 --------------------------------------------------------
 
-[user]   How long does it take to see results? nabhi-belly-button-oil-almond-oil-skin-glow
+[agent]  Our **recommended consumption** for [**Belly Fat Herbal
+         Tea**](https://bluetea.co.in/products/copy-of-belly-fat-herbal-tea-30-tea-bags-
+         pack-of-3) is **three times daily** with a balanced diet for optimal results.
+         However, since our products are **100% organic, herbal, and natural** with no
+         known side effects, if you're considering drinking it four times daily, we advise
+         **consulting your doctor first**. They can provide personalized guidance based on
+         your individual health needs and goals.  For specific questions about adjusted
+         consumption, please contact our Customer Care at **+91 7980528437** or
+         **contact@bluetea.co.in**.
 
-[agent]  With regular nightly application of 1-2 drops on the belly button, you may start
-         noticing improved skin glow, digestion, and joint flexibility within 2-3 weeks,
-         as Ayurvedic oils work gently to nourish and balance from within.
+[user]   Three times when
 
-[user]   How long does it take to see results? nabhi-belly-button-oil-almond-oil-skin-glow
+[agent]  Drink [**Belly Fat Herbal Tea**](https://bluetea.co.in/products/copy-of-belly-
+         fat-herbal-tea-30-tea-bags-pack-of-3) **three times daily** at these times:  1.
+         **First thing in the morning** on an empty stomach 2. **30 minutes after
+         breakfast or lunch** 3. **Before bedtime**  This timing helps boost metabolism
+         throughout the day and supports fat-burning while you rest at night. Pair with a
+         balanced diet and limit junk food for best results.
 
-[agent]  With regular nightly application of 1-2 drops on the belly button, you may start
-         noticing improved skin glow, digestion, and joint flexibility within 2-3 weeks,
-         as Ayurvedic oils work gently to nourish and balance from within.
+[user]   When i questioned u first time this when to take u ans that 30 mins after
+         breakfast AND lunch nd now u re writing 30 mins after breakfast OR lunch aren’t u
+         not know English dear !!!
 
-         ^ CONTEXT_IGNORED
-         Assistant repeated the same response after the user asked the same question
-         again, without adapting to the user's repetition.
+         ^ FRUSTRATION
+         The customer expresses frustration and annoyance due to the inconsistency in the
+         assistant's responses regarding the consumption timing of Belly Fat Herbal Tea.
+
+--------------------------------------------------------
+
+CONVERSATION 69f1b0a498f9bb251e1b899f...  [brand: Blue Tea (Secondary)]
+--------------------------------------------------------
+
+[user]   What is the consignment
+
+[agent]  Consignment refers to the shipment or delivery of your order from the seller to
+         you. For specific details on shipping, delivery timelines, or tracking your
+         consignment with Blue Nectar, please contact their support as this info is not in
+         the current knowledge base.
+
+[user]   What is the consistency of the product
+
+[agent]  The Rosemary Hair Gel has a lightweight, non-sticky consistency that absorbs
+         quickly, providing a flexible hold while taming frizz and baby hair for smooth,
+         shiny, and vibrant hair.
+
+         ^ HALLUCINATION
+         Assistant mentions Rosemary Hair Gel, which is not a skincare product and does
+         not match the Blue Nectar brand's Ayurvedic skincare product category.
 
 --------------------------------------------------------
 
@@ -1184,9 +650,27 @@ CONVERSATION 69ef4895bd8b63ad6cb0f1c9...  [brand: Blue Tea (Secondary)]
          renewal.
 
          ^ HALLUCINATION
-         The assistant answers about the Coffee Bean Powder Face Cleanser, which is a
-         different product from the Men's and Women's Shata Dhauta Ghrita Face Cream that
-         the user was asking about.
+         The assistant is discussing the Coffee Bean Powder Face Cleanser, but the
+         customer's question is about the difference between the men's and women's Shata
+         Dhauta Ghrita Face Cream, and the assistant should have provided information
+         about the creams instead of the cleanser.
+
+--------------------------------------------------------
+
+CONVERSATION 69edd8168281557686c81a8c...  [brand: Blue Tea (Secondary)]
+--------------------------------------------------------
+
+[user]   Can this be used in a daily routine? mouth-pulling-oil
+
+[agent]  Yes, this Mouth Pulling Oil is designed for daily use as part of your oral care
+         routine. Regular oil pulling helps improve oral hygiene, freshens breath, and
+         supports glowing skin through natural detoxification.
+
+[agent]  Could you please share your question in English so I can help you better?
+
+         ^ CONTEXT_IGNORED
+         Assistant asked the customer to share their question in English despite the
+         customer's initial question being in English.
 
 --------------------------------------------------------
 
@@ -1208,10 +692,9 @@ CONVERSATION 69ed885c11e0b127fbdac9c3...  [brand: Blue Tea (Secondary)]
          targets pigmentation and dark spots while nourishing your skin naturally.
 
          ^ UNANSWERED_QUESTION
-         The customer asked how long it takes to see results for the Kojic Acid Cream
-         Pigmentation product, but the assistant responded with information about the
-         product's texture and suitability for daily use instead of addressing the
-         question about the timeframe for seeing results.
+         The customer asked how long it takes to see results, but the assistant responded
+         with information about the product's texture and suitability for daily use,
+         without addressing the question about the timeframe for seeing results.
 
 --------------------------------------------------------
 
@@ -1233,7 +716,7 @@ CONVERSATION 69ec67dc03bda2b49295c8c1...  [brand: Blue Tea (Secondary)]
          evening skincare routine.
 
          ^ CONTEXT_IGNORED
-         The assistant repeated the same response as message 3, without adapting to the
-         customer's repeated question.
+         Assistant repeated the same response as message 3 without adapting, despite the
+         customer repeating the same question.
 
 --------------------------------------------------------
