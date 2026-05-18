@@ -1,35 +1,35 @@
 [
   {
-    "conversation_id": "69ee0529e22e8aec16fb1ca1",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "score": 50,
+    "conversation_id": "69f301be61498ecf96076f15",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 70,
     "flags": [
       {
-        "message_id": 4,
-        "type": "hallucination",
-        "reason": "Assistant recommends Rosemary Hair Tonic, which is not relevant to the customer's initial question about the cream, and instead discusses hair care, which is outside the brand's skincare product category."
+        "message_id": 8,
+        "type": "frustration",
+        "reason": "The customer expresses frustration and annoyance at the assistant's inconsistent responses, feeling that the assistant does not know English and is not providing clear answers."
       },
       {
-        "message_id": 7,
-        "type": "irrelevant_product",
-        "reason": "Assistant continues to discuss Rosemary Hair Tonic, a hair care product, which is not a part of Blue Nectar's skincare product offerings."
+        "message_id": 1,
+        "type": "hallucination",
+        "reason": "The assistant initially states to drink the Belly Fat Herbal Tea three times daily, but later reveals that the correct timing is 30 minutes after both breakfast and lunch, and before bedtime, which actually results in four servings daily, contradicting the initial statement."
       }
     ]
   },
   {
-    "conversation_id": "69f35cb0c9c3baf2e3abf3bc",
+    "conversation_id": "69f39b615cad2f55381436ab",
     "widgetId": "69a92ad76dcbf2da868e0f9b",
     "score": 40,
     "flags": [
       {
         "message_id": 3,
         "type": "context_ignored",
-        "reason": "Assistant repeated the same response without adapting after the customer repeated their question about daily usage of Organic Brown Sugar."
+        "reason": "Assistant repeated the same response without adapting after the user repeated the question."
       },
       {
         "message_id": 2,
         "type": "frustration",
-        "reason": "Customer repeated the same question about daily usage of Organic Brown Sugar, indicating potential frustration or lack of resolution."
+        "reason": "User repeated the same question with no resolution, indicating potential frustration."
       }
     ]
   },
@@ -51,69 +51,6 @@
     ]
   },
   {
-    "conversation_id": "69f360f5c9c3baf2e3acc820",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "score": 40,
-    "flags": [
-      {
-        "message_id": 4,
-        "type": "context_ignored",
-        "reason": "Assistant repeats the same response about Belly Fat Herbal Tea without adapting to the customer's repeated question about the best blue tea for weight loss with thyroid concerns."
-      },
-      {
-        "message_id": 5,
-        "type": "frustration",
-        "reason": "Customer repeats the same question about the best blue tea for weight loss in thyroid, indicating frustration or lack of resolution from the previous responses."
-      }
-    ]
-  },
-  {
-    "conversation_id": "69f301be61498ecf96076f15",
-    "widgetId": "680a0a8b70a26f7a0e24eedd",
-    "score": 40,
-    "flags": [
-      {
-        "message_id": 8,
-        "type": "frustration",
-        "reason": "The customer expresses frustration and annoyance due to the inconsistency in the assistant's responses regarding the consumption timing of Belly Fat Herbal Tea."
-      }
-    ]
-  },
-  {
-    "conversation_id": "69f1d47798f9bb251e2234f6",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "score": 40,
-    "flags": [
-      {
-        "message_id": 3,
-        "type": "context_ignored",
-        "reason": "Assistant repeated the same response after the user repeated their question about seeing results, without adapting to the user's follow-up inquiry."
-      },
-      {
-        "message_id": 2,
-        "type": "frustration",
-        "reason": "User expressed repetition of the same question, indicating potential frustration due to lack of resolution."
-      }
-    ]
-  },
-  {
-    "conversation_id": "69ef49e7bd8b63ad6cb1407a",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "score": 40,
-    "flags": [
-      {
-        "message_id": 3,
-        "type": "context_ignored",
-        "reason": "Assistant repeated the same response without adapting after the user repeated their question about seeing results with the Almond Flax Seed Powder Face Cleanser."
-      },
-      {
-        "message_id": 2,
-        "type": "frustration",
-        "reason": "User repeated the same question about how long it takes to see results with the Almond Flax Seed Powder Face Cleanser, indicating potential frustration with the lack of a clear answer."
-      }
-    ]
-  },
-  {
     "conversation_id": "69eee23be22e8aec160f45fb",
     "widgetId": "6983153e1497a62e8542a0ad",
     "score": 40,
@@ -121,34 +58,12 @@
       {
         "message_id": 13,
         "type": "unanswered_question",
-        "reason": "The customer explicitly stated 'I don\u2019t know, don\u2019t send me this order', which implies a request to cancel the order, but the assistant's response still asks the customer to email or call, instead of acknowledging the cancellation request and providing a direct solution."
-      },
-      {
-        "message_id": 11,
-        "type": "context_ignored",
-        "reason": "The customer mentioned that none of the executives are receiving their calls or messages, but the assistant repeated the same response, providing the same contact information, without adapting to the customer's concern or offering an alternative solution."
+        "reason": "The customer explicitly stated 'I don\u2019t know, don\u2019t send me this order', implying a desire to cancel the order, but the assistant's response still asks the customer to email or call, rather than acknowledging the customer's request and providing a direct solution."
       },
       {
         "message_id": 8,
         "type": "frustration",
-        "reason": "The customer expressed frustration with the support process, stating 'It\u2019s not helping', indicating a clear emotional response to the unhelpful responses from the assistant."
-      }
-    ]
-  },
-  {
-    "conversation_id": "69ecbd4411e0b127fbc86222",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "score": 40,
-    "flags": [
-      {
-        "message_id": 2,
-        "type": "context_ignored",
-        "reason": "Assistant repeated the same response without adapting after the customer repeated their question about using the product in a daily routine."
-      },
-      {
-        "message_id": 3,
-        "type": "frustration",
-        "reason": "Customer repeated the same question for the second time with no resolution, indicating frustration with the conversation."
+        "reason": "The customer expressed frustration with 'It\u2019s not helping', indicating a clear annoyance with the ongoing issue and the lack of resolution."
       }
     ]
   },
@@ -163,9 +78,14 @@
         "reason": "The user asked about the time it takes to see results for the Skin Glow Oil, but the assistant did not provide a relevant answer."
       },
       {
+        "message_id": 5,
+        "type": "context_ignored",
+        "reason": "The user repeated their question again, but the assistant repeated the same response without adapting to the user's query."
+      },
+      {
         "message_id": 6,
         "type": "frustration",
-        "reason": "The user expressed frustration with the assistant's responses, calling it the 'worst'."
+        "reason": "The user explicitly stated 'You're worst', indicating clear frustration with the conversation."
       }
     ]
   },
@@ -177,31 +97,31 @@
       {
         "message_id": 3,
         "type": "hallucination",
-        "reason": "Assistant gives information about Keto Herbal Tea when the customer asked about Slim Tea."
+        "reason": "Assistant gives information about Keto Herbal Tea instead of Slim Herbal Tea when the customer asked about consuming Slim Tea only once a day."
+      }
+    ]
+  },
+  {
+    "conversation_id": "69f1ee9642d388a446119d84",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 20,
+    "flags": [
+      {
+        "message_id": 0,
+        "type": "irrelevant_product",
+        "reason": "The assistant is asking about hair concerns, but Blue Nectar is a skincare brand."
       }
     ]
   },
   {
     "conversation_id": "69f1b0a498f9bb251e1b899f",
     "widgetId": "6983153e1497a62e8542a0ad",
-    "score": 30,
+    "score": 20,
     "flags": [
       {
         "message_id": 3,
-        "type": "hallucination",
-        "reason": "Assistant mentions Rosemary Hair Gel, which is not a skincare product and does not match the Blue Nectar brand's Ayurvedic skincare product category."
-      }
-    ]
-  },
-  {
-    "conversation_id": "69ef4895bd8b63ad6cb0f1c9",
-    "widgetId": "6983153e1497a62e8542a0ad",
-    "score": 30,
-    "flags": [
-      {
-        "message_id": 12,
-        "type": "hallucination",
-        "reason": "The assistant is discussing the Coffee Bean Powder Face Cleanser, but the customer's question is about the difference between the men's and women's Shata Dhauta Ghrita Face Cream, and the assistant should have provided information about the creams instead of the cleanser."
+        "type": "irrelevant_product",
+        "reason": "The assistant mentions Rosemary Hair Gel, which is a hair care product and not a skincare product, contradicting the Blue Nectar brand's skincare focus."
       }
     ]
   },
@@ -216,18 +136,6 @@
     "widgetId": "69a92ad76dcbf2da868e0f9b",
     "score": 0,
     "flags": []
-  },
-  {
-    "conversation_id": "69f39b615cad2f55381436ab",
-    "widgetId": "69a92ad76dcbf2da868e0f9b",
-    "score": 0,
-    "flags": [
-      {
-        "message_id": 3,
-        "type": "context_ignored",
-        "reason": "Assistant repeated the same response without adapting after the user repeated the same question."
-      }
-    ]
   },
   {
     "conversation_id": "69f3898d5cad2f553811c371",
@@ -248,6 +156,12 @@
     "flags": []
   },
   {
+    "conversation_id": "69f35cb0c9c3baf2e3abf3bc",
+    "widgetId": "69a92ad76dcbf2da868e0f9b",
+    "score": 0,
+    "flags": []
+  },
+  {
     "conversation_id": "69f35831c9c3baf2e3aafe42",
     "widgetId": "69a92ad76dcbf2da868e0f9b",
     "score": 0,
@@ -259,9 +173,9 @@
     "score": 0,
     "flags": [
       {
-        "message_id": 4,
+        "message_id": 5,
         "type": "context_ignored",
-        "reason": "Assistant repeated the same response about signing in after the customer provided new information, order number 843412, without adapting to the new context."
+        "reason": "Assistant repeated the same response about signing in after the user provided a new order number, 843411, without adapting to the new information."
       }
     ]
   },
@@ -611,13 +525,7 @@
     "conversation_id": "69f06950e8681adac91262b2",
     "widgetId": "69a92ad76dcbf2da868e0f9b",
     "score": 0,
-    "flags": [
-      {
-        "message_id": 5,
-        "type": "context_ignored",
-        "reason": "Assistant repeated the same response to sign in after the customer stated they were already signed in."
-      }
-    ]
+    "flags": []
   },
   {
     "conversation_id": "69f06774e8681adac911e43d",
@@ -627,7 +535,7 @@
       {
         "message_id": 3,
         "type": "context_ignored",
-        "reason": "User provided order number 8431119 but assistant repeated the same response to sign in to account without adapting to the new information."
+        "reason": "Assistant asked the customer to sign in to their account despite the customer already providing their order number in message 2."
       }
     ]
   },
@@ -683,7 +591,13 @@
     "conversation_id": "69f01f497149e4aa909557f4",
     "widgetId": "69a92ad76dcbf2da868e0f9b",
     "score": 0,
-    "flags": []
+    "flags": [
+      {
+        "message_id": 3,
+        "type": "context_ignored",
+        "reason": "Assistant repeated the same response to sign in after the customer provided new information about their ghee order."
+      }
+    ]
   },
   {
     "conversation_id": "69f016057149e4aa90949b41",
@@ -727,9 +641,9 @@
     "score": 0,
     "flags": [
       {
-        "message_id": 2,
+        "message_id": 3,
         "type": "context_ignored",
-        "reason": "Assistant repeated the same response without adapting after the customer mentioned their order issue."
+        "reason": "Assistant repeated the same response after the customer provided new information about their order."
       },
       {
         "message_id": 5,
@@ -836,7 +750,7 @@
       {
         "message_id": 3,
         "type": "context_ignored",
-        "reason": "The assistant repeated the same response to sign in to the account without addressing the customer's concern about the missing order items."
+        "reason": "Assistant repeated the same response to sign in to the account after the customer provided new information about receiving one of the ghee products with a tax invoice."
       }
     ]
   },
@@ -1045,6 +959,18 @@
     "flags": []
   },
   {
+    "conversation_id": "69f360f5c9c3baf2e3acc820",
+    "widgetId": "680a0a8b70a26f7a0e24eedd",
+    "score": 0,
+    "flags": [
+      {
+        "message_id": 5,
+        "type": "context_ignored",
+        "reason": "Assistant repeats the same response without adapting after the user repeats the same question about the best blue tea for weight loss with thyroid concerns."
+      }
+    ]
+  },
+  {
     "conversation_id": "69f35f8ec9c3baf2e3ac9b09",
     "widgetId": "680a0a8b70a26f7a0e24eedd",
     "score": 0,
@@ -1178,7 +1104,7 @@
       {
         "message_id": 7,
         "type": "context_ignored",
-        "reason": "The assistant repeats the same response without adapting after the customer provided new information, including the order number."
+        "reason": "Assistant repeats the same response without adapting after user provides new information, including the order number 396019, which was already shared in message 2 and 6."
       }
     ]
   },
@@ -1186,7 +1112,13 @@
     "conversation_id": "69f32a2c67150fce800579c2",
     "widgetId": "680a0a8b70a26f7a0e24eedd",
     "score": 0,
-    "flags": []
+    "flags": [
+      {
+        "message_id": 3,
+        "type": "context_ignored",
+        "reason": "Assistant repeated the same response about tracking an order despite the user asking about tea for fat burning."
+      }
+    ]
   },
   {
     "conversation_id": "69f3284d67150fce80052f98",
@@ -1222,13 +1154,7 @@
     "conversation_id": "69f31bfc67150fce80036806",
     "widgetId": "680a0a8b70a26f7a0e24eedd",
     "score": 0,
-    "flags": [
-      {
-        "message_id": 2,
-        "type": "unanswered_question",
-        "reason": "The customer asked 'Where is my order?' but the assistant responded with a promotional message instead of addressing the question."
-      }
-    ]
+    "flags": []
   },
   {
     "conversation_id": "69f3185e67150fce8002cadd",
@@ -1513,16 +1439,22 @@
     "flags": []
   },
   {
-    "conversation_id": "69f1ee9642d388a446119d84",
+    "conversation_id": "69f1da2198f9bb251e234310",
     "widgetId": "6983153e1497a62e8542a0ad",
     "score": 0,
     "flags": []
   },
   {
-    "conversation_id": "69f1da2198f9bb251e234310",
+    "conversation_id": "69f1d47798f9bb251e2234f6",
     "widgetId": "6983153e1497a62e8542a0ad",
     "score": 0,
-    "flags": []
+    "flags": [
+      {
+        "message_id": 3,
+        "type": "context_ignored",
+        "reason": "Assistant repeated the same response after the user repeated their question about seeing results, without adapting to the user's implied need for a different or more detailed answer."
+      }
+    ]
   },
   {
     "conversation_id": "69f1d0ab98f9bb251e21633d",
@@ -1687,6 +1619,24 @@
     "flags": []
   },
   {
+    "conversation_id": "69ef49e7bd8b63ad6cb1407a",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0,
+    "flags": [
+      {
+        "message_id": 3,
+        "type": "context_ignored",
+        "reason": "Assistant repeated the same response without adapting after the user repeated their question about seeing results with the Almond Flax Seed Powder Face Cleanser."
+      }
+    ]
+  },
+  {
+    "conversation_id": "69ef4895bd8b63ad6cb0f1c9",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0,
+    "flags": []
+  },
+  {
     "conversation_id": "69ef3a39bd8b63ad6cada23f",
     "widgetId": "6983153e1497a62e8542a0ad",
     "score": 0,
@@ -1747,6 +1697,12 @@
     "flags": []
   },
   {
+    "conversation_id": "69ee0529e22e8aec16fb1ca1",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0,
+    "flags": []
+  },
+  {
     "conversation_id": "69ee0451e22e8aec16fb02d8",
     "widgetId": "6983153e1497a62e8542a0ad",
     "score": 0,
@@ -1768,13 +1724,7 @@
     "conversation_id": "69edd8168281557686c81a8c",
     "widgetId": "6983153e1497a62e8542a0ad",
     "score": 0,
-    "flags": [
-      {
-        "message_id": 2,
-        "type": "context_ignored",
-        "reason": "Assistant asked the customer to share their question in English despite the customer's initial question being in English."
-      }
-    ]
+    "flags": []
   },
   {
     "conversation_id": "69edc14d2dd7b6484dd2a92b",
@@ -1816,13 +1766,7 @@
     "conversation_id": "69ed885c11e0b127fbdac9c3",
     "widgetId": "6983153e1497a62e8542a0ad",
     "score": 0,
-    "flags": [
-      {
-        "message_id": 4,
-        "type": "unanswered_question",
-        "reason": "The customer asked how long it takes to see results, but the assistant responded with information about the product's texture and suitability for daily use, without addressing the question about the timeframe for seeing results."
-      }
-    ]
+    "flags": []
   },
   {
     "conversation_id": "69ed874d11e0b127fbdab09a",
@@ -1870,7 +1814,25 @@
     "conversation_id": "69ecc83811e0b127fbca007e",
     "widgetId": "6983153e1497a62e8542a0ad",
     "score": 0,
-    "flags": []
+    "flags": [
+      {
+        "message_id": 3,
+        "type": "context_ignored",
+        "reason": "Assistant repeated the same response without adapting after the user repeated their question to track their order."
+      }
+    ]
+  },
+  {
+    "conversation_id": "69ecbd4411e0b127fbc86222",
+    "widgetId": "6983153e1497a62e8542a0ad",
+    "score": 0,
+    "flags": [
+      {
+        "message_id": 3,
+        "type": "context_ignored",
+        "reason": "Assistant repeated the same response without adapting after the user repeated their question about using the Anti Aging Cream in a daily routine."
+      }
+    ]
   },
   {
     "conversation_id": "69ecb93811e0b127fbc785d1",
@@ -1918,13 +1880,7 @@
     "conversation_id": "69ec67dc03bda2b49295c8c1",
     "widgetId": "6983153e1497a62e8542a0ad",
     "score": 0,
-    "flags": [
-      {
-        "message_id": 5,
-        "type": "context_ignored",
-        "reason": "Assistant repeated the same response as message 3 without adapting, despite the customer repeating the same question."
-      }
-    ]
+    "flags": []
   },
   {
     "conversation_id": "69ec5bb903bda2b492939b67",
@@ -1942,7 +1898,18 @@
     "conversation_id": "69ec332149f035ad8161df10",
     "widgetId": "6983153e1497a62e8542a0ad",
     "score": 0,
-    "flags": []
+    "flags": [
+      {
+        "message_id": 3,
+        "type": "unanswered_question",
+        "reason": "The user asked about the application time and method for Kumkumadi gold tailam, but the assistant did not provide any relevant information."
+      },
+      {
+        "message_id": 5,
+        "type": "context_ignored",
+        "reason": "The user repeated the same question about Kumkumadi gold tailam, but the assistant provided the same unhelpful response without adapting to the user's query."
+      }
+    ]
   },
   {
     "conversation_id": "69ec2d9649f035ad81615b55",
@@ -2001,7 +1968,13 @@
     "conversation_id": "69eb36e37265f70cf16acd0f",
     "widgetId": "6983153e1497a62e8542a0ad",
     "score": 0,
-    "flags": []
+    "flags": [
+      {
+        "message_id": 3,
+        "type": "context_ignored",
+        "reason": "Assistant repeats the same response without adapting after the user repeated the same question."
+      }
+    ]
   },
   {
     "conversation_id": "69eb32747265f70cf16a0c11",

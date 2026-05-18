@@ -1,85 +1,69 @@
 ========================================================
-  AI ASSISTANT CHAT AUDIT — 26 conversations flagged
+  AI ASSISTANT CHAT AUDIT — 24 conversations flagged
 ========================================================
 
-CONVERSATION 69eee23be22e8aec160f45fb...  [brand: Blue Tea (Secondary)]
+CONVERSATION 69ec230949f035ad81607cd2...  [brand: Blue Tea (Secondary)]
 --------------------------------------------------------
 
-[user]   It’s not helping
+[user]   How long does it take to see results? skin-glow-oil-for-body-polishing-nourishing
 
-[agent]  I understand your frustration and sincerely apologize for the delay in support.
-         Please share your specific concern here, and I will ensure it is escalated to our
-         team for prompt resolution within 24-48 hours. Your satisfaction and trust in our
-         Ayurvedic care are very important to us.
-
-[user]   None of your executives are receiving the call or msg
-
-[agent]  I regret the difficulty you are facing in reaching us by call or message. Our
-         customer care is available Monday to Saturday, 10:00 A.M. to 6:00 P.M. IST, at
-         +91 9999519750 and cs@bluenectar.co.in. Please send your details via email or
-         WhatsApp [here](https://api.whatsapp.com/send/?phone=919999519750), and we will
-         address your concern within 24-48 hours. We appreciate your patience and are
-         committed to assisting you promptly.
-
-         ^ CONTEXT_IGNORED
-         The customer mentioned that none of the executives are receiving their calls or
-         messages, but the assistant repeated the same response, providing the same
-         contact information, without adapting to the customer's concern or offering an
-         alternative solution.
-
-[user]   I don’t know, don’t send me this order
-
-[agent]  To cancel your order, please email us immediately at cs@bluenectar.co.in or call
-         9999519750 within 5 hours of placing the order. If the order has already been
-         dispatched, cancellation may not be possible. We will assist you promptly once we
-         receive your request.
+[agent]  I'd be happy to help answer your question. Could you rephrase it or provide more
+         details?
 
          ^ UNANSWERED_QUESTION
-         The customer explicitly stated 'I don’t know, don’t send me this order', which
-         implies a request to cancel the order, but the assistant's response still asks
-         the customer to email or call, instead of acknowledging the cancellation request
-         and providing a direct solution.
+         The user asked about the time it takes to see results for the Skin Glow Oil, but
+         the assistant did not provide a relevant answer.
+
+[user]   How long it takes to make skin glow. And is that suitable for oily skin.
+
+[agent]  I'd be happy to help answer your question. Could you rephrase it or provide more
+         details?
+
+[user]   How long it takes to make skin glow. And is that suitable for oily skin.
+
+[agent]  I'd be happy to help answer your question. Could you rephrase it or provide more
+         details?
+
+         ^ CONTEXT_IGNORED
+         The user repeated their question again, but the assistant repeated the same
+         response without adapting to the user's query.
 
 --------------------------------------------------------
 
-CONVERSATION 69f35cb0c9c3baf2e3abf3bc...  [brand: Sri Sri Tattva]
+CONVERSATION 69f39b615cad2f55381436ab...  [brand: Sri Sri Tattva]
 --------------------------------------------------------
 
-[agent]  [**Organic Brown Sugar, 500 g**](https://www.srisritattva.com/products/organic-
-         brown-sugar-500g) is a versatile, nutrient-rich sweetener perfect for daily use.
-         **Daily uses:** - Sweeten tea, coffee, or warm milk - Add to smoothies, yogurt,
-         or oatmeal - Use in cooking, baking, or desserts - Stir into warm water as a
-         natural energy boost  Since it contains minerals like iron and calcium and has a
-         lower calorific value than refined sugar, it's an excellent everyday substitute.
-         The natural molasses gives it rich flavor while providing essential trace
-         elements.  For detailed recipes and specific preparation methods, please reach
-         out to our support team at onlinesupport@srisritattva.com or consult our
-         Ayurvedic doctors for personalized guidance: [WhatsApp Or
+[user]   Who should use this product? shop-aroma-delight-10ml
+
+[agent]  [**Aroma Delight Roll on Perfume**](https://www.srisritattva.com/products/shop-
+         aroma-delight-10ml) is ideal for anyone seeking a **non-alcoholic, skin-friendly
+         fragrance**. It's perfect for all skin types and those sensitive to alcohol-based
+         perfumes.  This is especially beneficial if you experience **anxiety or stress**,
+         as the soothing natural fragrance helps ease tension. The lightweight formula
+         makes it suitable for daily wear, any occasion, or as part of your everyday
+         beauty routine.  If you'd like personalized guidance on whether this suits your
+         specific needs, you can consult our Ayurvedic doctors here: [WhatsApp Or
          Call](https://api.whatsapp.com/send/?phone=918310160508)
 
-[user]   How do I use it daily? organic-brown-sugar-500g
-
-[user]   How do I use it daily? organic-brown-sugar-500g
+[user]   Who should use this product? shop-aroma-delight-10ml
 
          ^ FRUSTRATION
-         Customer repeated the same question about daily usage of Organic Brown Sugar,
-         indicating potential frustration or lack of resolution.
+         User repeated the same question with no resolution, indicating potential
+         frustration.
 
-[agent]  [**Organic Brown Sugar, 500 g**](https://www.srisritattva.com/products/organic-
-         brown-sugar-500g) is a versatile natural sweetener perfect for daily use.
-         **Daily uses:** - Sweeten tea, coffee, or warm milk - Add to smoothies, yogurt,
-         or oatmeal - Use in baking and cooking as a healthier sugar substitute - Sprinkle
-         on fruits or desserts  Since it contains **minerals like iron and calcium** and
-         has a **lower calorific value than refined sugar**, it's an excellent everyday
-         choice for your kitchen.  For specific recipes or detailed preparation methods,
-         reach out to our support team at onlinesupport@srisritattva.com.  If you'd like
-         personalized guidance on incorporating this into your wellness routine, our
-         Ayurvedic doctors can help: [WhatsApp Or
+[agent]  [**Aroma Delight Roll on Perfume**](https://www.srisritattva.com/products/shop-
+         aroma-delight-10ml) is ideal for anyone seeking a **non-alcoholic, skin-friendly
+         fragrance**. It's perfect for all skin types and those sensitive to alcohol-based
+         perfumes.  This is especially beneficial if you experience **anxiety or stress**,
+         as the soothing natural fragrance helps ease tension. The lightweight formula
+         makes it suitable for daily wear, any occasion, or as part of your everyday
+         beauty routine.  If you'd like personalized guidance on whether this suits your
+         specific needs, you can consult our Ayurvedic doctors here: [WhatsApp Or
          Call](https://api.whatsapp.com/send/?phone=918310160508)
 
          ^ CONTEXT_IGNORED
-         Assistant repeated the same response without adapting after the customer repeated
-         their question about daily usage of Organic Brown Sugar.
+         Assistant repeated the same response without adapting after the user repeated the
+         question.
 
 --------------------------------------------------------
 
@@ -104,10 +88,10 @@ CONVERSATION 69f2c44842d388a44624d1be...  [brand: Sri Sri Tattva]
 [agent]  To view your order details, please [**sign in to your
          account**](https://www.srisritattva.com/account/login) first.
 
+[user]   After sign in can't view order
+
 [agent]  To view your order details, please [**sign in to your
          account**](https://www.srisritattva.com/account/login) first.
-
-[user]   After sign in can't view order
 
 [user]   You are not helping
 
@@ -124,14 +108,14 @@ CONVERSATION 69ef8a807149e4aa908a645d...  [brand: Sri Sri Tattva]
 [agent]  To view your order details, please [**sign in to your
          account**](https://www.srisritattva.com/account/login) first.
 
+[user]   Is there s issue in the order , I hv paid 30000 rs and can't see the
+
 [agent]  To view your order details, please [**sign in to your
          account**](https://www.srisritattva.com/account/login) first.
 
          ^ CONTEXT_IGNORED
-         Assistant repeated the same response without adapting after the customer
-         mentioned their order issue.
-
-[user]   Is there s issue in the order , I hv paid 30000 rs and can't see the
+         Assistant repeated the same response after the customer provided new information
+         about their order.
 
 [user]   Ordered items it's 3000
 
@@ -145,173 +129,130 @@ CONVERSATION 69ef8a807149e4aa908a645d...  [brand: Sri Sri Tattva]
 
 --------------------------------------------------------
 
-CONVERSATION 69f360f5c9c3baf2e3acc820...  [brand: Blue Tea]
+CONVERSATION 69f301be61498ecf96076f15...  [brand: Blue Tea]
 --------------------------------------------------------
 
-[agent]  Hey there! Welcome to Blue Tea. 💙  I'm here to help you explore our **organic
-         herbal infusions**, track your order, answer questions about shipping and
-         returns, or find the perfect blend for your wellness goals.  What can I help you
-         with today?
+[user]   When to drink it
 
-[user]   Which blue tea is best for wt loss in thiriod
-
-[agent]  For weight loss with thyroid concerns, [**Belly Fat Herbal Tea - 90 Tea
-         Bags**](https://bluetea.co.in/products/copy-of-belly-fat-herbal-tea-30-tea-bags-
-         pack-of-3) is your best choice. It blends Butterfly Pea, Lemongrass, Ginger, and
-         Spearmint to boost metabolism, burn fat, and reduce bloating while supporting
-         digestion.  [**Butterfly Pea Flower Herbal Tea - 200
-         Teabags**](https://bluetea.co.in/products/butterfly-pea-flower-tea-200-teabags)
-         is also excellent for metabolism support and natural detox, caffeine-free and
-         keto-friendly.  Drink 3 cups daily with a balanced diet for best results.
-         However, since you have thyroid concerns, please consult your doctor before
-         starting any herbal infusion to ensure it complements your treatment safely.
-
-[agent]  For **weight loss with thyroid support**, [**Belly Fat Herbal Tea - 90 Tea
-         Bags**](https://bluetea.co.in/products/copy-of-belly-fat-herbal-tea-30-tea-bags-
-         pack-of-3) is your best choice from our bestsellers.  This blend combines
-         **Butterfly Pea, Lemongrass, Ginger, and Spearmint** to boost metabolism, burn
-         fat, and reduce bloating. Ginger is particularly beneficial for thyroid function
-         and digestion.  **How to use:** Drink **3 cups daily** with a balanced diet,
-         limiting junk food and sweets.  [**Butterfly Pea Flower Herbal Tea - 200
-         Teabags**](https://bluetea.co.in/products/butterfly-pea-flower-tea-200-teabags)
-         is also excellent for metabolism support and detox.  **Important:** Please
-         consult your doctor before consuming, especially with thyroid conditions, as they
-         can provide personalized guidance based on your health needs.
-
-         ^ CONTEXT_IGNORED
-         Assistant repeats the same response about Belly Fat Herbal Tea without adapting
-         to the customer's repeated question about the best blue tea for weight loss with
-         thyroid concerns.
-
-[user]   Which blue tea is best for wt loss in thiriod
-
-         ^ FRUSTRATION
-         Customer repeats the same question about the best blue tea for weight loss in
-         thyroid, indicating frustration or lack of resolution from the previous
-         responses.
-
---------------------------------------------------------
-
-CONVERSATION 69f1d47798f9bb251e2234f6...  [brand: Blue Tea (Secondary)]
---------------------------------------------------------
-
-[user]   How long does it take to see results? nabhi-belly-button-oil-almond-oil-skin-glow
-
-[agent]  With regular nightly application of 1-2 drops on the belly button, you may start
-         noticing improved skin glow, digestion, and joint flexibility within 2-3 weeks,
-         as Ayurvedic oils work gently to nourish and balance from within.
-
-[user]   How long does it take to see results? nabhi-belly-button-oil-almond-oil-skin-glow
-
-         ^ FRUSTRATION
-         User expressed repetition of the same question, indicating potential frustration
-         due to lack of resolution.
-
-[agent]  With regular nightly application of 1-2 drops on the belly button, you may start
-         noticing improved skin glow, digestion, and joint flexibility within 2-3 weeks,
-         as Ayurvedic oils work gently to nourish and balance from within.
-
-         ^ CONTEXT_IGNORED
-         Assistant repeated the same response after the user repeated their question about
-         seeing results, without adapting to the user's follow-up inquiry.
-
---------------------------------------------------------
-
-CONVERSATION 69ef49e7bd8b63ad6cb1407a...  [brand: Blue Tea (Secondary)]
---------------------------------------------------------
-
-[agent]  With the Almond Flax Seed Anti Aging Face Ubtan Powder, you may start noticing
-         skin firming, reduced redness, and improved tone within 2-3 weeks of regular use,
-         as it promotes collagen and balances melanin naturally through its 12 herbal
-         ingredients.
-
-[user]   How long does it take to see results? almond-flax-seed-powder-face-cleanser-for-
-         skin-firming-anti-aging
-
-[user]   How long does it take to see results? almond-flax-seed-powder-face-cleanser-for-
-         skin-firming-anti-aging
-
-         ^ FRUSTRATION
-         User repeated the same question about how long it takes to see results with the
-         Almond Flax Seed Powder Face Cleanser, indicating potential frustration with the
-         lack of a clear answer.
-
-[agent]  With the Almond Flax Seed Anti Aging Face Ubtan Powder, you may start noticing
-         skin firming, reduced redness, and improved tone within 2-3 weeks of regular use,
-         as it promotes collagen and balances melanin naturally through its 12 herbal
-         ingredients.
-
-         ^ CONTEXT_IGNORED
-         Assistant repeated the same response without adapting after the user repeated
-         their question about seeing results with the Almond Flax Seed Powder Face
-         Cleanser.
-
---------------------------------------------------------
-
-CONVERSATION 69ee0529e22e8aec16fb1ca1...  [brand: Blue Tea (Secondary)]
---------------------------------------------------------
-
-[agent]  Ji haan, Shubhr Anti Aging Face Cream men ke liye summer me bhi use ki ja sakti
-         hai. Yeh cream 14 Ayurvedic herbs se bani hai jo skin ko gehri hydration aur
-         nourishment deti hai bina bhaari ya oily feel kiye. Yeh aapki skin ko smooth,
-         elastic aur fresh rakhti hai, jo garmi me bhi faydemand hai.
-
-[agent]  Is cream se tanning nahi hoti. Yeh cream Ayurvedic herbs se bani hai jo skin ko
-         nourish karte hain aur de-tanning mein madadgar ho sakte hain, jaise ki Almond
-         aur Mulethi. Aap isse bina chinta ke use kar sakte hain, yeh skin ko protect aur
-         brighten karta hai.
-
-[user]   Es cream se tanning to nhi hogi
-
-[agent]  Rosemary Hair Tonic ko aap scalp par spray karke ya directly laga kar use kar
-         sakte hain. Thoda tonic le kar scalp par gently massage karein taaki blood
-         circulation badhe aur herbs achhi tarah absorb ho jayein. Yeh daily ya alternate
-         din use karna behtar hota hai for natural hair growth aur dandruff control.
+[agent]  Drink [**Belly Fat Herbal Tea**](https://bluetea.co.in/products/copy-of-belly-
+         fat-herbal-tea-30-tea-bags-pack-of-3) **three times daily** for best results:  1.
+         **First thing in the morning** on an empty stomach 2. **30 minutes after
+         breakfast and lunch** 3. **Before bedtime**  Pair it with a **balanced diet** and
+         limit junk food and sweets to maximize fat-burning and metabolism support. This
+         herbal infusion is **caffeine-free and keto-friendly**, making it perfect for any
+         time of day.
 
          ^ HALLUCINATION
-         Assistant recommends Rosemary Hair Tonic, which is not relevant to the customer's
-         initial question about the cream, and instead discusses hair care, which is
-         outside the brand's skincare product category.
+         The assistant initially states to drink the Belly Fat Herbal Tea three times
+         daily, but later reveals that the correct timing is 30 minutes after both
+         breakfast and lunch, and before bedtime, which actually results in four servings
+         daily, contradicting the initial statement.
+  ...
 
-[user]   Es hair tonic ko use kaise karte h
+[agent]  Our **recommended consumption** for [**Belly Fat Herbal
+         Tea**](https://bluetea.co.in/products/copy-of-belly-fat-herbal-tea-30-tea-bags-
+         pack-of-3) is **three times daily** with a balanced diet for optimal results.
+         However, since our products are **100% organic, herbal, and natural** with no
+         known side effects, if you're considering drinking it four times daily, we advise
+         **consulting your doctor first**. They can provide personalized guidance based on
+         your individual health needs and goals.  For specific questions about adjusted
+         consumption, please contact our Customer Care at **+91 7980528437** or
+         **contact@bluetea.co.in**.
 
-[user]   Ye raat ko use kare ya din m..
+[user]   Three times when
 
-[agent]  Aap Rosemary Hair Tonic ko din ya raat dono samay use kar sakte hain. Raat ko use
-         karne se herbs achhi tarah scalp me penetrate hote hain aur din me styling ke
-         liye bhi yeh non-sticky tonic kaam karta hai. Apni convenience ke hisab se use
-         karein.
+[agent]  Drink [**Belly Fat Herbal Tea**](https://bluetea.co.in/products/copy-of-belly-
+         fat-herbal-tea-30-tea-bags-pack-of-3) **three times daily** at these times:  1.
+         **First thing in the morning** on an empty stomach 2. **30 minutes after
+         breakfast or lunch** 3. **Before bedtime**  This timing helps boost metabolism
+         throughout the day and supports fat-burning while you rest at night. Pair with a
+         balanced diet and limit junk food for best results.
 
-         ^ IRRELEVANT_PRODUCT
-         Assistant continues to discuss Rosemary Hair Tonic, a hair care product, which is
-         not a part of Blue Nectar's skincare product offerings.
-
---------------------------------------------------------
-
-CONVERSATION 69ecbd4411e0b127fbc86222...  [brand: Blue Tea (Secondary)]
---------------------------------------------------------
-
-[agent]  Yes, the Shubhr Anti Aging Cream for Women with Saffron and Sandalwood is
-         designed for daily use. It deeply hydrates, reduces wrinkles, and rejuvenates
-         skin, making it ideal for a daily anti-aging skincare routine.
-
-[user]   Can this be used in a daily routine? anti-aging-cream-for-women-best-anti-
-         wrinkle-cream-moisturizer-for-face
-
-[agent]  Yes, the Shubhr Anti Aging Cream for Women with Saffron and Sandalwood is
-         designed for daily use. It deeply hydrates, reduces wrinkles, and rejuvenates
-         skin, making it ideal for a daily anti-aging skincare routine.
-
-         ^ CONTEXT_IGNORED
-         Assistant repeated the same response without adapting after the customer repeated
-         their question about using the product in a daily routine.
-
-[user]   Can this be used in a daily routine? anti-aging-cream-for-women-best-anti-
-         wrinkle-cream-moisturizer-for-face
+[user]   When i questioned u first time this when to take u ans that 30 mins after
+         breakfast AND lunch nd now u re writing 30 mins after breakfast OR lunch aren’t u
+         not know English dear !!!
 
          ^ FRUSTRATION
-         Customer repeated the same question for the second time with no resolution,
-         indicating frustration with the conversation.
+         The customer expresses frustration and annoyance at the assistant's inconsistent
+         responses, feeling that the assistant does not know English and is not providing
+         clear answers.
+
+--------------------------------------------------------
+
+CONVERSATION 69eee23be22e8aec160f45fb...  [brand: Blue Tea (Secondary)]
+--------------------------------------------------------
+
+[agent]  For order modifications or cancellations, please contact us within 5 hours of
+         placing the order. Since your order #130052 was placed on 26 April 2026,
+         cancellation or modification may not be possible now.   To proceed, kindly email
+         us at cs@bluenectar.co.in or call 9999519750 with your order details. We will
+         assist you promptly within 24-48 hours.
+
+[user]   I’ve been trying to call and I’ve also texted on WhatsApp
+
+[agent]  We apologize for the inconvenience caused. Our team is available Monday to
+         Saturday, 10:00 A.M. to 6:00 P.M. IST. Please share your query via email at
+         cs@bluenectar.co.in or WhatsApp
+         [here](https://api.whatsapp.com/send/?phone=919999519750), and we will respond
+         promptly within 24-48 hours. Thank you for your patience.
+
+[user]   It’s not helping
+
+         ^ FRUSTRATION
+         The customer expressed frustration with 'It’s not helping', indicating a clear
+         annoyance with the ongoing issue and the lack of resolution.
+  ...
+
+[user]   None of your executives are receiving the call or msg
+
+[agent]  I regret the difficulty you are facing in reaching us by call or message. Our
+         customer care is available Monday to Saturday, 10:00 A.M. to 6:00 P.M. IST, at
+         +91 9999519750 and cs@bluenectar.co.in. Please send your details via email or
+         WhatsApp [here](https://api.whatsapp.com/send/?phone=919999519750), and we will
+         address your concern within 24-48 hours. We appreciate your patience and are
+         committed to assisting you promptly.
+
+[user]   I don’t know, don’t send me this order
+
+[agent]  To cancel your order, please email us immediately at cs@bluenectar.co.in or call
+         9999519750 within 5 hours of placing the order. If the order has already been
+         dispatched, cancellation may not be possible. We will assist you promptly once we
+         receive your request.
+
+         ^ UNANSWERED_QUESTION
+         The customer explicitly stated 'I don’t know, don’t send me this order', implying
+         a desire to cancel the order, but the assistant's response still asks the
+         customer to email or call, rather than acknowledging the customer's request and
+         providing a direct solution.
+
+--------------------------------------------------------
+
+CONVERSATION 69ec332149f035ad8161df10...  [brand: Blue Tea (Secondary)]
+--------------------------------------------------------
+
+[user]   How to apply and when to apply
+
+[agent]  I'd be happy to help answer your question. Could you rephrase it or provide more
+         details?
+
+[user]   Kumkumadi gold tailam what is time to apply and how to apply
+
+[agent]  I'd be happy to help answer your question. Could you rephrase it or provide more
+         details?
+
+         ^ UNANSWERED_QUESTION
+         The user asked about the application time and method for Kumkumadi gold tailam,
+         but the assistant did not provide any relevant information.
+
+[user]   Kumkumadi gold tailam what is time to apply and how to apply
+
+[agent]  I'd be happy to help answer your question. Could you rephrase it or provide more
+         details?
+
+         ^ CONTEXT_IGNORED
+         The user repeated the same question about Kumkumadi gold tailam, but the
+         assistant provided the same unhelpful response without adapting to the user's
+         query.
 
 --------------------------------------------------------
 
@@ -338,86 +279,22 @@ CONVERSATION 69ec2d9649f035ad81615b55...  [brand: Blue Tea (Secondary)]
 
 --------------------------------------------------------
 
-CONVERSATION 69ec230949f035ad81607cd2...  [brand: Blue Tea (Secondary)]
---------------------------------------------------------
-
-[user]   How long does it take to see results? skin-glow-oil-for-body-polishing-nourishing
-
-[agent]  I'd be happy to help answer your question. Could you rephrase it or provide more
-         details?
-
-         ^ UNANSWERED_QUESTION
-         The user asked about the time it takes to see results for the Skin Glow Oil, but
-         the assistant did not provide a relevant answer.
-  ...
-
-[agent]  I'd be happy to help answer your question. Could you rephrase it or provide more
-         details?
-
-[agent]  I'd be happy to help answer your question. Could you rephrase it or provide more
-         details?
-
-[user]   How long it takes to make skin glow. And is that suitable for oily skin.
-
-[user]   You're worst
-
-         ^ FRUSTRATION
-         The user expressed frustration with the assistant's responses, calling it the
-         'worst'.
-
---------------------------------------------------------
-
-CONVERSATION 69f39b615cad2f55381436ab...  [brand: Sri Sri Tattva]
---------------------------------------------------------
-
-[user]   Who should use this product? shop-aroma-delight-10ml
-
-[agent]  [**Aroma Delight Roll on Perfume**](https://www.srisritattva.com/products/shop-
-         aroma-delight-10ml) is ideal for anyone seeking a **non-alcoholic, skin-friendly
-         fragrance**. It's perfect for all skin types and those sensitive to alcohol-based
-         perfumes.  This is especially beneficial if you experience **anxiety or stress**,
-         as the soothing natural fragrance helps ease tension. The lightweight formula
-         makes it suitable for daily wear, any occasion, or as part of your everyday
-         beauty routine.  If you'd like personalized guidance on whether this suits your
-         specific needs, you can consult our Ayurvedic doctors here: [WhatsApp Or
-         Call](https://api.whatsapp.com/send/?phone=918310160508)
-
-[user]   Who should use this product? shop-aroma-delight-10ml
-
-[agent]  [**Aroma Delight Roll on Perfume**](https://www.srisritattva.com/products/shop-
-         aroma-delight-10ml) is ideal for anyone seeking a **non-alcoholic, skin-friendly
-         fragrance**. It's perfect for all skin types and those sensitive to alcohol-based
-         perfumes.  This is especially beneficial if you experience **anxiety or stress**,
-         as the soothing natural fragrance helps ease tension. The lightweight formula
-         makes it suitable for daily wear, any occasion, or as part of your everyday
-         beauty routine.  If you'd like personalized guidance on whether this suits your
-         specific needs, you can consult our Ayurvedic doctors here: [WhatsApp Or
-         Call](https://api.whatsapp.com/send/?phone=918310160508)
-
-         ^ CONTEXT_IGNORED
-         Assistant repeated the same response without adapting after the user repeated the
-         same question.
-
---------------------------------------------------------
-
 CONVERSATION 69f3578dc9c3baf2e3aae908...  [brand: Sri Sri Tattva]
 --------------------------------------------------------
-
-[agent]  🙏 Namaste! Welcome to **Sri Sri Tattva**.  I'm here to help you with our
-         Ayurvedic wellness products, answer questions about orders, shipping, returns, or
-         store policies. What can I assist you with today?
 
 [user]   Regarding my order 843412
 
 [agent]  To view your order details, please [**sign in to your
          account**](https://www.srisritattva.com/account/login) first.
 
+[user]   843411
+
 [agent]  To view your order details, please [**sign in to your
          account**](https://www.srisritattva.com/account/login) first.
 
          ^ CONTEXT_IGNORED
-         Assistant repeated the same response about signing in after the customer provided
-         new information, order number 843412, without adapting to the new context.
+         Assistant repeated the same response about signing in after the user provided a
+         new order number, 843411, without adapting to the new information.
 
 --------------------------------------------------------
 
@@ -443,25 +320,6 @@ CONVERSATION 69f1c92698f9bb251e1ff201...  [brand: Sri Sri Tattva]
 
 --------------------------------------------------------
 
-CONVERSATION 69f06950e8681adac91262b2...  [brand: Sri Sri Tattva]
---------------------------------------------------------
-
-[agent]  To view your order details, please [**sign in to your
-         account**](https://www.srisritattva.com/account/login) first.
-
-[user]   Already sign in
-
-[user]   Not showing order details
-
-[agent]  To view your order details, please [**sign in to your
-         account**](https://www.srisritattva.com/account/login) first.
-
-         ^ CONTEXT_IGNORED
-         Assistant repeated the same response to sign in after the customer stated they
-         were already signed in.
-
---------------------------------------------------------
-
 CONVERSATION 69f06774e8681adac911e43d...  [brand: Sri Sri Tattva]
 --------------------------------------------------------
 
@@ -484,19 +342,38 @@ CONVERSATION 69f06774e8681adac911e43d...  [brand: Sri Sri Tattva]
          account**](https://www.srisritattva.com/account/login) first.
 
          ^ CONTEXT_IGNORED
-         User provided order number 8431119 but assistant repeated the same response to
-         sign in to account without adapting to the new information.
+         Assistant asked the customer to sign in to their account despite the customer
+         already providing their order number in message 2.
+
+--------------------------------------------------------
+
+CONVERSATION 69f01f497149e4aa909557f4...  [brand: Sri Sri Tattva]
+--------------------------------------------------------
+
+[user]   My current order
+
+[agent]  To view your order details, please [**sign in to your
+         account**](https://www.srisritattva.com/account/login) first.
+
+[user]   Ghee order today nit shiw
+
+[agent]  To view your order details, please [**sign in to your
+         account**](https://www.srisritattva.com/account/login) first.
+
+         ^ CONTEXT_IGNORED
+         Assistant repeated the same response to sign in after the customer provided new
+         information about their ghee order.
 
 --------------------------------------------------------
 
 CONVERSATION 69ef1382e22e8aec1619d4b7...  [brand: Sri Sri Tattva]
 --------------------------------------------------------
 
-[agent]  To view your order details, please [**sign in to your
-         account**](https://www.srisritattva.com/account/login) first.
-
 [user]   My order no. 842803 was for 8 cow ghee 4 kg and rock salt 4 kg. But today I
          recieved only the ne kg of cow ghee. Where is my ret of the order 842803
+
+[agent]  To view your order details, please [**sign in to your
+         account**](https://www.srisritattva.com/account/login) first.
 
 [user]   One of ghee recieved today.  With Tax invoice too for 1 kg.
 
@@ -504,8 +381,9 @@ CONVERSATION 69ef1382e22e8aec1619d4b7...  [brand: Sri Sri Tattva]
          account**](https://www.srisritattva.com/account/login) first.
 
          ^ CONTEXT_IGNORED
-         The assistant repeated the same response to sign in to the account without
-         addressing the customer's concern about the missing order items.
+         Assistant repeated the same response to sign in to the account after the customer
+         provided new information about receiving one of the ghee products with a tax
+         invoice.
 
 --------------------------------------------------------
 
@@ -532,8 +410,44 @@ CONVERSATION 69f36c11c9c3baf2e3ae15e0...  [brand: Blue Tea]
          especially if you have any medical conditions.
 
          ^ HALLUCINATION
-         Assistant gives information about Keto Herbal Tea when the customer asked about
-         Slim Tea.
+         Assistant gives information about Keto Herbal Tea instead of Slim Herbal Tea when
+         the customer asked about consuming Slim Tea only once a day.
+
+--------------------------------------------------------
+
+CONVERSATION 69f360f5c9c3baf2e3acc820...  [brand: Blue Tea]
+--------------------------------------------------------
+
+[user]   Which blue tea is best for wt loss in thiriod
+
+[agent]  For weight loss with thyroid concerns, [**Belly Fat Herbal Tea - 90 Tea
+         Bags**](https://bluetea.co.in/products/copy-of-belly-fat-herbal-tea-30-tea-bags-
+         pack-of-3) is your best choice. It blends Butterfly Pea, Lemongrass, Ginger, and
+         Spearmint to boost metabolism, burn fat, and reduce bloating while supporting
+         digestion.  [**Butterfly Pea Flower Herbal Tea - 200
+         Teabags**](https://bluetea.co.in/products/butterfly-pea-flower-tea-200-teabags)
+         is also excellent for metabolism support and natural detox, caffeine-free and
+         keto-friendly.  Drink 3 cups daily with a balanced diet for best results.
+         However, since you have thyroid concerns, please consult your doctor before
+         starting any herbal infusion to ensure it complements your treatment safely.
+
+[user]   Which blue tea is best for wt loss in thiriod
+
+[agent]  For **weight loss with thyroid support**, [**Belly Fat Herbal Tea - 90 Tea
+         Bags**](https://bluetea.co.in/products/copy-of-belly-fat-herbal-tea-30-tea-bags-
+         pack-of-3) is your best choice from our bestsellers.  This blend combines
+         **Butterfly Pea, Lemongrass, Ginger, and Spearmint** to boost metabolism, burn
+         fat, and reduce bloating. Ginger is particularly beneficial for thyroid function
+         and digestion.  **How to use:** Drink **3 cups daily** with a balanced diet,
+         limiting junk food and sweets.  [**Butterfly Pea Flower Herbal Tea - 200
+         Teabags**](https://bluetea.co.in/products/butterfly-pea-flower-tea-200-teabags)
+         is also excellent for metabolism support and detox.  **Important:** Please
+         consult your doctor before consuming, especially with thyroid conditions, as they
+         can provide personalized guidance based on your health needs.
+
+         ^ CONTEXT_IGNORED
+         Assistant repeats the same response without adapting after the user repeats the
+         same question about the best blue tea for weight loss with thyroid concerns.
 
 --------------------------------------------------------
 
@@ -551,61 +465,60 @@ CONVERSATION 69f32a3767150fce80057aec...  [brand: Blue Tea]
          number you used when placing the order.
 
          ^ CONTEXT_IGNORED
-         The assistant repeats the same response without adapting after the customer
-         provided new information, including the order number.
+         Assistant repeats the same response without adapting after user provides new
+         information, including the order number 396019, which was already shared in
+         message 2 and 6.
 
 --------------------------------------------------------
 
-CONVERSATION 69f31bfc67150fce80036806...  [brand: Blue Tea]
+CONVERSATION 69f32a2c67150fce800579c2...  [brand: Blue Tea]
 --------------------------------------------------------
+
+[user]   Where is my order?
 
 [agent]  To track your order, please share both your order number and the phone number
          used when placing the order in a single message.
 
-[user]   Where is my order?
+[user]   which tea use to fat burn
 
-[agent]  Holi ki hardik shubhkamnayein! 🎨  Holi ke is khushiyon ke mauke par, Blue Tea ke
-         saath apne wellness journey ko celebrate kijiye. Hum aapke liye special offers le
-         ke aaye hain:  **Shop for ₹1299 or more** aur paayiye ek FREE gift hamari taraf
-         se.  **Use code TEALOVER30** for ₹30 off, plus additional 5% discount on prepaid
-         orders. 💙  Kya aap kisi specific herbal infusion ke baare mein jaankari chahte
-         hain, ya apke liye koi recommendation chahiye?
+[agent]  To track your order, please share both your order number and the phone number
+         used when placing the order in a single message.
 
-         ^ UNANSWERED_QUESTION
-         The customer asked 'Where is my order?' but the assistant responded with a
-         promotional message instead of addressing the question.
+         ^ CONTEXT_IGNORED
+         Assistant repeated the same response about tracking an order despite the user
+         asking about tea for fat burning.
 
 --------------------------------------------------------
 
-CONVERSATION 69f301be61498ecf96076f15...  [brand: Blue Tea]
+CONVERSATION 69f1ee9642d388a446119d84...  [brand: Blue Tea (Secondary)]
 --------------------------------------------------------
 
-[agent]  Our **recommended consumption** for [**Belly Fat Herbal
-         Tea**](https://bluetea.co.in/products/copy-of-belly-fat-herbal-tea-30-tea-bags-
-         pack-of-3) is **three times daily** with a balanced diet for optimal results.
-         However, since our products are **100% organic, herbal, and natural** with no
-         known side effects, if you're considering drinking it four times daily, we advise
-         **consulting your doctor first**. They can provide personalized guidance based on
-         your individual health needs and goals.  For specific questions about adjusted
-         consumption, please contact our Customer Care at **+91 7980528437** or
-         **contact@bluetea.co.in**.
+[agent]  What’s your biggest hair concern right now?
 
-[user]   Three times when
+         ^ IRRELEVANT_PRODUCT
+         The assistant is asking about hair concerns, but Blue Nectar is a skincare brand.
 
-[agent]  Drink [**Belly Fat Herbal Tea**](https://bluetea.co.in/products/copy-of-belly-
-         fat-herbal-tea-30-tea-bags-pack-of-3) **three times daily** at these times:  1.
-         **First thing in the morning** on an empty stomach 2. **30 minutes after
-         breakfast or lunch** 3. **Before bedtime**  This timing helps boost metabolism
-         throughout the day and supports fat-burning while you rest at night. Pair with a
-         balanced diet and limit junk food for best results.
+--------------------------------------------------------
 
-[user]   When i questioned u first time this when to take u ans that 30 mins after
-         breakfast AND lunch nd now u re writing 30 mins after breakfast OR lunch aren’t u
-         not know English dear !!!
+CONVERSATION 69f1d47798f9bb251e2234f6...  [brand: Blue Tea (Secondary)]
+--------------------------------------------------------
 
-         ^ FRUSTRATION
-         The customer expresses frustration and annoyance due to the inconsistency in the
-         assistant's responses regarding the consumption timing of Belly Fat Herbal Tea.
+[user]   How long does it take to see results? nabhi-belly-button-oil-almond-oil-skin-glow
+
+[agent]  With regular nightly application of 1-2 drops on the belly button, you may start
+         noticing improved skin glow, digestion, and joint flexibility within 2-3 weeks,
+         as Ayurvedic oils work gently to nourish and balance from within.
+
+[user]   How long does it take to see results? nabhi-belly-button-oil-almond-oil-skin-glow
+
+[agent]  With regular nightly application of 1-2 drops on the belly button, you may start
+         noticing improved skin glow, digestion, and joint flexibility within 2-3 weeks,
+         as Ayurvedic oils work gently to nourish and balance from within.
+
+         ^ CONTEXT_IGNORED
+         Assistant repeated the same response after the user repeated their question about
+         seeing results, without adapting to the user's implied need for a different or
+         more detailed answer.
 
 --------------------------------------------------------
 
@@ -625,98 +538,107 @@ CONVERSATION 69f1b0a498f9bb251e1b899f...  [brand: Blue Tea (Secondary)]
          quickly, providing a flexible hold while taming frizz and baby hair for smooth,
          shiny, and vibrant hair.
 
-         ^ HALLUCINATION
-         Assistant mentions Rosemary Hair Gel, which is not a skincare product and does
-         not match the Blue Nectar brand's Ayurvedic skincare product category.
+         ^ IRRELEVANT_PRODUCT
+         The assistant mentions Rosemary Hair Gel, which is a hair care product and not a
+         skincare product, contradicting the Blue Nectar brand's skincare focus.
 
 --------------------------------------------------------
 
-CONVERSATION 69ef4895bd8b63ad6cb0f1c9...  [brand: Blue Tea (Secondary)]
+CONVERSATION 69ef49e7bd8b63ad6cb1407a...  [brand: Blue Tea (Secondary)]
 --------------------------------------------------------
 
-[agent]  The key ingredients are Lodhra, Licorice, Moringa, Tejpatta (Bay Leaf), Usira,
-         Vatankur, and Vanilla, combined with 100 times cleansed pure cow ghee for deep
-         nourishment and skin renewal.
+[user]   How long does it take to see results? almond-flax-seed-powder-face-cleanser-for-
+         skin-firming-anti-aging
 
-[agent]  The men's cream focuses on a refreshed, masculine glow with herbs like Lodhra and
-         Moringa, while the women's version emphasizes skin glow and firming with a
-         tailored herb blend. Both use 100 times cleansed cow ghee but differ in herb
-         composition for specific skin needs.
+[agent]  With the Almond Flax Seed Anti Aging Face Ubtan Powder, you may start noticing
+         skin firming, reduced redness, and improved tone within 2-3 weeks of regular use,
+         as it promotes collagen and balances melanin naturally through its 12 herbal
+         ingredients.
 
-[user]   difference between men and women cream
+[user]   How long does it take to see results? almond-flax-seed-powder-face-cleanser-for-
+         skin-firming-anti-aging
 
-[agent]  You can expect to see visible tan removal and brighter skin within 2 to 3 weeks
-         of regular use, as the coffee bean powder gently exfoliates and promotes skin
-         renewal.
-
-         ^ HALLUCINATION
-         The assistant is discussing the Coffee Bean Powder Face Cleanser, but the
-         customer's question is about the difference between the men's and women's Shata
-         Dhauta Ghrita Face Cream, and the assistant should have provided information
-         about the creams instead of the cleanser.
-
---------------------------------------------------------
-
-CONVERSATION 69edd8168281557686c81a8c...  [brand: Blue Tea (Secondary)]
---------------------------------------------------------
-
-[user]   Can this be used in a daily routine? mouth-pulling-oil
-
-[agent]  Yes, this Mouth Pulling Oil is designed for daily use as part of your oral care
-         routine. Regular oil pulling helps improve oral hygiene, freshens breath, and
-         supports glowing skin through natural detoxification.
-
-[agent]  Could you please share your question in English so I can help you better?
+[agent]  With the Almond Flax Seed Anti Aging Face Ubtan Powder, you may start noticing
+         skin firming, reduced redness, and improved tone within 2-3 weeks of regular use,
+         as it promotes collagen and balances melanin naturally through its 12 herbal
+         ingredients.
 
          ^ CONTEXT_IGNORED
-         Assistant asked the customer to share their question in English despite the
-         customer's initial question being in English.
+         Assistant repeated the same response without adapting after the user repeated
+         their question about seeing results with the Almond Flax Seed Powder Face
+         Cleanser.
 
 --------------------------------------------------------
 
-CONVERSATION 69ed885c11e0b127fbdac9c3...  [brand: Blue Tea (Secondary)]
+CONVERSATION 69ecc83811e0b127fbca007e...  [brand: Blue Tea (Secondary)]
 --------------------------------------------------------
 
-[agent]  With the Shubhr Kojic Acid Serum, visible improvement in pigmentation and dark
-         spots typically appears within 4 to 6 weeks of consistent use, as it gently
-         reduces melanin production and evens skin tone naturally.
+[user]   I want to track my order.
 
-[agent]  For the 2% Kojic Acid Face Cream, you can expect to see visible results in
-         pigmentation and dark spots within 4 to 6 weeks of regular use, as it gently
-         evens skin tone and boosts radiance naturally.
+[agent]  Please share your order number starting with # to track your order.
 
-[user]   How long does it take to see results? kojic-acid-cream-pigmentation
+[user]   I want to track my order.
 
-[agent]  Yes, the 2% Kojic Acid Face Cream is lightweight and non-greasy, making it
-         suitable for daily use in your skincare routine for all skin types. It gently
-         targets pigmentation and dark spots while nourishing your skin naturally.
-
-         ^ UNANSWERED_QUESTION
-         The customer asked how long it takes to see results, but the assistant responded
-         with information about the product's texture and suitability for daily use,
-         without addressing the question about the timeframe for seeing results.
-
---------------------------------------------------------
-
-CONVERSATION 69ec67dc03bda2b49295c8c1...  [brand: Blue Tea (Secondary)]
---------------------------------------------------------
-
-[user]   How and when to use
-
-[agent]  Use the Shubhr Anti Aging Cream daily, preferably after cleansing your face.
-         Apply a small amount gently on your face and neck, massaging in upward circular
-         motions until fully absorbed. For best results, use it in your morning and
-         evening skincare routine.
-
-[user]   How and when to use
-
-[agent]  Use the Shubhr Anti Aging Cream daily, preferably after cleansing your face.
-         Apply a small amount gently on your face and neck, massaging in upward circular
-         motions until fully absorbed. For best results, use it in your morning and
-         evening skincare routine.
+[agent]  Please share your order number starting with # to track your order.
 
          ^ CONTEXT_IGNORED
-         Assistant repeated the same response as message 3 without adapting, despite the
-         customer repeating the same question.
+         Assistant repeated the same response without adapting after the user repeated
+         their question to track their order.
+
+--------------------------------------------------------
+
+CONVERSATION 69ecbd4411e0b127fbc86222...  [brand: Blue Tea (Secondary)]
+--------------------------------------------------------
+
+[user]   Can this be used in a daily routine? anti-aging-cream-for-women-best-anti-
+         wrinkle-cream-moisturizer-for-face
+
+[agent]  Yes, the Shubhr Anti Aging Cream for Women with Saffron and Sandalwood is
+         designed for daily use. It deeply hydrates, reduces wrinkles, and rejuvenates
+         skin, making it ideal for a daily anti-aging skincare routine.
+
+[user]   Can this be used in a daily routine? anti-aging-cream-for-women-best-anti-
+         wrinkle-cream-moisturizer-for-face
+
+[agent]  Yes, the Shubhr Anti Aging Cream for Women with Saffron and Sandalwood is
+         designed for daily use. It deeply hydrates, reduces wrinkles, and rejuvenates
+         skin, making it ideal for a daily anti-aging skincare routine.
+
+         ^ CONTEXT_IGNORED
+         Assistant repeated the same response without adapting after the user repeated
+         their question about using the Anti Aging Cream in a daily routine.
+
+--------------------------------------------------------
+
+CONVERSATION 69eb36e37265f70cf16acd0f...  [brand: Blue Tea (Secondary)]
+--------------------------------------------------------
+
+[user]   I have acne and i am teen
+
+[agent]  For teenage acne, a gentle yet effective cleansing routine is essential to
+         control oil and reduce pimples naturally.  [**Shubhr Neem Pimple Face Wash for
+         Acne Control & Oil Balancing**](https://www.bluenectar.co.in/products/neem-
+         pimple-face-wash-men-acne-face-wash-for-oily-skin-dark-
+         spots?variant=47047136706805) ₹590.00 cleanses pores deeply and balances oil with
+         11 herbs.  Pair it with [**Plum Oil-Free Face Serum for Acne
+         Marks**](https://www.bluenectar.co.in/products/vitamin-c-face-serum-for-oily-
+         skin-acne-prone-skin?variant=43667068649717) ₹760.00 to brighten skin and reduce
+         acne marks gently.  Would you like tips on a full skincare routine?
+
+[user]   I have acne and i am teen
+
+[agent]  For teen acne, a gentle yet effective cleansing and treatment routine is key.
+         [**Shubhr Neem Pimple Face Wash for Acne Control & Oil
+         Balancing**](https://www.bluenectar.co.in/products/neem-pimple-face-wash-men-
+         acne-face-wash-for-oily-skin-dark-spots?variant=47047136706805) ₹590.00 -
+         Cleanses pores, controls pimples, balances oil naturally.  [**Plum Oil-Free Face
+         Serum for Acne Marks**](https://www.bluenectar.co.in/products/vitamin-c-face-
+         serum-for-oily-skin-acne-prone-skin?variant=43667068649717) ₹760.00 - Brightens
+         skin and reduces acne marks gently.  Would you like tips on how to use these for
+         best results?
+
+         ^ CONTEXT_IGNORED
+         Assistant repeats the same response without adapting after the user repeated the
+         same question.
 
 --------------------------------------------------------
